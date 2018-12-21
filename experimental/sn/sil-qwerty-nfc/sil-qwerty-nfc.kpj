@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeymanDeveloperProject>
+  <Options>
+    <BuildPath></BuildPath>
+    <CompilerWarningsAsErrors>False</CompilerWarningsAsErrors>
+    <WarnDeprecatedCode>True</WarnDeprecatedCode>
+  </Options>
+  <Files>
+    <File>
+      <ID>id_65f558cb8a6f20b0dadafa7296aab2b1</ID>
+      <Filename>onesize.kmx</Filename>
+      <Filepath>..\..\..\..\..\Documents\__SPKL 7.3\msklcsource\onesize.kmx</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.kmx</FileType>
+    </File>
+    <File>
+      <ID>id_1b96f7f8f087688224708c61bd70d011</ID>
+      <Filename>on.ico</Filename>
+      <Filepath>source\on.ico</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.ico</FileType>
+    </File>
+    <File>
+      <ID>id_2b1352869e6dcdf7da09d795454faee1</ID>
+      <Filename>sil-qwerty-nfc.kmn</Filename>
+      <Filepath>source\sil-qwerty-nfc.kmn</Filepath>
+      <FileVersion>0.0</FileVersion>
+      <FileType>.kmn</FileType>
+      <Details>
+        <Name>sil-qwerty-nfc</Name>
+        <Copyright>©2018 SIL International</Copyright>
+      </Details>
+    </File>
+    <File>
+      <ID>id_880be0d2b39ba0b008e8f59ff48fe1cd</ID>
+      <Filename>sil-qwerty-nfc.ico</Filename>
+      <Filepath>source\sil-qwerty-nfc.ico</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.ico</FileType>
+      <ParentFileID>id_2b1352869e6dcdf7da09d795454faee1</ParentFileID>
+    </File>
+  </Files>
+</KeymanDeveloperProject>

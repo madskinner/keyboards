@@ -1,0 +1,1 @@
+KeymanWeb.KRS(new Stub_Keyboard_sebq_latn()); function Stub_Keyboard_sebq_latn() {this.KF="sebq_latn-0.5.js";this.KI="Keyboard_sebq_latn";this.KN="SEB qwerty";}

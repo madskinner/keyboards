@@ -1,0 +1,30 @@
+﻿{
+  "options" : {
+    "device" : "any",
+    "keyboardBaseUri" : "http://sebsil.pythonanywhere.com/mobile/",
+    "fontBaseUri" : "http://sebsil.pythonanywhere.com/mobile/"
+  },
+  "keyboard" : {
+    "id" : "seba_latn",
+    "name" : "SEB azerty",
+    "filename" : "seba_latn-0.5.js",
+    "version" : "0.5",
+    "lastModified" : "2017-10-31T08:53:44.788Z",
+    "font" : {
+      "family" : "Andika Afr",
+      "size" : "10",
+      "source" : "AndikaAfr-R.ttf"
+    },
+    "oskFont" : {
+      "family" : "Andika Afr",
+      "size" : "10",
+      "source" : "AndikaAfr-R.ttf"
+    },
+    "languages" : [
+      {
+        "id" : "qqa",
+        "name" : "langues ouest-africaines"
+      }
+      ]
+  }
+}
