@@ -1,4 +1,4 @@
-sil-qwerty-nfc Keyboard
+seb-qwerty-nfc Keyboard
 =====================
 
 Copyright (C) 2018 SIL International

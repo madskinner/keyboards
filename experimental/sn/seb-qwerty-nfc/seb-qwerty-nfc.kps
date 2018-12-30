@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package>
+  <System>
+    <KeymanDeveloperVersion>10.0.1206.0</KeymanDeveloperVersion>
+    <FileVersion>7.0</FileVersion>
+  </System>
+  <Options>
+    <ExecuteProgram></ExecuteProgram>
+    <MSIFileName></MSIFileName>
+    <MSIOptions></MSIOptions>
+  </Options>
+  <StartMenu>
+    <Folder></Folder>
+    <Items/>
+  </StartMenu>
+  <Info>
+    <Version URL="">0.0.0</Version>
+    <Name URL="">seb-qwerty-nfc</Name>
+    <Copyright URL="">©2018 SIL International</Copyright>
+  </Info>
+  <Files>
+    <File>
+      <Name>extras\AndikaAfr-R.ttf</Name>
+      <Description>Font Andika Afr</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.ttf</FileType>
+    </File>
+    <File>
+      <Name>source\welcome\us_summary.pdf</Name>
+      <Description>File us_summary.pdf</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.pdf</FileType>
+    </File>
+    <File>
+      <Name>source\on.png</Name>
+      <Description>File on.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
+    </File>
+    <File>
+      <Name>source\seb-qwerty-nfc.kvk</Name>
+      <Description>File seb-qwerty-nfc.kvk</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kvk</FileType>
+    </File>
+    <File>
+      <Name>source\seb-qwerty-nfc.kmx</Name>
+      <Description>Keyboard seb-qwerty-nfc</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kmx</FileType>
+    </File>
+    <File>
+      <Name>source\seb-qwerty-nfc.kvks</Name>
+      <Description>File sil-qwerty-nfc.kvks</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kvks</FileType>
+    </File>
+    <File>
+      <Name>source\seb-qwerty-nfc-help.htm</Name>
+      <Description>File seb-qwerty-nfc-help.htm</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.htm</FileType>
+    </File>
+  </Files>
+  <Keyboards>
+    <Keyboard>
+      <Name>seb-qwerty-nfc</Name>
+      <ID>seb_qwerty_nfc</ID>
+      <Version>0.0.0</Version>
+      <Languages/>
+    </Keyboard>
+  </Keyboards>
+  <Strings/>
+</Package>
