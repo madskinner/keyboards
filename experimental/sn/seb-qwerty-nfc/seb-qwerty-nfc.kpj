@@ -4,6 +4,7 @@
     <BuildPath></BuildPath>
     <CompilerWarningsAsErrors>False</CompilerWarningsAsErrors>
     <WarnDeprecatedCode>True</WarnDeprecatedCode>
+    <CheckFilenameConventions>False</CheckFilenameConventions>
   </Options>
   <Files>
     <File>
@@ -24,7 +25,7 @@
       <ID>id_0d4807e91436e7507d5f2509f2abd8c3</ID>
       <Filename>seb-qwerty-nfc.kmn</Filename>
       <Filepath>source\seb-qwerty-nfc.kmn</Filepath>
-      <FileVersion>0.0.0</FileVersion>
+      <FileVersion>0.1.1</FileVersion>
       <FileType>.kmn</FileType>
       <Details>
         <Name>seb-qwerty-nfc</Name>
@@ -35,12 +36,12 @@
       <ID>id_33d39654414e3d37c26d48f5d7664b54</ID>
       <Filename>seb-qwerty-nfc.kps</Filename>
       <Filepath>seb-qwerty-nfc.kps</Filepath>
-      <FileVersion>0.0.0</FileVersion>
+      <FileVersion>0.1.1</FileVersion>
       <FileType>.kps</FileType>
       <Details>
         <Name>seb-qwerty-nfc</Name>
         <Copyright>©2018 SIL International</Copyright>
-        <Version>0.0.0</Version>
+        <Version>0.1.1</Version>
       </Details>
     </File>
     <File>
@@ -50,30 +51,6 @@
       <FileVersion></FileVersion>
       <FileType>.ico</FileType>
       <ParentFileID>id_0d4807e91436e7507d5f2509f2abd8c3</ParentFileID>
-    </File>
-    <File>
-      <ID>id_3b653567865ac0e6741b4244742d6d1b</ID>
-      <Filename>AndikaAfr-R.ttf</Filename>
-      <Filepath>extras\AndikaAfr-R.ttf</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.ttf</FileType>
-      <ParentFileID>id_33d39654414e3d37c26d48f5d7664b54</ParentFileID>
-    </File>
-    <File>
-      <ID>id_9afc4a4f4d5664f779b0a5d3d48ecf2f</ID>
-      <Filename>us_summary.pdf</Filename>
-      <Filepath>source\welcome\us_summary.pdf</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.pdf</FileType>
-      <ParentFileID>id_33d39654414e3d37c26d48f5d7664b54</ParentFileID>
-    </File>
-    <File>
-      <ID>id_dc98569bcaa2801206d17e2950818fd2</ID>
-      <Filename>on.png</Filename>
-      <Filepath>source\on.png</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.png</FileType>
-      <ParentFileID>id_33d39654414e3d37c26d48f5d7664b54</ParentFileID>
     </File>
     <File>
       <ID>id_7a10a1f8605484130f1d23a57c3b9c33</ID>
@@ -92,19 +69,371 @@
       <ParentFileID>id_33d39654414e3d37c26d48f5d7664b54</ParentFileID>
     </File>
     <File>
-      <ID>id_179b28f70b98d980ac5fd999bad1336d</ID>
-      <Filename>seb-qwerty-nfc.kvks</Filename>
-      <Filepath>source\seb-qwerty-nfc.kvks</Filepath>
+      <ID>id_8bdcd9e0b70d212915c59305520e06ea</ID>
+      <Filename>seb_qwerty_nfc.js</Filename>
+      <Filepath>source\seb_qwerty_nfc.js</Filepath>
       <FileVersion></FileVersion>
-      <FileType>.kvks</FileType>
+      <FileType>.js</FileType>
       <ParentFileID>id_33d39654414e3d37c26d48f5d7664b54</ParentFileID>
     </File>
     <File>
-      <ID>id_4aabe00882815a42b19e7f35266c8ea1</ID>
-      <Filename>seb-qwerty-nfc-help.htm</Filename>
-      <Filepath>source\seb-qwerty-nfc-help.htm</Filepath>
+      <ID>id_3b653567865ac0e6741b4244742d6d1b</ID>
+      <Filename>AndikaAfr-R.ttf</Filename>
+      <Filepath>extras\AndikaAfr-R.ttf</Filepath>
       <FileVersion></FileVersion>
-      <FileType>.htm</FileType>
+      <FileType>.ttf</FileType>
+      <ParentFileID>id_33d39654414e3d37c26d48f5d7664b54</ParentFileID>
+    </File>
+    <File>
+      <ID>id_5a7fd7c55965def170d9db932c32d4c1</ID>
+      <Filename>index.html</Filename>
+      <Filepath>source\help\index.html</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.html</FileType>
+      <ParentFileID>id_33d39654414e3d37c26d48f5d7664b54</ParentFileID>
+    </File>
+    <File>
+      <ID>id_e3959d21735ed6de71e50fe506b4e793</ID>
+      <Filename>index_en.html</Filename>
+      <Filepath>source\help\index_en.html</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.html</FileType>
+      <ParentFileID>id_33d39654414e3d37c26d48f5d7664b54</ParentFileID>
+    </File>
+    <File>
+      <ID>id_550f64cf4d8d3a730efa61880742ad92</ID>
+      <Filename>index_pt.html</Filename>
+      <Filepath>source\help\index_pt.html</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.html</FileType>
+      <ParentFileID>id_33d39654414e3d37c26d48f5d7664b54</ParentFileID>
+    </File>
+    <File>
+      <ID>id_eeb73f1f24d23b6773def81e855c83d9</ID>
+      <Filename>PTABNT74_en.html</Filename>
+      <Filepath>source\help\PTABNT74_en.html</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.html</FileType>
+      <ParentFileID>id_33d39654414e3d37c26d48f5d7664b54</ParentFileID>
+    </File>
+    <File>
+      <ID>id_2e69091fe348240b63724a5a9f847426</ID>
+      <Filename>PTABNT74_fr.html</Filename>
+      <Filepath>source\help\PTABNT74_fr.html</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.html</FileType>
+      <ParentFileID>id_33d39654414e3d37c26d48f5d7664b54</ParentFileID>
+    </File>
+    <File>
+      <ID>id_8b354a32be0208c32a9f7348a5500315</ID>
+      <Filename>PTABNT74_pt.html</Filename>
+      <Filepath>source\help\PTABNT74_pt.html</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.html</FileType>
+      <ParentFileID>id_33d39654414e3d37c26d48f5d7664b54</ParentFileID>
+    </File>
+    <File>
+      <ID>id_128ea3f4e3075f5d61f87c8dc68659fb</ID>
+      <Filename>qwerty_en.html</Filename>
+      <Filepath>source\help\qwerty_en.html</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.html</FileType>
+      <ParentFileID>id_33d39654414e3d37c26d48f5d7664b54</ParentFileID>
+    </File>
+    <File>
+      <ID>id_9a8ebeb96ae629cfed84be323f9ab1b9</ID>
+      <Filename>qwerty_fr.html</Filename>
+      <Filepath>source\help\qwerty_fr.html</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.html</FileType>
+      <ParentFileID>id_33d39654414e3d37c26d48f5d7664b54</ParentFileID>
+    </File>
+    <File>
+      <ID>id_578aedea8e24c755b0021d76c423612e</ID>
+      <Filename>qwerty_pt.html</Filename>
+      <Filepath>source\help\qwerty_pt.html</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.html</FileType>
+      <ParentFileID>id_33d39654414e3d37c26d48f5d7664b54</ParentFileID>
+    </File>
+    <File>
+      <ID>id_47c5a09c6f70526529afd03be9aa40f4</ID>
+      <Filename>SGGBCH74_en.html</Filename>
+      <Filepath>source\help\SGGBCH74_en.html</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.html</FileType>
+      <ParentFileID>id_33d39654414e3d37c26d48f5d7664b54</ParentFileID>
+    </File>
+    <File>
+      <ID>id_d5092e4e2c1dfb7f1654aaaba81ab7ac</ID>
+      <Filename>SGGBCH74_fr.html</Filename>
+      <Filepath>source\help\SGGBCH74_fr.html</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.html</FileType>
+      <ParentFileID>id_33d39654414e3d37c26d48f5d7664b54</ParentFileID>
+    </File>
+    <File>
+      <ID>id_7606cc0ed7dcb5558d14fff21a04a7b7</ID>
+      <Filename>SGGBCH74_pt.html</Filename>
+      <Filepath>source\help\SGGBCH74_pt.html</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.html</FileType>
+      <ParentFileID>id_33d39654414e3d37c26d48f5d7664b54</ParentFileID>
+    </File>
+    <File>
+      <ID>id_4df2482371518bbee47c6c88fa4c35cc</ID>
+      <Filename>SGGBDE74_en.html</Filename>
+      <Filepath>source\help\SGGBDE74_en.html</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.html</FileType>
+      <ParentFileID>id_33d39654414e3d37c26d48f5d7664b54</ParentFileID>
+    </File>
+    <File>
+      <ID>id_d6a43b57a8da8da1b151fa0c59de2310</ID>
+      <Filename>SGGBDE74_fr.html</Filename>
+      <Filepath>source\help\SGGBDE74_fr.html</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.html</FileType>
+      <ParentFileID>id_33d39654414e3d37c26d48f5d7664b54</ParentFileID>
+    </File>
+    <File>
+      <ID>id_22e0c1e3160a42506e18b739921384ce</ID>
+      <Filename>SGGBDE74_pt.html</Filename>
+      <Filepath>source\help\SGGBDE74_pt.html</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.html</FileType>
+      <ParentFileID>id_33d39654414e3d37c26d48f5d7664b54</ParentFileID>
+    </File>
+    <File>
+      <ID>id_22a032f5d85a4c3f225075d0bc6dde7b</ID>
+      <Filename>SGGBES74_en.html</Filename>
+      <Filepath>source\help\SGGBES74_en.html</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.html</FileType>
+      <ParentFileID>id_33d39654414e3d37c26d48f5d7664b54</ParentFileID>
+    </File>
+    <File>
+      <ID>id_6dedd30dac0de66789a120b069a60bb9</ID>
+      <Filename>SGGBES74_fr.html</Filename>
+      <Filepath>source\help\SGGBES74_fr.html</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.html</FileType>
+      <ParentFileID>id_33d39654414e3d37c26d48f5d7664b54</ParentFileID>
+    </File>
+    <File>
+      <ID>id_7588f6cb88580b763171a27a173c785b</ID>
+      <Filename>SGGBES74_pt.html</Filename>
+      <Filepath>source\help\SGGBES74_pt.html</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.html</FileType>
+      <ParentFileID>id_33d39654414e3d37c26d48f5d7664b54</ParentFileID>
+    </File>
+    <File>
+      <ID>id_0d40f3d7dc41a9a886e7d5e4532547a2</ID>
+      <Filename>SGGBFR74_en.html</Filename>
+      <Filepath>source\help\SGGBFR74_en.html</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.html</FileType>
+      <ParentFileID>id_33d39654414e3d37c26d48f5d7664b54</ParentFileID>
+    </File>
+    <File>
+      <ID>id_0005d600b0e37071ee566aef67e351f5</ID>
+      <Filename>SGGBFR74_fr.html</Filename>
+      <Filepath>source\help\SGGBFR74_fr.html</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.html</FileType>
+      <ParentFileID>id_33d39654414e3d37c26d48f5d7664b54</ParentFileID>
+    </File>
+    <File>
+      <ID>id_cdd13e698871787009cae122f6bc7897</ID>
+      <Filename>SGGBFR74_pt.html</Filename>
+      <Filepath>source\help\SGGBFR74_pt.html</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.html</FileType>
+      <ParentFileID>id_33d39654414e3d37c26d48f5d7664b54</ParentFileID>
+    </File>
+    <File>
+      <ID>id_3d769c657f25658256a27aa8b3e40b2f</ID>
+      <Filename>SGGBIT74_en.html</Filename>
+      <Filepath>source\help\SGGBIT74_en.html</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.html</FileType>
+      <ParentFileID>id_33d39654414e3d37c26d48f5d7664b54</ParentFileID>
+    </File>
+    <File>
+      <ID>id_602fb1b18ca34b2834df7646b8456e55</ID>
+      <Filename>SGGBIT74_fr.html</Filename>
+      <Filepath>source\help\SGGBIT74_fr.html</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.html</FileType>
+      <ParentFileID>id_33d39654414e3d37c26d48f5d7664b54</ParentFileID>
+    </File>
+    <File>
+      <ID>id_7f664be55dfb8306858b3232a0be5f6e</ID>
+      <Filename>SGGBIT74_pt.html</Filename>
+      <Filepath>source\help\SGGBIT74_pt.html</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.html</FileType>
+      <ParentFileID>id_33d39654414e3d37c26d48f5d7664b54</ParentFileID>
+    </File>
+    <File>
+      <ID>id_e1b862888eb8c64854feb93346c8c9ef</ID>
+      <Filename>SGGBNL74_en.html</Filename>
+      <Filepath>source\help\SGGBNL74_en.html</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.html</FileType>
+      <ParentFileID>id_33d39654414e3d37c26d48f5d7664b54</ParentFileID>
+    </File>
+    <File>
+      <ID>id_1b9b083bd0f4c5e94a0b63024d8d1177</ID>
+      <Filename>SGGBNL74_fr.html</Filename>
+      <Filepath>source\help\SGGBNL74_fr.html</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.html</FileType>
+      <ParentFileID>id_33d39654414e3d37c26d48f5d7664b54</ParentFileID>
+    </File>
+    <File>
+      <ID>id_4ae89cb2b97bb39379c67d0f6f6a0987</ID>
+      <Filename>SGGBNL74_pt.html</Filename>
+      <Filepath>source\help\SGGBNL74_pt.html</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.html</FileType>
+      <ParentFileID>id_33d39654414e3d37c26d48f5d7664b54</ParentFileID>
+    </File>
+    <File>
+      <ID>id_2042ad85bf13cd0169bd633204a6c931</ID>
+      <Filename>SGGBNO74_en.html</Filename>
+      <Filepath>source\help\SGGBNO74_en.html</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.html</FileType>
+      <ParentFileID>id_33d39654414e3d37c26d48f5d7664b54</ParentFileID>
+    </File>
+    <File>
+      <ID>id_40fcace9a33c03ea17ded2f196ca128a</ID>
+      <Filename>SGGBNO74_fr.html</Filename>
+      <Filepath>source\help\SGGBNO74_fr.html</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.html</FileType>
+      <ParentFileID>id_33d39654414e3d37c26d48f5d7664b54</ParentFileID>
+    </File>
+    <File>
+      <ID>id_70e7cb5fb1b0b4d783dc78a9e9e77392</ID>
+      <Filename>SGGBNO74_pt.html</Filename>
+      <Filepath>source\help\SGGBNO74_pt.html</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.html</FileType>
+      <ParentFileID>id_33d39654414e3d37c26d48f5d7664b54</ParentFileID>
+    </File>
+    <File>
+      <ID>id_48f01eb44dc444b75a7d6e7352bca232</ID>
+      <Filename>SGGBPT74_en.html</Filename>
+      <Filepath>source\help\SGGBPT74_en.html</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.html</FileType>
+      <ParentFileID>id_33d39654414e3d37c26d48f5d7664b54</ParentFileID>
+    </File>
+    <File>
+      <ID>id_d8d06bd276a7573c18a16c66baa2289c</ID>
+      <Filename>SGGBPT74_fr.html</Filename>
+      <Filepath>source\help\SGGBPT74_fr.html</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.html</FileType>
+      <ParentFileID>id_33d39654414e3d37c26d48f5d7664b54</ParentFileID>
+    </File>
+    <File>
+      <ID>id_61564aa13879cb397f7ca1f432192945</ID>
+      <Filename>SGGBPT74_pt.html</Filename>
+      <Filepath>source\help\SGGBPT74_pt.html</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.html</FileType>
+      <ParentFileID>id_33d39654414e3d37c26d48f5d7664b54</ParentFileID>
+    </File>
+    <File>
+      <ID>id_292046d2f1fb31bf24196d5e60a7ebec</ID>
+      <Filename>SGGBSW74_en.html</Filename>
+      <Filepath>source\help\SGGBSW74_en.html</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.html</FileType>
+      <ParentFileID>id_33d39654414e3d37c26d48f5d7664b54</ParentFileID>
+    </File>
+    <File>
+      <ID>id_f097f1e0a632be574686ba2710dcf84d</ID>
+      <Filename>SGGBSW74_fr.html</Filename>
+      <Filepath>source\help\SGGBSW74_fr.html</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.html</FileType>
+      <ParentFileID>id_33d39654414e3d37c26d48f5d7664b54</ParentFileID>
+    </File>
+    <File>
+      <ID>id_770cd85b2b47ce51fc3df33a97278b04</ID>
+      <Filename>SGGBSW74_pt.html</Filename>
+      <Filepath>source\help\SGGBSW74_pt.html</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.html</FileType>
+      <ParentFileID>id_33d39654414e3d37c26d48f5d7664b54</ParentFileID>
+    </File>
+    <File>
+      <ID>id_5df2fa3fac2fd4b3908ea768937c97ce</ID>
+      <Filename>SGGBUK74_en.html</Filename>
+      <Filepath>source\help\SGGBUK74_en.html</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.html</FileType>
+      <ParentFileID>id_33d39654414e3d37c26d48f5d7664b54</ParentFileID>
+    </File>
+    <File>
+      <ID>id_895d2d77e0e5d52bc13d10fb3c6dec1d</ID>
+      <Filename>SGGBUK74_fr.html</Filename>
+      <Filepath>source\help\SGGBUK74_fr.html</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.html</FileType>
+      <ParentFileID>id_33d39654414e3d37c26d48f5d7664b54</ParentFileID>
+    </File>
+    <File>
+      <ID>id_3e103305da3174b634f6be7b0eefde8e</ID>
+      <Filename>SGGBUK74_pt.html</Filename>
+      <Filepath>source\help\SGGBUK74_pt.html</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.html</FileType>
+      <ParentFileID>id_33d39654414e3d37c26d48f5d7664b54</ParentFileID>
+    </File>
+    <File>
+      <ID>id_f4fa67f7976b1470f28771d6cee69c15</ID>
+      <Filename>SGGBUS74_en.html</Filename>
+      <Filepath>source\help\SGGBUS74_en.html</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.html</FileType>
+      <ParentFileID>id_33d39654414e3d37c26d48f5d7664b54</ParentFileID>
+    </File>
+    <File>
+      <ID>id_729dbcec2f47b0347f69e0085cf3b1f8</ID>
+      <Filename>SGGBUS74_fr.html</Filename>
+      <Filepath>source\help\SGGBUS74_fr.html</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.html</FileType>
+      <ParentFileID>id_33d39654414e3d37c26d48f5d7664b54</ParentFileID>
+    </File>
+    <File>
+      <ID>id_1911d7fdadc47cab9b3ddd47b521e093</ID>
+      <Filename>SGGBUS74_pt.html</Filename>
+      <Filepath>source\help\SGGBUS74_pt.html</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.html</FileType>
+      <ParentFileID>id_33d39654414e3d37c26d48f5d7664b54</ParentFileID>
+    </File>
+    <File>
+      <ID>id_eea3ded7b5e53b6b3ef6ca64b963419a</ID>
+      <Filename>latin.css</Filename>
+      <Filepath>source\help\css\latin.css</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.css</FileType>
+      <ParentFileID>id_33d39654414e3d37c26d48f5d7664b54</ParentFileID>
+    </File>
+    <File>
+      <ID>id_e975208145e927b57ec7703612ea076d</ID>
+      <Filename>index.css</Filename>
+      <Filepath>source\help\css\index.css</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.css</FileType>
       <ParentFileID>id_33d39654414e3d37c26d48f5d7664b54</ParentFileID>
     </File>
   </Files>

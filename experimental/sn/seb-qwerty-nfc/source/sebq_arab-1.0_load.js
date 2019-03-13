@@ -1,1 +1,0 @@
-KeymanWeb.KRS(new Stub_Keyboard_sebq_arab()); function Stub_Keyboard_sebq_arab() {this.KF="sebq_arab-1.0.js";this.KI="Keyboard_sebq_arab";this.KN="SEBq ajami";}

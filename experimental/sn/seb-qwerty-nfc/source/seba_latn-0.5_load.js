@@ -1,1 +1,0 @@
-KeymanWeb.KRS(new Stub_Keyboard_seba_latn()); function Stub_Keyboard_seba_latn() {this.KF="seba_latn-0.5.js";this.KI="Keyboard_seba_latn";this.KN="SEB azerty";}

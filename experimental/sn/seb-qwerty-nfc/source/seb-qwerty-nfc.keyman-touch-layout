@@ -555,7 +555,25 @@
                 "id": "K_SPACE",
                 "text": "",
                 "width": "630",
-                "sp": "0"
+                "sp": "0",
+                "sk": [
+                  {
+                    "text": "≈",
+                    "id": "T_nbsp"
+                  },
+                  {
+                    "text": "nnbsp",
+                    "id": "T_nnbsp"
+                  },
+                  {
+                    "text": "zwj",
+                    "id": "T_zwj"
+                  },
+                  {
+                    "text": "zwnj",
+                    "id": "T_new_356"
+                  }
+                ]
               },
               {
                 "id": "K_ENTER",
@@ -1114,14 +1132,14 @@
                     "layer": "default"
                   },
                   {
-                    "text": "!",
-                    "id": "K_1",
-                    "layer": "shift"
+                    "text": "≈!",
+                    "id": "T_a0_exclam",
+                    "layer": "default"
                   },
                   {
-                    "text": "?",
-                    "id": "K_PERIOD",
-                    "layer": "shift"
+                    "text": "≈?",
+                    "id": "T_a0_question",
+                    "layer": "default"
                   },
                   {
                     "text": "'",
@@ -1139,13 +1157,13 @@
                     "layer": "default"
                   },
                   {
-                    "text": ":",
-                    "id": "K_COLON",
-                    "layer": "shift"
+                    "text": "≈:",
+                    "id": "T_a0_COLON",
+                    "layer": "default"
                   },
                   {
-                    "text": ";",
-                    "id": "K_COLON",
+                    "text": "≈;",
+                    "id": "T_a0_SEMICOLON",
                     "layer": "default"
                   },
                   {
@@ -1188,7 +1206,25 @@
                 "id": "K_SPACE",
                 "text": "",
                 "width": "630",
-                "sp": "0"
+                "sp": "0",
+                "sk": [
+                  {
+                    "text": "≈",
+                    "id": "T_nbsp"
+                  },
+                  {
+                    "text": "nnbsp",
+                    "id": "T_nnbsp"
+                  },
+                  {
+                    "text": "zwj",
+                    "id": "T_zwj"
+                  },
+                  {
+                    "text": "zwnj",
+                    "id": "T_zwnj"
+                  }
+                ]
               },
               {
                 "id": "K_ENTER",
@@ -1286,7 +1322,14 @@
               {
                 "id": "K_5",
                 "text": "%",
-                "layer": "shift"
+                "layer": "shift",
+                "sk": [
+                  {
+                    "text": "≈%",
+                    "id": "T_a0_percent",
+                    "layer": "default"
+                  }
+                ]
               },
               {
                 "id": "K_7",
@@ -1356,6 +1399,18 @@
                     "text": "{",
                     "id": "K_LBRKT",
                     "layer": "shift"
+                  },
+                  {
+                    "text": "‹",
+                    "id": "T_2039"
+                  },
+                  {
+                    "text": "«≈",
+                    "id": "T_guillemet_left_a0"
+                  },
+                  {
+                    "text": "‹≈",
+                    "id": "T_2039_a0"
                   }
                 ]
               },
@@ -1371,6 +1426,14 @@
                   {
                     "text": "“",
                     "id": "T_dblquote_left"
+                  },
+                  {
+                    "text": "‘≈",
+                    "id": "T_snglquote_left_a0"
+                  },
+                  {
+                    "text": "“≈",
+                    "id": "T_dblquote_left_a0"
                   }
                 ]
               },
@@ -1386,6 +1449,14 @@
                   {
                     "text": "”",
                     "id": "T_dblquote_right"
+                  },
+                  {
+                    "text": "≈’",
+                    "id": "T_a0_snglquote_right"
+                  },
+                  {
+                    "text": "≈”",
+                    "id": "T_a0_dblquote_right"
                   }
                 ]
               },
@@ -1408,6 +1479,18 @@
                     "text": "}",
                     "id": "K_R",
                     "layer": "shift"
+                  },
+                  {
+                    "text": "›",
+                    "id": "T_203A"
+                  },
+                  {
+                    "text": "≈»",
+                    "id": "T_a0_guillemet_right"
+                  },
+                  {
+                    "text": "≈›",
+                    "id": "T_new_2436"
                   }
                 ]
               },
@@ -1471,7 +1554,25 @@
                 "id": "K_SPACE",
                 "text": "",
                 "width": "630",
-                "sp": "0"
+                "sp": "0",
+                "sk": [
+                  {
+                    "text": "≈",
+                    "id": "T_nbsp"
+                  },
+                  {
+                    "text": "nnbsp",
+                    "id": "T_nnbsp"
+                  },
+                  {
+                    "text": "zwj",
+                    "id": "T_zwnj"
+                  },
+                  {
+                    "text": "zwnj",
+                    "id": "T_zwnj"
+                  }
+                ]
               },
               {
                 "id": "K_ENTER",
@@ -1704,7 +1805,13 @@
               {
                 "id": "T_Euro",
                 "text": "€",
-                "layer": "default"
+                "layer": "default",
+                "sk": [
+                  {
+                    "text": "≈€",
+                    "id": "T_a0_euro"
+                  }
+                ]
               },
               {
                 "id": "T_Yen",
@@ -1749,7 +1856,25 @@
                 "id": "K_SPACE",
                 "text": "",
                 "width": "630",
-                "sp": "0"
+                "sp": "0",
+                "sk": [
+                  {
+                    "text": "≈",
+                    "id": "T_nbsp"
+                  },
+                  {
+                    "text": "nnbsp",
+                    "id": "T_nnbsp"
+                  },
+                  {
+                    "text": "zwj",
+                    "id": "T_zwj"
+                  },
+                  {
+                    "text": "zwnj",
+                    "id": "T_zwnj"
+                  }
+                ]
               },
               {
                 "id": "K_ENTER",
@@ -1761,7 +1886,8 @@
           }
         ]
       }
-    ]
+    ],
+    "fontsize": ""
   },
   "phone": {
     "font": "Andika Afr",
@@ -2319,7 +2445,25 @@
                 "id": "K_SPACE",
                 "text": "",
                 "width": "630",
-                "sp": "0"
+                "sp": "0",
+                "sk": [
+                  {
+                    "text": "≈",
+                    "id": "T_nbsp"
+                  },
+                  {
+                    "text": "nnbsp",
+                    "id": "T_nnbsp"
+                  },
+                  {
+                    "text": "zwj",
+                    "id": "T_zwj"
+                  },
+                  {
+                    "text": "zwnj",
+                    "id": "T_zwnj"
+                  }
+                ]
               },
               {
                 "id": "K_ENTER",
@@ -2879,13 +3023,13 @@
                     "layer": "default"
                   },
                   {
-                    "text": "!",
-                    "id": "K_1",
-                    "layer": "shift"
+                    "text": "≈!",
+                    "id": "T_a0_exclam",
+                    "layer": "default"
                   },
                   {
-                    "text": "?",
-                    "id": "K_PERIOD",
+                    "text": "≈?",
+                    "id": "T_a0_question",
                     "layer": "shift"
                   },
                   {
@@ -2904,13 +3048,13 @@
                     "layer": "default"
                   },
                   {
-                    "text": ":",
-                    "id": "K_COLON",
-                    "layer": "shift"
+                    "text": "≈:",
+                    "id": "T_a0_COLON",
+                    "layer": "default"
                   },
                   {
-                    "text": ";",
-                    "id": "K_COLON",
+                    "text": "≈;",
+                    "id": "T_a0_SEMICOLON",
                     "layer": "default"
                   },
                   {
@@ -2953,7 +3097,25 @@
                 "id": "K_SPACE",
                 "text": "",
                 "width": "630",
-                "sp": "0"
+                "sp": "0",
+                "sk": [
+                  {
+                    "text": "≈",
+                    "id": "T_nbsp"
+                  },
+                  {
+                    "text": "nnbsp",
+                    "id": "T_nnbsp"
+                  },
+                  {
+                    "text": "zwj",
+                    "id": "T_zwj"
+                  },
+                  {
+                    "text": "zwnj",
+                    "id": "T_zwnj"
+                  }
+                ]
               },
               {
                 "id": "K_ENTER",
@@ -3051,7 +3213,13 @@
               {
                 "id": "K_5",
                 "text": "%",
-                "layer": "shift"
+                "layer": "shift",
+                "sk": [
+                  {
+                    "text": "≈%",
+                    "id": "T_a0_percent"
+                  }
+                ]
               },
               {
                 "id": "K_7",
@@ -3121,6 +3289,21 @@
                     "text": "{",
                     "id": "K_LBRKT",
                     "layer": "shift"
+                  },
+                  {
+                    "text": "‹",
+                    "id": "T_2039",
+                    "layer": "default"
+                  },
+                  {
+                    "text": "«≈",
+                    "id": "T_guillemet_left_ao",
+                    "layer": "default"
+                  },
+                  {
+                    "text": "‹≈",
+                    "id": "T_2039_a0",
+                    "layer": "default"
                   }
                 ]
               },
@@ -3131,11 +3314,20 @@
                 "sk": [
                   {
                     "text": "‘",
-                    "id": "T_snglquote_left"
+                    "id": "T_snglquote_left",
+                    "layer": "default"
                   },
                   {
                     "text": "“",
                     "id": "T_dblquote_left"
+                  },
+                  {
+                    "text": "‘≈",
+                    "id": "T_snglquote_left_a0"
+                  },
+                  {
+                    "text": "“≈",
+                    "id": "T_dblquote_left_a0"
                   }
                 ]
               },
@@ -3151,6 +3343,15 @@
                   {
                     "text": "”",
                     "id": "T_dblquote_right"
+                  },
+                  {
+                    "text": "≈’",
+                    "id": "T_a0_snglquote_right",
+                    "layer": "default"
+                  },
+                  {
+                    "text": "≈”",
+                    "id": "T_a0_dblquote_right"
                   }
                 ]
               },
@@ -3173,6 +3374,18 @@
                     "text": "}",
                     "id": "K_R",
                     "layer": "shift"
+                  },
+                  {
+                    "text": "›",
+                    "id": "T_new_1579"
+                  },
+                  {
+                    "text": "≈»",
+                    "id": "T_a0_guillemet_right"
+                  },
+                  {
+                    "text": "≈›",
+                    "id": "T_new_1581"
                   }
                 ]
               },
@@ -3236,7 +3449,25 @@
                 "id": "K_SPACE",
                 "text": "",
                 "width": "630",
-                "sp": "0"
+                "sp": "0",
+                "sk": [
+                  {
+                    "text": "≈",
+                    "id": "T_nbsp"
+                  },
+                  {
+                    "text": "nnbsp",
+                    "id": "T_nnbsp"
+                  },
+                  {
+                    "text": "zwj",
+                    "id": "T_zwj"
+                  },
+                  {
+                    "text": "zwnj",
+                    "id": "T_zwnj"
+                  }
+                ]
               },
               {
                 "id": "K_ENTER",
@@ -3469,7 +3700,14 @@
               {
                 "id": "T_Euro",
                 "text": "€",
-                "layer": "default"
+                "layer": "default",
+                "sk": [
+                  {
+                    "text": "≈€",
+                    "id": "T_a0_euro",
+                    "layer": "default"
+                  }
+                ]
               },
               {
                 "id": "T_Yen",
@@ -3514,7 +3752,25 @@
                 "id": "K_SPACE",
                 "text": "",
                 "width": "630",
-                "sp": "0"
+                "sp": "0",
+                "sk": [
+                  {
+                    "text": "≈",
+                    "id": "T_nbsp"
+                  },
+                  {
+                    "text": "nnbsp",
+                    "id": "T_nnbsp"
+                  },
+                  {
+                    "text": "zwj",
+                    "id": "T_zwj"
+                  },
+                  {
+                    "text": "zwnj",
+                    "id": "T_zwnj"
+                  }
+                ]
               },
               {
                 "id": "K_ENTER",
@@ -3526,6 +3782,7 @@
           }
         ]
       }
-    ]
+    ],
+    "fontsize": ""
   }
 }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Package>
   <System>
-    <KeymanDeveloperVersion>10.0.1206.0</KeymanDeveloperVersion>
+    <KeymanDeveloperVersion>11.0.1314.0</KeymanDeveloperVersion>
     <FileVersion>7.0</FileVersion>
   </System>
   <Options>
@@ -14,29 +14,11 @@
     <Items/>
   </StartMenu>
   <Info>
-    <Version URL="">0.0.0</Version>
+    <Version URL="">0.1.1</Version>
     <Name URL="">seb-qwerty-nfc</Name>
     <Copyright URL="">©2018 SIL International</Copyright>
   </Info>
   <Files>
-    <File>
-      <Name>extras\AndikaAfr-R.ttf</Name>
-      <Description>Font Andika Afr</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.ttf</FileType>
-    </File>
-    <File>
-      <Name>source\welcome\us_summary.pdf</Name>
-      <Description>File us_summary.pdf</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.pdf</FileType>
-    </File>
-    <File>
-      <Name>source\on.png</Name>
-      <Description>File on.png</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.png</FileType>
-    </File>
     <File>
       <Name>source\seb-qwerty-nfc.kvk</Name>
       <Description>File seb-qwerty-nfc.kvk</Description>
@@ -50,24 +32,352 @@
       <FileType>.kmx</FileType>
     </File>
     <File>
-      <Name>source\seb-qwerty-nfc.kvks</Name>
-      <Description>File sil-qwerty-nfc.kvks</Description>
+      <Name>source\seb_qwerty_nfc.js</Name>
+      <Description>File seb_qwerty_nfc.js</Description>
       <CopyLocation>0</CopyLocation>
-      <FileType>.kvks</FileType>
+      <FileType>.js</FileType>
     </File>
     <File>
-      <Name>source\seb-qwerty-nfc-help.htm</Name>
-      <Description>File seb-qwerty-nfc-help.htm</Description>
+      <Name>extras\AndikaAfr-R.ttf</Name>
+      <Description>Font Andika Afr</Description>
       <CopyLocation>0</CopyLocation>
-      <FileType>.htm</FileType>
+      <FileType>.ttf</FileType>
+    </File>
+    <File>
+      <Name>source\help\index.html</Name>
+      <Description>File index.html</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.html</FileType>
+    </File>
+    <File>
+      <Name>source\help\index_en.html</Name>
+      <Description>File index_en.html</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.html</FileType>
+    </File>
+    <File>
+      <Name>source\help\index_pt.html</Name>
+      <Description>File index_pt.html</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.html</FileType>
+    </File>
+    <File>
+      <Name>source\help\PTABNT74_en.html</Name>
+      <Description>File PTABNT74_en.html</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.html</FileType>
+    </File>
+    <File>
+      <Name>source\help\PTABNT74_fr.html</Name>
+      <Description>File PTABNT74_fr.html</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.html</FileType>
+    </File>
+    <File>
+      <Name>source\help\PTABNT74_pt.html</Name>
+      <Description>File PTABNT74_pt.html</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.html</FileType>
+    </File>
+    <File>
+      <Name>source\help\qwerty_en.html</Name>
+      <Description>File qwerty_en.html</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.html</FileType>
+    </File>
+    <File>
+      <Name>source\help\qwerty_fr.html</Name>
+      <Description>File qwerty_fr.html</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.html</FileType>
+    </File>
+    <File>
+      <Name>source\help\qwerty_pt.html</Name>
+      <Description>File qwerty_pt.html</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.html</FileType>
+    </File>
+    <File>
+      <Name>source\help\SGGBCH74_en.html</Name>
+      <Description>File SGGBCH74_en.html</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.html</FileType>
+    </File>
+    <File>
+      <Name>source\help\SGGBCH74_fr.html</Name>
+      <Description>File SGGBCH74_fr.html</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.html</FileType>
+    </File>
+    <File>
+      <Name>source\help\SGGBCH74_pt.html</Name>
+      <Description>File SGGBCH74_pt.html</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.html</FileType>
+    </File>
+    <File>
+      <Name>source\help\SGGBDE74_en.html</Name>
+      <Description>File SGGBDE74_en.html</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.html</FileType>
+    </File>
+    <File>
+      <Name>source\help\SGGBDE74_fr.html</Name>
+      <Description>File SGGBDE74_fr.html</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.html</FileType>
+    </File>
+    <File>
+      <Name>source\help\SGGBDE74_pt.html</Name>
+      <Description>File SGGBDE74_pt.html</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.html</FileType>
+    </File>
+    <File>
+      <Name>source\help\SGGBES74_en.html</Name>
+      <Description>File SGGBES74_en.html</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.html</FileType>
+    </File>
+    <File>
+      <Name>source\help\SGGBES74_fr.html</Name>
+      <Description>File SGGBES74_fr.html</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.html</FileType>
+    </File>
+    <File>
+      <Name>source\help\SGGBES74_pt.html</Name>
+      <Description>File SGGBES74_pt.html</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.html</FileType>
+    </File>
+    <File>
+      <Name>source\help\SGGBFR74_en.html</Name>
+      <Description>File SGGBFR74_en.html</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.html</FileType>
+    </File>
+    <File>
+      <Name>source\help\SGGBFR74_fr.html</Name>
+      <Description>File SGGBFR74_fr.html</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.html</FileType>
+    </File>
+    <File>
+      <Name>source\help\SGGBFR74_pt.html</Name>
+      <Description>File SGGBFR74_pt.html</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.html</FileType>
+    </File>
+    <File>
+      <Name>source\help\SGGBIT74_en.html</Name>
+      <Description>File SGGBIT74_en.html</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.html</FileType>
+    </File>
+    <File>
+      <Name>source\help\SGGBIT74_fr.html</Name>
+      <Description>File SGGBIT74_fr.html</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.html</FileType>
+    </File>
+    <File>
+      <Name>source\help\SGGBIT74_pt.html</Name>
+      <Description>File SGGBIT74_pt.html</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.html</FileType>
+    </File>
+    <File>
+      <Name>source\help\SGGBNL74_en.html</Name>
+      <Description>File SGGBNL74_en.html</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.html</FileType>
+    </File>
+    <File>
+      <Name>source\help\SGGBNL74_fr.html</Name>
+      <Description>File SGGBNL74_fr.html</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.html</FileType>
+    </File>
+    <File>
+      <Name>source\help\SGGBNL74_pt.html</Name>
+      <Description>File SGGBNL74_pt.html</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.html</FileType>
+    </File>
+    <File>
+      <Name>source\help\SGGBNO74_en.html</Name>
+      <Description>File SGGBNO74_en.html</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.html</FileType>
+    </File>
+    <File>
+      <Name>source\help\SGGBNO74_fr.html</Name>
+      <Description>File SGGBNO74_fr.html</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.html</FileType>
+    </File>
+    <File>
+      <Name>source\help\SGGBNO74_pt.html</Name>
+      <Description>File SGGBNO74_pt.html</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.html</FileType>
+    </File>
+    <File>
+      <Name>source\help\SGGBPT74_en.html</Name>
+      <Description>File SGGBPT74_en.html</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.html</FileType>
+    </File>
+    <File>
+      <Name>source\help\SGGBPT74_fr.html</Name>
+      <Description>File SGGBPT74_fr.html</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.html</FileType>
+    </File>
+    <File>
+      <Name>source\help\SGGBPT74_pt.html</Name>
+      <Description>File SGGBPT74_pt.html</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.html</FileType>
+    </File>
+    <File>
+      <Name>source\help\SGGBSW74_en.html</Name>
+      <Description>File SGGBSW74_en.html</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.html</FileType>
+    </File>
+    <File>
+      <Name>source\help\SGGBSW74_fr.html</Name>
+      <Description>File SGGBSW74_fr.html</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.html</FileType>
+    </File>
+    <File>
+      <Name>source\help\SGGBSW74_pt.html</Name>
+      <Description>File SGGBSW74_pt.html</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.html</FileType>
+    </File>
+    <File>
+      <Name>source\help\SGGBUK74_en.html</Name>
+      <Description>File SGGBUK74_en.html</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.html</FileType>
+    </File>
+    <File>
+      <Name>source\help\SGGBUK74_fr.html</Name>
+      <Description>File SGGBUK74_fr.html</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.html</FileType>
+    </File>
+    <File>
+      <Name>source\help\SGGBUK74_pt.html</Name>
+      <Description>File SGGBUK74_pt.html</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.html</FileType>
+    </File>
+    <File>
+      <Name>source\help\SGGBUS74_en.html</Name>
+      <Description>File SGGBUS74_en.html</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.html</FileType>
+    </File>
+    <File>
+      <Name>source\help\SGGBUS74_fr.html</Name>
+      <Description>File SGGBUS74_fr.html</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.html</FileType>
+    </File>
+    <File>
+      <Name>source\help\SGGBUS74_pt.html</Name>
+      <Description>File SGGBUS74_pt.html</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.html</FileType>
+    </File>
+    <File>
+      <Name>source\help\css\latin.css</Name>
+      <Description>File latin.css</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.css</FileType>
+    </File>
+    <File>
+      <Name>source\help\css\index.css</Name>
+      <Description>File index.css</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.css</FileType>
     </File>
   </Files>
   <Keyboards>
     <Keyboard>
       <Name>seb-qwerty-nfc</Name>
       <ID>seb_qwerty_nfc</ID>
-      <Version>0.0.0</Version>
-      <Languages/>
+      <Version>0.1.1</Version>
+      <OSKFont>extras\AndikaAfr-R.ttf</OSKFont>
+      <DisplayFont>extras\AndikaAfr-R.ttf</DisplayFont>
+      <Languages>
+        <Language ID="fr">French</Language>
+        <Language ID="en">English</Language>
+        <Language ID="pt-PT">Portuguese (Portugal)</Language>
+        <Language ID="pt-BR">Portuguese (Brazil)</Language>
+        <Language ID="pbp-Latn">Badyara (Latin)</Language>
+        <Language ID="bcz-Latn">Bainouk-Gunyaamolo (Latin)</Language>
+        <Language ID="bcb-Latn">Bainouk-Samik (Latin)</Language>
+        <Language ID="bjt-Latn">Balanta-Ganja (Latin)</Language>
+        <Language ID="bqj-Latn">Bandial (Latin)</Language>
+        <Language ID="bda-Latn">Bayot (Latin)</Language>
+        <Language ID="pov-Latn">Upper Guinea Crioulo (Latin)</Language>
+        <Language ID="eja-Latn">Ejamat (Latin)</Language>
+        <Language ID="fuc-Latn">Pulaar (Latin)</Language>
+        <Language ID="fuf-Latn">Pular (Latin)</Language>
+        <Language ID="gsl-Latn">Gusilay (Latin)</Language>
+        <Language ID="mey-Latn">Hassaniyya (Latin)</Language>
+        <Language ID="yal-Latn">Yalunka (Latin)</Language>
+        <Language ID="dyo-Latn">Jola-Fonyi (Latin)</Language>
+        <Language ID="csk-Latn">Jola-Kasa (Latin)</Language>
+        <Language ID="krx-Latn">Karon (Latin)</Language>
+        <Language ID="hhr-Latn">Kerak (Latin)</Language>
+        <Language ID="kcj-Latn">Kobiana (Latin)</Language>
+        <Language ID="cwt-Latn">Kuwaataay (Latin)</Language>
+        <Language ID="cae-Latn">Lehar (Latin)</Language>
+        <Language ID="mnk-Latn">Mandinka (Latin)</Language>
+        <Language ID="mfv-Latn">Mandjak (Latin)</Language>
+        <Language ID="mlq-Latn">Western Maninkakan (Latin)</Language>
+        <Language ID="knf-Latn">Mankanya (Latin)</Language>
+        <Language ID="tnr-Latn">Ménik (Latin)</Language>
+        <Language ID="mlo-Latn">Mlomp (Latin)</Language>
+        <Language ID="ndv-Latn">Ndut (Latin)</Language>
+        <Language ID="nqo-Latn">N'Ko (Latin)</Language>
+        <Language ID="snf-Latn">Noon (Latin)</Language>
+        <Language ID="bsc-Latn">Bassari (Latin)</Language>
+        <Language ID="fap-Latn">Palor (Latin)</Language>
+        <Language ID="sav-Latn">Saafi-Saafi (Latin)</Language>
+        <Language ID="srr-Latn">Serer (Latin)</Language>
+        <Language ID="snk-Latn">Soninke (Latin)</Language>
+        <Language ID="cou-Latn">Wamey (Latin)</Language>
+        <Language ID="wo-Latn">Wolof (Latin)</Language>
+        <Language ID="kao-Latn">Xaasongaxango (Latin)</Language>
+        <Language ID="wof-Latn">Gambian Wolof (Latin)</Language>
+        <Language ID="bab-Latn">Bainouk-Gunyuño (Latin)</Language>
+        <Language ID="ble-Latn">Balanta-Kentohe (Latin)</Language>
+        <Language ID="bif-Latn">Biafada (Latin)</Language>
+        <Language ID="bjg-Latn">Bidyogo (Latin)</Language>
+        <Language ID="jad-Latn">Jahanka (Latin)</Language>
+        <Language ID="ccj">Kasanga</Language>
+        <Language ID="msw-Latn">Mansoanka (Latin)</Language>
+        <Language ID="naj-Latn">Nalu (Latin)</Language>
+        <Language ID="pbo-Latn">Papel (Latin)</Language>
+        <Language ID="sv">Swedish</Language>
+        <Language ID="no">Norwegian</Language>
+        <Language ID="nl">Dutch</Language>
+        <Language ID="de-DE">German (Germany)</Language>
+        <Language ID="de-CH">German (Switzerland)</Language>
+        <Language ID="fr-CH">French (Switzerland)</Language>
+        <Language ID="it">Italian</Language>
+        <Language ID="es">Spanish</Language>
+        <Language ID="nn">Norwegian Nynorsk</Language>
+        <Language ID="nb">Norwegian Bokmål</Language>
+      </Languages>
     </Keyboard>
   </Keyboards>
   <Strings/>

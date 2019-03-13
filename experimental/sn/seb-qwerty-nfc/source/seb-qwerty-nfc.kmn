@@ -1,5 +1,5 @@
-﻿store(&TARGETS) 'any'
-store(&KEYBOARDVERSION) '0.0.0'
+﻿store(&TARGETS) 'any windows macosx linux web iphone ipad androidphone androidtablet mobile desktop tablet'
+store(&KEYBOARDVERSION) '0.1.1'
 store(&mnemoniclayout) '0'
 store(&NAME) 'seb-qwerty-nfc'
 store(&BITMAP) 'seb-qwerty-nfc.ico'
@@ -10,8 +10,8 @@ store(&KMW_HELPFILE) 'seb-qwerty-nfc-help.htm'
 begin Unicode > use(main)
 
 group(main)
-    platform("web") > use(web)
     platform("touch") > use(touch)
+    platform("web") > use(web)
 c platform("hardware") > use(hardware) 
 nomatch() > use(hardware) 
 
@@ -311,12 +311,32 @@ c shift layer
 	+ [T_combining_caron] > U+030C
 	+ [T_combining_stroke] > U+0336
 	+ [T_combining_ring_above] > U+030A
+	+ [T_nbsp] > U+00A0
+	+ [T_nnbsp] > U+202F
+	+ [T_zwj] > U+200B
+	+ [T_zwnj] > U+200C
+	+ [T_a0_exclam] > U+00A0 U+0021
+	+ [T_a0_question] > U+00A0 U+003F
+	+ [T_a0_COLON] > U+00A0 U+003A
+	+ [T_a0_SEMICOLON] > U+00A0 U+003B
+    + [T_2039] > U+2039
+    + [T_guillemet_left_a0] > U+00AB U+00A0
+    + [T_2039_a0] > U+2039 U+00A0
+    + [T_snglquote_left_a0] > U+2018 U+00A0
+    + [T_dblquote_left_a0] > U+201C U+00A0
+    + [T_203A] > U+203A
+    + [T_a0_guillemet_right] > U+00A0 U+00BB
+    + [T_a0_203A] > U+00A0 U+2039
+    + [T_a0_snglquote_right] > U+00A0 U+2019
+    + [T_a0_dblquote_right] > U+00A0 U+201D
+    + [T_ao_euro] > U+00A0 U+20AC
+    + [T_a0_percent] > U+00A0 U+0025 
 
 group(hardware)
 	platform("windows") > use(windows)
 	platform("linux")   > use(linux)
 	platform("macos")   > use(macos)   
-	platform("android")   > use(macos)   
+	platform("android")   > use(android)   
 
 group(linux)
 c can't detect baselayout
