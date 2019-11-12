@@ -6,8 +6,8 @@
   </System>
   <Options>
     <ExecuteProgram></ExecuteProgram>
-    <ReadMeFile>..\..\shared\readme.htm</ReadMeFile>
-    <GraphicFile>..\..\shared\sideimage.bmp</GraphicFile>
+    <ReadMeFile>..\..\..\shared\gff\readme.htm</ReadMeFile>
+    <GraphicFile>sideimage-blin-lady.png</GraphicFile>
     <MSIFileName></MSIFileName>
     <MSIOptions></MSIOptions>
     <FollowKeyboardVersion/>
@@ -91,13 +91,7 @@
       <FileType>.ttf</FileType>
     </File>
     <File>
-      <Name>..\..\shared\sideimage.bmp</Name>
-      <Description>File sideimage.bmp</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.bmp</FileType>
-    </File>
-    <File>
-      <Name>..\..\shared\readme.htm</Name>
+      <Name>..\..\..\shared\gff\readme.htm</Name>
       <Description>File readme.htm</Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.htm</FileType>
@@ -108,12 +102,20 @@
       <CopyLocation>0</CopyLocation>
       <FileType>.txt</FileType>
     </File>
+    <File>
+      <Name>sideimage-blin-lady.png</Name>
+      <Description>File sideimage-blin-lady.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
+    </File>
   </Files>
   <Keyboards>
     <Keyboard>
       <Name>ብሊን (Blin)</Name>
       <ID>gff_blin</ID>
       <Version>1.2</Version>
+      <OSKFont>..\..\..\shared\fonts\sil\abyssinica_sil\AbyssinicaSIL-R.ttf</OSKFont>
+      <DisplayFont>..\..\..\shared\fonts\sil\abyssinica_sil\AbyssinicaSIL-R.ttf</DisplayFont>
       <Languages>
         <Language ID="byn-Ethi">Bilin</Language>
       </Languages>
