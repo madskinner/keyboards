@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Package>
   <System>
-    <KeymanDeveloperVersion>11.0.1314.0</KeymanDeveloperVersion>
+    <KeymanDeveloperVersion>12.0.61.0</KeymanDeveloperVersion>
     <FileVersion>7.0</FileVersion>
   </System>
   <Options>
     <ExecuteProgram></ExecuteProgram>
+    <GraphicFile>source\splash.png</GraphicFile>
     <MSIFileName></MSIFileName>
     <MSIOptions></MSIOptions>
   </Options>
@@ -14,9 +15,11 @@
     <Items/>
   </StartMenu>
   <Info>
-    <Version URL="">0.1.1</Version>
+    <Version URL="">0.2.3</Version>
     <Name URL="">seb-qwerty-nfc</Name>
     <Copyright URL="">©2018 SIL International</Copyright>
+    <Author URL="mailto:mark_skinner@sil.org">Mark Skinner</Author>
+    <WebSite URL="www.silsenegal.org">www.silsenegal.org</WebSite>
   </Info>
   <Files>
     <File>
@@ -44,280 +47,98 @@
       <FileType>.ttf</FileType>
     </File>
     <File>
-      <Name>source\help\index.html</Name>
-      <Description>File index.html</Description>
+      <Name>source\welcome\backspace.png</Name>
+      <Description>File backspace.png</Description>
       <CopyLocation>0</CopyLocation>
-      <FileType>.html</FileType>
+      <FileType>.png</FileType>
     </File>
     <File>
-      <Name>source\help\index_en.html</Name>
-      <Description>File index_en.html</Description>
+      <Name>source\welcome\bar.png</Name>
+      <Description>File bar.png</Description>
       <CopyLocation>0</CopyLocation>
-      <FileType>.html</FileType>
+      <FileType>.png</FileType>
     </File>
     <File>
-      <Name>source\help\index_pt.html</Name>
-      <Description>File index_pt.html</Description>
+      <Name>source\welcome\blue_shift.png</Name>
+      <Description>File blue_shift.png</Description>
       <CopyLocation>0</CopyLocation>
-      <FileType>.html</FileType>
+      <FileType>.png</FileType>
     </File>
     <File>
-      <Name>source\help\PTABNT74_en.html</Name>
-      <Description>File PTABNT74_en.html</Description>
+      <Name>source\welcome\enter.png</Name>
+      <Description>File enter.png</Description>
       <CopyLocation>0</CopyLocation>
-      <FileType>.html</FileType>
+      <FileType>.png</FileType>
     </File>
     <File>
-      <Name>source\help\PTABNT74_fr.html</Name>
-      <Description>File PTABNT74_fr.html</Description>
+      <Name>source\welcome\globe.png</Name>
+      <Description>File globe.png</Description>
       <CopyLocation>0</CopyLocation>
-      <FileType>.html</FileType>
+      <FileType>.png</FileType>
     </File>
     <File>
-      <Name>source\help\PTABNT74_pt.html</Name>
-      <Description>File PTABNT74_pt.html</Description>
+      <Name>source\welcome\shift.png</Name>
+      <Description>File shift.png</Description>
       <CopyLocation>0</CopyLocation>
-      <FileType>.html</FileType>
+      <FileType>.png</FileType>
     </File>
     <File>
-      <Name>source\help\qwerty_en.html</Name>
-      <Description>File qwerty_en.html</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.html</FileType>
-    </File>
-    <File>
-      <Name>source\help\qwerty_fr.html</Name>
-      <Description>File qwerty_fr.html</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.html</FileType>
-    </File>
-    <File>
-      <Name>source\help\qwerty_pt.html</Name>
-      <Description>File qwerty_pt.html</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.html</FileType>
-    </File>
-    <File>
-      <Name>source\help\SGGBCH74_en.html</Name>
-      <Description>File SGGBCH74_en.html</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.html</FileType>
-    </File>
-    <File>
-      <Name>source\help\SGGBCH74_fr.html</Name>
-      <Description>File SGGBCH74_fr.html</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.html</FileType>
-    </File>
-    <File>
-      <Name>source\help\SGGBCH74_pt.html</Name>
-      <Description>File SGGBCH74_pt.html</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.html</FileType>
-    </File>
-    <File>
-      <Name>source\help\SGGBDE74_en.html</Name>
-      <Description>File SGGBDE74_en.html</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.html</FileType>
-    </File>
-    <File>
-      <Name>source\help\SGGBDE74_fr.html</Name>
-      <Description>File SGGBDE74_fr.html</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.html</FileType>
-    </File>
-    <File>
-      <Name>source\help\SGGBDE74_pt.html</Name>
-      <Description>File SGGBDE74_pt.html</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.html</FileType>
-    </File>
-    <File>
-      <Name>source\help\SGGBES74_en.html</Name>
-      <Description>File SGGBES74_en.html</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.html</FileType>
-    </File>
-    <File>
-      <Name>source\help\SGGBES74_fr.html</Name>
-      <Description>File SGGBES74_fr.html</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.html</FileType>
-    </File>
-    <File>
-      <Name>source\help\SGGBES74_pt.html</Name>
-      <Description>File SGGBES74_pt.html</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.html</FileType>
-    </File>
-    <File>
-      <Name>source\help\SGGBFR74_en.html</Name>
-      <Description>File SGGBFR74_en.html</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.html</FileType>
-    </File>
-    <File>
-      <Name>source\help\SGGBFR74_fr.html</Name>
-      <Description>File SGGBFR74_fr.html</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.html</FileType>
-    </File>
-    <File>
-      <Name>source\help\SGGBFR74_pt.html</Name>
-      <Description>File SGGBFR74_pt.html</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.html</FileType>
-    </File>
-    <File>
-      <Name>source\help\SGGBIT74_en.html</Name>
-      <Description>File SGGBIT74_en.html</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.html</FileType>
-    </File>
-    <File>
-      <Name>source\help\SGGBIT74_fr.html</Name>
-      <Description>File SGGBIT74_fr.html</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.html</FileType>
-    </File>
-    <File>
-      <Name>source\help\SGGBIT74_pt.html</Name>
-      <Description>File SGGBIT74_pt.html</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.html</FileType>
-    </File>
-    <File>
-      <Name>source\help\SGGBNL74_en.html</Name>
-      <Description>File SGGBNL74_en.html</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.html</FileType>
-    </File>
-    <File>
-      <Name>source\help\SGGBNL74_fr.html</Name>
-      <Description>File SGGBNL74_fr.html</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.html</FileType>
-    </File>
-    <File>
-      <Name>source\help\SGGBNL74_pt.html</Name>
-      <Description>File SGGBNL74_pt.html</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.html</FileType>
-    </File>
-    <File>
-      <Name>source\help\SGGBNO74_en.html</Name>
-      <Description>File SGGBNO74_en.html</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.html</FileType>
-    </File>
-    <File>
-      <Name>source\help\SGGBNO74_fr.html</Name>
-      <Description>File SGGBNO74_fr.html</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.html</FileType>
-    </File>
-    <File>
-      <Name>source\help\SGGBNO74_pt.html</Name>
-      <Description>File SGGBNO74_pt.html</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.html</FileType>
-    </File>
-    <File>
-      <Name>source\help\SGGBPT74_en.html</Name>
-      <Description>File SGGBPT74_en.html</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.html</FileType>
-    </File>
-    <File>
-      <Name>source\help\SGGBPT74_fr.html</Name>
-      <Description>File SGGBPT74_fr.html</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.html</FileType>
-    </File>
-    <File>
-      <Name>source\help\SGGBPT74_pt.html</Name>
-      <Description>File SGGBPT74_pt.html</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.html</FileType>
-    </File>
-    <File>
-      <Name>source\help\SGGBSW74_en.html</Name>
-      <Description>File SGGBSW74_en.html</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.html</FileType>
-    </File>
-    <File>
-      <Name>source\help\SGGBSW74_fr.html</Name>
-      <Description>File SGGBSW74_fr.html</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.html</FileType>
-    </File>
-    <File>
-      <Name>source\help\SGGBSW74_pt.html</Name>
-      <Description>File SGGBSW74_pt.html</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.html</FileType>
-    </File>
-    <File>
-      <Name>source\help\SGGBUK74_en.html</Name>
-      <Description>File SGGBUK74_en.html</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.html</FileType>
-    </File>
-    <File>
-      <Name>source\help\SGGBUK74_fr.html</Name>
-      <Description>File SGGBUK74_fr.html</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.html</FileType>
-    </File>
-    <File>
-      <Name>source\help\SGGBUK74_pt.html</Name>
-      <Description>File SGGBUK74_pt.html</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.html</FileType>
-    </File>
-    <File>
-      <Name>source\help\SGGBUS74_en.html</Name>
-      <Description>File SGGBUS74_en.html</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.html</FileType>
-    </File>
-    <File>
-      <Name>source\help\SGGBUS74_fr.html</Name>
-      <Description>File SGGBUS74_fr.html</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.html</FileType>
-    </File>
-    <File>
-      <Name>source\help\SGGBUS74_pt.html</Name>
-      <Description>File SGGBUS74_pt.html</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.html</FileType>
-    </File>
-    <File>
-      <Name>source\help\css\latin.css</Name>
+      <Name>source\welcome\latin.css</Name>
       <Description>File latin.css</Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.css</FileType>
     </File>
     <File>
-      <Name>source\help\css\index.css</Name>
-      <Description>File index.css</Description>
+      <Name>source\welcome\welcome.htm</Name>
+      <Description>File welcome.htm</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.htm</FileType>
+    </File>
+    <File>
+      <Name>source\splash.png</Name>
+      <Description>File splash.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
+    </File>
+    <File>
+      <Name>source\readme.htm</Name>
+      <Description>File readme.htm</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.htm</FileType>
+    </File>
+    <File>
+      <Name>source\welcome\kb.css</Name>
+      <Description>File kb.css</Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.css</FileType>
+    </File>
+    <File>
+      <Name>source\welcome\symbol123.png</Name>
+      <Description>File symbol123.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
+    </File>
+    <File>
+      <Name>source\welcome\icon.png</Name>
+      <Description>File icon.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
+    </File>
+    <File>
+      <Name>source\welcome\seb-qwerty-nfc.ico</Name>
+      <Description>File seb-qwerty-nfc.ico</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.ico</FileType>
     </File>
   </Files>
   <Keyboards>
     <Keyboard>
       <Name>seb-qwerty-nfc</Name>
       <ID>seb_qwerty_nfc</ID>
-      <Version>0.1.1</Version>
+      <Version>0.2.3</Version>
       <OSKFont>extras\AndikaAfr-R.ttf</OSKFont>
       <DisplayFont>extras\AndikaAfr-R.ttf</DisplayFont>
       <Languages>
-        <Language ID="fr">French</Language>
-        <Language ID="en">English</Language>
         <Language ID="pt-PT">Portuguese (Portugal)</Language>
         <Language ID="pt-BR">Portuguese (Brazil)</Language>
         <Language ID="pbp-Latn">Badyara (Latin)</Language>
@@ -377,6 +198,10 @@
         <Language ID="es">Spanish</Language>
         <Language ID="nn">Norwegian Nynorsk</Language>
         <Language ID="nb">Norwegian Bokmål</Language>
+        <Language ID="en-US">English (United States)</Language>
+        <Language ID="en-UK">English (UK)</Language>
+        <Language ID="en">English</Language>
+        <Language ID="fr">French</Language>
       </Languages>
     </Keyboard>
   </Keyboards>
