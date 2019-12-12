@@ -15,7 +15,7 @@
     <Items/>
   </StartMenu>
   <Info>
-    <Version URL="">0.2.3</Version>
+    <Version URL="">0.2.4</Version>
     <Name URL="">seb-qwerty-nfc</Name>
     <Copyright URL="">©2018 SIL International</Copyright>
     <Author URL="mailto:mark_skinner@sil.org">Mark Skinner</Author>
@@ -135,10 +135,12 @@
     <Keyboard>
       <Name>seb-qwerty-nfc</Name>
       <ID>seb_qwerty_nfc</ID>
-      <Version>0.2.3</Version>
+      <Version>0.2.4</Version>
       <OSKFont>extras\AndikaAfr-R.ttf</OSKFont>
       <DisplayFont>extras\AndikaAfr-R.ttf</DisplayFont>
       <Languages>
+        <Language ID="en">English</Language>
+        <Language ID="fr">French</Language>
         <Language ID="pt-PT">Portuguese (Portugal)</Language>
         <Language ID="pt-BR">Portuguese (Brazil)</Language>
         <Language ID="pbp-Latn">Badyara (Latin)</Language>
@@ -200,8 +202,6 @@
         <Language ID="nb">Norwegian Bokmål</Language>
         <Language ID="en-US">English (United States)</Language>
         <Language ID="en-UK">English (UK)</Language>
-        <Language ID="en">English</Language>
-        <Language ID="fr">French</Language>
       </Languages>
     </Keyboard>
   </Keyboards>

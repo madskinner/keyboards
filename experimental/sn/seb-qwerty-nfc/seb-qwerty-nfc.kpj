@@ -26,7 +26,7 @@
       <ID>id_0d4807e91436e7507d5f2509f2abd8c3</ID>
       <Filename>seb-qwerty-nfc.kmn</Filename>
       <Filepath>source\seb-qwerty-nfc.kmn</Filepath>
-      <FileVersion>0.2.3</FileVersion>
+      <FileVersion>0.2.4</FileVersion>
       <FileType>.kmn</FileType>
       <Details>
         <Name>seb-qwerty-nfc</Name>
@@ -38,12 +38,12 @@
       <ID>id_33d39654414e3d37c26d48f5d7664b54</ID>
       <Filename>seb-qwerty-nfc.kps</Filename>
       <Filepath>seb-qwerty-nfc.kps</Filepath>
-      <FileVersion>0.2.3</FileVersion>
+      <FileVersion>0.2.4</FileVersion>
       <FileType>.kps</FileType>
       <Details>
         <Name>seb-qwerty-nfc</Name>
         <Copyright>©2018 SIL International</Copyright>
-        <Version>0.2.3</Version>
+        <Version>0.2.4</Version>
       </Details>
     </File>
     <File>

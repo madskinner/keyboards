@@ -1,15 +1,12 @@
 ﻿store(&TARGETS) 'any'
 store(&COPYRIGHT) '©2019 SIL International'
-store(&KEYBOARDVERSION) '0.2.3'
+store(&KEYBOARDVERSION) '0.2.4'
 store(&VISUALKEYBOARD) 'seb-qwerty-nfc.kvks'
 store(&LAYOUTFILE) 'seb-qwerty-nfc.keyman-touch-layout'
 store(&KMW_HELPFILE) 'seb-qwerty-nfc-help.htm'
 store(&NAME) 'seb-qwerty-nfc'
 store(&MESSAGE) 'A qwerty keyboard for senegalese languages'
 store(&BITMAP) 'seb-qwerty-nfc.ico'
-store(&KMW_EMBEDJS) 'seb-qwerty-nfc-code.js'
-store(&KMW_EMBEDCSS) 'seb-qwerty-nfc.css'
-store(&INCLUDECODES) 'seb-qwerty-nfc-codes.txt'
 begin Unicode > use(touch)
 
 group(main)
@@ -87,6 +84,10 @@ c for layer shift
 	+ [SHIFT K_B] > U+0042
 	+ [SHIFT K_N] > U+004e
 	+ [SHIFT K_M] > U+004d
+	+ [SHIFT T_nbsp] > U+00a0
+	+ [SHIFT T_nnbsp] > U+202f
+	+ [SHIFT T_zwj] > U+200d
+	+ [SHIFT T_zwnj] > U+200c
 
 c for layer numeric
 	+ [K_1] > U+0031
@@ -100,7 +101,7 @@ c for layer numeric
 	+ [K_9] > U+0039
 	+ [K_0] > U+0030
 	+ [SHIFT K_4] > U+0024
-	+ [SHIFT T_cent] > U+00a2
+	+ [T_cent] > U+00a2
 	+ [SHIFT K_2] > U+0040
 	+ [SHIFT K_3] > U+0023
 	+ [SHIFT K_5] > U+0025
@@ -111,25 +112,13 @@ c for layer numeric
 	+ [SHIFT K_BKSLASH] > U+007c
 	+ [K_BKSLASH] > U+005c
 	+ [K_LBRKT] > U+005b
-	+ [K_COMMA] > U+003c
-	+ [K_LBRKT] > U+007b
-	+ [T_2039] > U+2039
-	+ [T_2039_a0] > U+2039 U+00a0
+	+ [SHIFT K_COMMA] > U+003c
+	+ [SHIFT K_LBRKT] > U+007b
 	+ [SHIFT K_9] > U+0028
-	+ [SHIFT T_snglquote_left] > U+2018
-	+ [SHIFT T_dblquote_left] > U+201c
-	+ [SHIFT T_snglquote_left_a0] > U+2018 U+00a0
-	+ [SHIFT T_dblquote_left_a0] > U+201c U+00a0
 	+ [SHIFT K_0] > U+0029
-	+ [SHIFT T_snglquote_right] > U+2019
-	+ [SHIFT T_dblquote_right] > U+201d
-	+ [SHIFT T_a0_snglquote_right] > U+00a0 U+2019
-	+ [SHIFT T_a0_dblquote_right] > U+00a0 U+201d
 	+ [K_RBRKT] > U+005d
-	+ [K_PERIOD] > U+003e
-	+ [K_R] > U+007d
-	+ [T_203A] > U+203a
-	+ [T_a0_203A] > U+00a0 U+203a
+	+ [SHIFT K_PERIOD] > U+003e
+	+ [SHIFT K_R] > U+007d
 	+ [SHIFT K_EQUAL] > U+002b
 	+ [K_HYPHEN] > U+002d
 	+ [T_en_dash] > U+2013
@@ -210,7 +199,7 @@ c for layer v1
 c for layer v1s
 	+ [SHIFT T_a_acute] > U+00c1
 	+ [SHIFT T_a_circumflex] > U+00c2
-	+ [SHIFT T_e_ grave] > U+00c8
+	+ [SHIFT T_e_grave] > U+00c8
 	+ [SHIFT T_e_acute] > U+00c9
 	+ [SHIFT T_u_grave] > U+00d9
 	+ [SHIFT T_u_acute] > U+00da
@@ -237,7 +226,7 @@ c for layer v1s
 	+ [SHIFT T_o_tilde] > U+00d5
 
 c for layer v2
-	+ [T_a_ring_asbove] > U+00e5
+	+ [T_a_ring_above] > U+00e5
 	+ [T_a_macron_below] > U+0061 U+0331
 	+ [T_e_macron_below] > U+0065 U+0331
 	+ [T_e_acute] > U+025b
@@ -258,8 +247,8 @@ c for layer v2
 	+ [T_snglquote_right] > U+2019
 	+ [T_dblquote_right] > U+201d
 	+ [SHIFT K_1] > U+0021
-	+ [K_COMMA] > U+002c
-	+ [SHIFT K_PERIOD] > U+003f
+	+ [T_comma] > U+002c
+	+ [SHIFT K_SLASH] > U+003f
 
 c for layer v2s
 	+ [SHIFT T_a_ring_above] > U+00c5
@@ -338,7 +327,7 @@ c for layer c1s
 c for layer c2
 	+ [T_y_grave] > U+1ef3
 	+ [T_y_acute] > U+00fd
-	+ [T_y_acute] > U+0177
+	+ [T_y_circumflex] > U+0177
 	+ [T_s_sharp] > U+00df
 	+ [T_eth] > U+00f0
 	+ [SHIFT K_5] > U+00a0 U+0025
@@ -355,9 +344,10 @@ c for layer c2
 c for layer c2s
 	+ [SHIFT T_y_grave] > U+1ef2
 	+ [SHIFT T_y_acute] > U+00dd
-	+ [SHIFT T_y_acute] > U+0176
+	+ [SHIFT T_y_circumflex] > U+0176
 	+ [SHIFT T_eth] > U+00d0
 	+ [T_guillemet_left_ao] > U+00ab U+00a0
+	+ [T_2039_a0] > U+2039 U+00a0
 	+ [T_a0_203a] > U+00a0 U+203a
 	+ [T_a0_guillemet_right] > U+00a0 U+00bb
 	+ [SHIFT T_enya] > U+019d
