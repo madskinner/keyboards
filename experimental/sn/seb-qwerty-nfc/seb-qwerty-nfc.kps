@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Package>
   <System>
-    <KeymanDeveloperVersion>12.0.61.0</KeymanDeveloperVersion>
+    <KeymanDeveloperVersion>12.0.64.0</KeymanDeveloperVersion>
     <FileVersion>7.0</FileVersion>
   </System>
   <Options>
     <ExecuteProgram></ExecuteProgram>
-    <GraphicFile>source\splash.png</GraphicFile>
     <MSIFileName></MSIFileName>
     <MSIOptions></MSIOptions>
   </Options>
@@ -15,7 +14,7 @@
     <Items/>
   </StartMenu>
   <Info>
-    <Version URL="">0.2.4</Version>
+    <Version URL="">0.2.5</Version>
     <Name URL="">seb-qwerty-nfc</Name>
     <Copyright URL="">©2018 SIL International</Copyright>
     <Author URL="mailto:mark_skinner@sil.org">Mark Skinner</Author>
@@ -27,18 +26,6 @@
       <Description>File seb-qwerty-nfc.kvk</Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.kvk</FileType>
-    </File>
-    <File>
-      <Name>source\seb-qwerty-nfc.kmx</Name>
-      <Description>Keyboard seb-qwerty-nfc</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.kmx</FileType>
-    </File>
-    <File>
-      <Name>source\seb_qwerty_nfc.js</Name>
-      <Description>File seb_qwerty_nfc.js</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.js</FileType>
     </File>
     <File>
       <Name>extras\AndikaAfr-R.ttf</Name>
@@ -95,12 +82,6 @@
       <FileType>.htm</FileType>
     </File>
     <File>
-      <Name>source\splash.png</Name>
-      <Description>File splash.png</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.png</FileType>
-    </File>
-    <File>
       <Name>source\readme.htm</Name>
       <Description>File readme.htm</Description>
       <CopyLocation>0</CopyLocation>
@@ -130,12 +111,30 @@
       <CopyLocation>0</CopyLocation>
       <FileType>.ico</FileType>
     </File>
+    <File>
+      <Name>source\seb_qwerty_nfc.js</Name>
+      <Description>File seb_qwerty_nfc.js</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.js</FileType>
+    </File>
+    <File>
+      <Name>source\seb-qwerty-nfc.kmx</Name>
+      <Description>Keyboard seb-qwerty-nfc</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kmx</FileType>
+    </File>
+    <File>
+      <Name>source\welcome\splash.png</Name>
+      <Description>File splash.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
+    </File>
   </Files>
   <Keyboards>
     <Keyboard>
       <Name>seb-qwerty-nfc</Name>
       <ID>seb_qwerty_nfc</ID>
-      <Version>0.2.4</Version>
+      <Version>0.2.5</Version>
       <OSKFont>extras\AndikaAfr-R.ttf</OSKFont>
       <DisplayFont>extras\AndikaAfr-R.ttf</DisplayFont>
       <Languages>
@@ -186,10 +185,10 @@
         <Language ID="bif-Latn">Biafada (Latin)</Language>
         <Language ID="bjg-Latn">Bidyogo (Latin)</Language>
         <Language ID="jad-Latn">Jahanka (Latin)</Language>
-        <Language ID="ccj">Kasanga</Language>
         <Language ID="msw-Latn">Mansoanka (Latin)</Language>
         <Language ID="naj-Latn">Nalu (Latin)</Language>
         <Language ID="pbo-Latn">Papel (Latin)</Language>
+        <Language ID="ccj-Latn">Kasanga (Latin)</Language>
         <Language ID="sv">Swedish</Language>
         <Language ID="no">Norwegian</Language>
         <Language ID="nl">Dutch</Language>

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package>
+  <System>
+    <KeymanDeveloperVersion>12.0.64.0</KeymanDeveloperVersion>
+    <FileVersion>7.0</FileVersion>
+  </System>
+  <Options>
+    <ExecuteProgram></ExecuteProgram>
+    <ReadMeFile>source\seb-ajami-qwerty-help.htm</ReadMeFile>
+    <GraphicFile>source\seb-ajami-qwerty.ico</GraphicFile>
+    <MSIFileName></MSIFileName>
+    <MSIOptions></MSIOptions>
+    <FollowKeyboardVersion/>
+  </Options>
+  <StartMenu>
+    <Folder></Folder>
+    <Items/>
+  </StartMenu>
+  <Info>
+    <Name URL="">seb-ajami-qwerty</Name>
+    <Version URL="">0.2.6</Version>
+    <Copyright URL="">©2019 SIL International</Copyright>
+    <Author URL="mailto:mark_skinner@sil.org">Mark Skinner</Author>
+  </Info>
+  <Files>
+    <File>
+      <Name>source\seb_ajami_qwerty.js</Name>
+      <Description>File seb_ajami_qwerty.js</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.js</FileType>
+    </File>
+    <File>
+      <Name>source\seb-ajami-qwerty.css</Name>
+      <Description>File seb-ajami-qwerty.css</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.css</FileType>
+    </File>
+    <File>
+      <Name>source\seb-ajami-qwerty.ico</Name>
+      <Description>File seb-ajami-qwerty.ico</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.ico</FileType>
+    </File>
+    <File>
+      <Name>source\seb-ajami-qwerty.kvk</Name>
+      <Description>File seb-ajami-qwerty.kvk</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kvk</FileType>
+    </File>
+    <File>
+      <Name>source\seb-ajami-qwerty.kmx</Name>
+      <Description>Keyboard seb-ajami-qwerty</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kmx</FileType>
+    </File>
+    <File>
+      <Name>source\seb-ajami-qwerty-help.htm</Name>
+      <Description>File seb-ajami-qwerty-help.htm</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.htm</FileType>
+    </File>
+    <File>
+      <Name>source\welcome\123.png</Name>
+      <Description>File 123.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
+    </File>
+    <File>
+      <Name>source\welcome\abc.png</Name>
+      <Description>File abc.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
+    </File>
+    <File>
+      <Name>source\welcome\ajami.css</Name>
+      <Description>File ajami.css</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.css</FileType>
+    </File>
+    <File>
+      <Name>source\welcome\backspace.png</Name>
+      <Description>File backspace.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
+    </File>
+    <File>
+      <Name>source\welcome\bar.png</Name>
+      <Description>File bar.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
+    </File>
+    <File>
+      <Name>source\welcome\blue_shift.png</Name>
+      <Description>File blue_shift.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
+    </File>
+    <File>
+      <Name>source\welcome\enter.png</Name>
+      <Description>File enter.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
+    </File>
+    <File>
+      <Name>source\welcome\globe.png</Name>
+      <Description>File globe.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
+    </File>
+    <File>
+      <Name>source\welcome\icon.png</Name>
+      <Description>File icon.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
+    </File>
+    <File>
+      <Name>source\welcome\kb.css</Name>
+      <Description>File kb.css</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.css</FileType>
+    </File>
+    <File>
+      <Name>source\welcome\latin.css</Name>
+      <Description>File latin.css</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.css</FileType>
+    </File>
+    <File>
+      <Name>source\welcome\license.txt</Name>
+      <Description>File license.txt</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.txt</FileType>
+    </File>
+    <File>
+      <Name>source\welcome\shift.png</Name>
+      <Description>File shift.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
+    </File>
+    <File>
+      <Name>source\welcome\splash.png</Name>
+      <Description>File splash.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
+    </File>
+    <File>
+      <Name>source\welcome\symbol123.png</Name>
+      <Description>File symbol123.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
+    </File>
+    <File>
+      <Name>source\welcome\welcome.htm</Name>
+      <Description>File welcome.htm</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.htm</FileType>
+    </File>
+    <File>
+      <Name>extras\Harmattan-Regular.ttf</Name>
+      <Description>Font Harmattan</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.ttf</FileType>
+    </File>
+    <File>
+      <Name>extras\Scheherazade-Regular.ttf</Name>
+      <Description>Font Scheherazade</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.ttf</FileType>
+    </File>
+  </Files>
+  <Keyboards>
+    <Keyboard>
+      <Name>seb-ajami-qwerty</Name>
+      <ID>seb_ajami_qwerty</ID>
+      <Version>0.2.6</Version>
+      <RTL>True</RTL>
+      <OSKFont>extras\Harmattan-Regular.ttf</OSKFont>
+      <DisplayFont>extras\Harmattan-Regular.ttf</DisplayFont>
+      <Languages>
+        <Language ID="pbp-Arab">Badyara (Ajami)</Language>
+        <Language ID="bcz-Arab">Bainouk-Gunyaamolo (Ajami)</Language>
+        <Language ID="bcb-Arab">Bainouk-Samik (Ajami)</Language>
+        <Language ID="bjt-Arab">Balanta-Ganja (Ajami)</Language>
+        <Language ID="bqj-Arab">Bandial (Ajami)</Language>
+        <Language ID="bda-Arab">Bayot (Ajami)</Language>
+        <Language ID="pov-Arab">Upper Guinea Crioulo (Ajami)</Language>
+        <Language ID="eja-Arab">Ejamat (Ajami)</Language>
+        <Language ID="fuc-Arab">Pulaar (Ajami)</Language>
+        <Language ID="fuf-Arab">Pular (Ajami)</Language>
+        <Language ID="gsl-Arab">Gusilay (Ajami)</Language>
+        <Language ID="mey-Arab">Hassaniyya (Ajami)</Language>
+        <Language ID="yal-Arab">Yalunka (Ajami)</Language>
+        <Language ID="dyo-Arab">Jola-Fonyi (Ajami)</Language>
+        <Language ID="csk-Arab">Jola-Kasa (Ajami)</Language>
+        <Language ID="krx-Arab">Karon (Ajami)</Language>
+        <Language ID="hhr-Arab">Kerak (Ajami)</Language>
+        <Language ID="kcj-Arab">Kobiana (Ajami)</Language>
+        <Language ID="cwt-Arab">Kuwaataay (Ajami)</Language>
+        <Language ID="cae-Arab">Lehar (Ajami)</Language>
+        <Language ID="mnk-Arab">Mandinka (Ajami)</Language>
+        <Language ID="mfv-Arab">Mandjak (Ajami)</Language>
+        <Language ID="mlq-Arab">Western Maninkakan (Ajami)</Language>
+        <Language ID="knf-Arab">Mankanya (Ajami)</Language>
+        <Language ID="tnr-Arab">Ménik (Ajami)</Language>
+        <Language ID="mlo-Arab">Mlomp (Ajami)</Language>
+        <Language ID="ndv-Arab">Ndut (Ajami)</Language>
+        <Language ID="nqo-Arab">N'Ko (Ajami)</Language>
+        <Language ID="snf-Arab">Noon (Ajami)</Language>
+        <Language ID="bsc-Arab">Oniyan (Ajami)</Language>
+        <Language ID="fap-Arab">Palor (Ajami)</Language>
+        <Language ID="sav-Arab">Saafi-Saafi (Ajami)</Language>
+        <Language ID="srr-Arab">Serer (Ajami)</Language>
+        <Language ID="snk-Arab">Soninke (Ajami)</Language>
+        <Language ID="cou-Arab">Wamey (Ajami)</Language>
+        <Language ID="wo-Arab">Wolof (Ajami)</Language>
+        <Language ID="kao-Arab">Xaasongaxango (Ajami)</Language>
+        <Language ID="wof-Arab">Gambian Wolof (Ajami)</Language>
+        <Language ID="bab-Arab">Bainouk-Gunyuño (Ajami)</Language>
+        <Language ID="ble-Arab">Balanta-Kentohe (Ajami)</Language>
+        <Language ID="bif-Arab">Biafada (Ajami)</Language>
+        <Language ID="bjq-Arab">Southern Betsimisaraka Malagasy (Ajami)</Language>
+        <Language ID="jad-Arab">Jahanka (Ajami)</Language>
+        <Language ID="msw-Arab">Mansoanka (Ajami)</Language>
+        <Language ID="naj-Arab">Nalu (Ajami)</Language>
+        <Language ID="pbo-Arab">Papel (Ajami)</Language>
+        <Language ID="ccj-Arab">Kasanga (Ajami)</Language>
+      </Languages>
+    </Keyboard>
+  </Keyboards>
+  <Strings/>
+</Package>

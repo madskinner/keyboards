@@ -9,42 +9,35 @@
   </Options>
   <Files>
     <File>
-      <ID>id_65f558cb8a6f20b0dadafa7296aab2b1</ID>
-      <Filename>onesize.kmx</Filename>
-      <Filepath>..\..\..\..\..\Documents\__SPKL 7.3\msklcsource\onesize.kmx</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.kmx</FileType>
-    </File>
-    <File>
-      <ID>id_1b96f7f8f087688224708c61bd70d011</ID>
-      <Filename>on.ico</Filename>
-      <Filepath>source\on.ico</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.ico</FileType>
-    </File>
-    <File>
       <ID>id_0d4807e91436e7507d5f2509f2abd8c3</ID>
       <Filename>seb-qwerty-nfc.kmn</Filename>
       <Filepath>source\seb-qwerty-nfc.kmn</Filepath>
-      <FileVersion>0.2.4</FileVersion>
+      <FileVersion>0.2.6</FileVersion>
       <FileType>.kmn</FileType>
       <Details>
         <Name>seb-qwerty-nfc</Name>
         <Copyright>©2019 SIL International</Copyright>
-        <Message>A qwerty keyboard for senegalese languages</Message>
+        <Message>Un clavier qwerty pour les langues sénégalaises.</Message>
       </Details>
     </File>
     <File>
       <ID>id_33d39654414e3d37c26d48f5d7664b54</ID>
       <Filename>seb-qwerty-nfc.kps</Filename>
       <Filepath>seb-qwerty-nfc.kps</Filepath>
-      <FileVersion>0.2.4</FileVersion>
+      <FileVersion>0.2.5</FileVersion>
       <FileType>.kps</FileType>
       <Details>
         <Name>seb-qwerty-nfc</Name>
         <Copyright>©2018 SIL International</Copyright>
-        <Version>0.2.4</Version>
+        <Version>0.2.5</Version>
       </Details>
+    </File>
+    <File>
+      <ID>id_895145114f18e5446c8949ab7d8db633</ID>
+      <Filename>seb-qwerty-nfc.kmp</Filename>
+      <Filepath>seb-qwerty-nfc.kmp</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.kmp</FileType>
     </File>
     <File>
       <ID>id_21230882283e4c313bbd3a396440cbec</ID>
@@ -60,22 +53,6 @@
       <Filepath>source\seb-qwerty-nfc.kvk</Filepath>
       <FileVersion></FileVersion>
       <FileType>.kvk</FileType>
-      <ParentFileID>id_33d39654414e3d37c26d48f5d7664b54</ParentFileID>
-    </File>
-    <File>
-      <ID>id_0a3554760a1dfd26ef326489992ac8e5</ID>
-      <Filename>seb-qwerty-nfc.kmx</Filename>
-      <Filepath>source\seb-qwerty-nfc.kmx</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.kmx</FileType>
-      <ParentFileID>id_33d39654414e3d37c26d48f5d7664b54</ParentFileID>
-    </File>
-    <File>
-      <ID>id_8bdcd9e0b70d212915c59305520e06ea</ID>
-      <Filename>seb_qwerty_nfc.js</Filename>
-      <Filepath>source\seb_qwerty_nfc.js</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.js</FileType>
       <ParentFileID>id_33d39654414e3d37c26d48f5d7664b54</ParentFileID>
     </File>
     <File>
@@ -151,14 +128,6 @@
       <ParentFileID>id_33d39654414e3d37c26d48f5d7664b54</ParentFileID>
     </File>
     <File>
-      <ID>id_f6e7ba45d40eed14a854fd7b967cb1e2</ID>
-      <Filename>splash.png</Filename>
-      <Filepath>source\splash.png</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.png</FileType>
-      <ParentFileID>id_33d39654414e3d37c26d48f5d7664b54</ParentFileID>
-    </File>
-    <File>
       <ID>id_8da344c4cea6f467013357fe099006f5</ID>
       <Filename>readme.htm</Filename>
       <Filepath>source\readme.htm</Filepath>
@@ -196,6 +165,30 @@
       <Filepath>source\welcome\seb-qwerty-nfc.ico</Filepath>
       <FileVersion></FileVersion>
       <FileType>.ico</FileType>
+      <ParentFileID>id_33d39654414e3d37c26d48f5d7664b54</ParentFileID>
+    </File>
+    <File>
+      <ID>id_8bdcd9e0b70d212915c59305520e06ea</ID>
+      <Filename>seb_qwerty_nfc.js</Filename>
+      <Filepath>source\seb_qwerty_nfc.js</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.js</FileType>
+      <ParentFileID>id_33d39654414e3d37c26d48f5d7664b54</ParentFileID>
+    </File>
+    <File>
+      <ID>id_0a3554760a1dfd26ef326489992ac8e5</ID>
+      <Filename>seb-qwerty-nfc.kmx</Filename>
+      <Filepath>source\seb-qwerty-nfc.kmx</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.kmx</FileType>
+      <ParentFileID>id_33d39654414e3d37c26d48f5d7664b54</ParentFileID>
+    </File>
+    <File>
+      <ID>id_b8478f6acbf1831f402fde42729ecf32</ID>
+      <Filename>splash.png</Filename>
+      <Filepath>source\welcome\splash.png</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.png</FileType>
       <ParentFileID>id_33d39654414e3d37c26d48f5d7664b54</ParentFileID>
     </File>
   </Files>

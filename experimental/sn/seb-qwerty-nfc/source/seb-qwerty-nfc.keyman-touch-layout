@@ -89,7 +89,14 @@
               {
                 "id": "K_L",
                 "text": "l",
-                "width": "100"
+                "width": ""
+              },
+              {
+                "id": "T_null",
+                "text": "",
+                "width": "10",
+                "sp": "10",
+                "layer": "default"
               }
             ]
           },
@@ -319,8 +326,15 @@
               {
                 "id": "K_L",
                 "text": "L",
-                "width": "100",
+                "width": "",
                 "layer": "shift"
+              },
+              {
+                "id": "T_null",
+                "text": "",
+                "width": "10",
+                "sp": "10",
+                "layer": "default"
               }
             ]
           },
@@ -331,8 +345,7 @@
                 "id": "K_SHIFT",
                 "text": "*Shift*",
                 "width": "110",
-                "sp": "2",
-                "nextlayer": "default"
+                "sp": "2"
               },
               {
                 "id": "K_Z",
@@ -572,7 +585,14 @@
               {
                 "id": "K_BKSLASH",
                 "text": "\\",
-                "width": "100",
+                "width": "",
+                "layer": "default"
+              },
+              {
+                "id": "T_null",
+                "text": "",
+                "width": "10",
+                "sp": "10",
                 "layer": "default"
               }
             ]
@@ -898,7 +918,7 @@
               {
                 "id": "T_degree",
                 "text": "°",
-                "width": "100",
+                "width": "",
                 "layer": "default",
                 "sk": [
                   {
@@ -911,6 +931,13 @@
                     "id": "T_combining_ring_above"
                   }
                 ]
+              },
+              {
+                "id": "T_null",
+                "text": "",
+                "width": "10",
+                "sp": "10",
+                "layer": "default"
               }
             ]
           },
@@ -1062,51 +1089,61 @@
               {
                 "id": "T_a_acute",
                 "text": "á",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_a_circumflex",
                 "text": "â",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_e_grave",
                 "text": "è",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_e_acute",
                 "text": "é",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_u_grave",
                 "text": "ù",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_u_acute",
                 "text": "ú",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_i_grave",
                 "text": "ì",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_i_acute",
                 "text": "í",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_o_grave",
                 "text": "ò",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_o_acute",
                 "text": "ó",
+                "nextlayer": "default",
                 "layer": "default"
               }
             ]
@@ -1118,47 +1155,63 @@
                 "id": "T_a_grave",
                 "text": "à",
                 "pad": "70",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_a_diaeresis",
                 "text": "ä",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_e_circumflex",
                 "text": "ê",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_e_diaeresis",
                 "text": "ë",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_u_circumflex",
                 "text": "û",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_i_circumflex",
                 "text": "î",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_i_diaeresis",
                 "text": "ï",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_o_circumflex",
                 "text": "ô",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_o_diaeresis",
                 "text": "ö",
-                "width": "100",
+                "width": "",
+                "nextlayer": "default",
+                "layer": "default"
+              },
+              {
+                "id": "T_null",
+                "text": "",
+                "width": "10",
+                "sp": "10",
                 "layer": "default"
               }
             ]
@@ -1176,41 +1229,49 @@
               {
                 "id": "T_a_tilde",
                 "text": "ã",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_ae_ligature",
                 "text": "æ",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_e_tilde",
                 "text": "ẽ",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_u_diaeresis",
                 "text": "ü",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_u_tilde",
                 "text": "ũ",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_i_tilde",
                 "text": "ĩ",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_oe_ligature",
                 "text": "œ",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_o_tilde",
                 "text": "õ",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
@@ -1297,51 +1358,61 @@
               {
                 "id": "T_a_acute",
                 "text": "Á",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "T_a_circumflex",
                 "text": "Â",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "T_e_grave",
                 "text": "È",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "T_e_acute",
                 "text": "É",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "T_u_grave",
                 "text": "Ù",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "T_u_acute",
                 "text": "Ú",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "T_i_grave",
                 "text": "Ì",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "T_i_acute",
                 "text": "Í",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "T_o_grave",
                 "text": "Ò",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "T_o_acute",
                 "text": "Ó",
+                "nextlayer": "default",
                 "layer": "shift"
               }
             ]
@@ -1353,48 +1424,64 @@
                 "id": "T_a_grave",
                 "text": "À",
                 "pad": "70",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "T_a_diaeresis",
                 "text": "Ä",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "T_e_circumflex",
                 "text": "Ê",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "T_e_diaeresis",
                 "text": "Ë",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "T_u_circumflex",
                 "text": "Û",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "T_i_circumflex",
                 "text": "Î",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "T_i_diaeresis",
                 "text": "Ï",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "T_o_circumflex",
                 "text": "Ô",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "T_o_diaeresis",
                 "text": "Ö",
-                "width": "100",
+                "width": "",
+                "nextlayer": "default",
                 "layer": "shift"
+              },
+              {
+                "id": "T_null",
+                "text": "",
+                "width": "10",
+                "sp": "10",
+                "layer": "default"
               }
             ]
           },
@@ -1406,46 +1493,54 @@
                 "text": "*Shift*",
                 "width": "110",
                 "sp": "2",
-                "nextlayer": "shift"
+                "nextlayer": "v1"
               },
               {
                 "id": "T_a_tilde",
                 "text": "Ã",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "T_ae_ligature",
                 "text": "Æ",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "T_e_tilde",
                 "text": "Ẽ",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "T_u_diaeresis",
                 "text": "Ü",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "T_u_tilde",
                 "text": "Ũ",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "T_i_tilde",
                 "text": "Ĩ",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "T_oe_ligature",
                 "text": "Œ",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "T_o_tilde",
                 "text": "Õ",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
@@ -1532,51 +1627,61 @@
               {
                 "id": "T_a_ring_above",
                 "text": "å",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_a_macron_below",
                 "text": "a̱",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_e_macron_below",
                 "text": "e̱",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
-                "id": "T_e_acute",
+                "id": "T_e_open",
                 "text": "ɛ",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "K_QUOTE",
                 "text": "'",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "K_QUOTE",
                 "text": "\"",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "T_u_macron_below",
                 "text": "u̱",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_i_macron_below",
                 "text": "i̱",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_o_stroke",
                 "text": "ø",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_o_macron_below",
                 "text": "o̱",
+                "nextlayer": "default",
                 "layer": "default"
               }
             ]
@@ -1588,26 +1693,31 @@
                 "id": "T_schwa",
                 "text": "ə",
                 "pad": "70",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_turned_v",
                 "text": "ʌ",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_turned_e",
                 "text": "ǝ",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "K_5",
                 "text": "%",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "T_null",
                 "text": "",
+                "sp": "10",
                 "layer": "default"
               },
               {
@@ -1618,17 +1728,26 @@
               {
                 "id": "K_COLON",
                 "text": ":",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "K_COLON",
                 "text": ";",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_o_open",
                 "text": "ɔ",
-                "width": "100",
+                "width": "",
+                "nextlayer": "default",
+                "layer": "default"
+              },
+              {
+                "id": "T_null",
+                "text": "",
+                "width": "10",
                 "layer": "default"
               }
             ]
@@ -1641,26 +1760,30 @@
                 "text": "*Shift*",
                 "width": "110",
                 "sp": "1",
-                "nextlayer": "shift"
+                "nextlayer": "v2s"
               },
               {
                 "id": "T_dblquote_left",
                 "text": "“",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_snglquote_left",
                 "text": "‘",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_snglquote_right",
                 "text": "’",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_dblquote_right",
                 "text": "”",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
@@ -1671,16 +1794,19 @@
               {
                 "id": "K_1",
                 "text": "!",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "T_comma",
                 "text": ",",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "K_SLASH",
                 "text": "?",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
@@ -1767,26 +1893,31 @@
               {
                 "id": "T_a_ring_above",
                 "text": "Å",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "T_a_macron_below",
                 "text": "A̱",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "T_e_macron_below",
                 "text": "E̱",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "T_e_open",
                 "text": "Ɛ",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "T_null",
                 "text": "",
+                "sp": "10",
                 "layer": "default"
               },
               {
@@ -1797,21 +1928,25 @@
               {
                 "id": "T_u_macron_below",
                 "text": "U̱",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "T_i_macron_below",
                 "text": "I̱",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "T_o_stroke",
                 "text": "Ø",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "T_o_macron_below",
                 "text": "O̱",
+                "nextlayer": "default",
                 "layer": "shift"
               }
             ]
@@ -1823,16 +1958,19 @@
                 "id": "T_schwa",
                 "text": "Ə",
                 "pad": "70",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "T_turned_v",
                 "text": "Ʌ",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "T_turned_e",
                 "text": "Ǝ",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
@@ -1853,18 +1991,27 @@
               {
                 "id": "K_COLON",
                 "text": ":",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "K_COLON",
                 "text": ";",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_o_open",
                 "text": "Ɔ",
-                "width": "100",
+                "width": "",
+                "nextlayer": "default",
                 "layer": "shift"
+              },
+              {
+                "id": "T_null",
+                "text": "",
+                "width": "10",
+                "layer": "default"
               }
             ]
           },
@@ -1881,21 +2028,25 @@
               {
                 "id": "T_guillemet_left",
                 "text": "«",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_2039",
                 "text": " ‹",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_203a",
                 "text": "›",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_guillemet_right",
                 "text": "»",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
@@ -1906,16 +2057,19 @@
               {
                 "id": "K_1",
                 "text": "!",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "T_comma",
                 "text": ",",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "K_SLASH",
                 "text": "?",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
@@ -2002,51 +2156,61 @@
               {
                 "id": "T_z_caron",
                 "text": "ž",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_w_tilde",
                 "text": "w̃",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_t_cedilla",
                 "text": "ţ",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_t_hook",
                 "text": "ƭ",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_t_stroke",
                 "text": "ŧ",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_y_hook",
                 "text": "ƴ",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_y_tilde",
                 "text": "ỹ",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_null",
                 "text": "",
+                "sp": "10",
                 "layer": "default"
               },
               {
                 "id": "T_p_stroke",
                 "text": "ᵽ",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_p_hook",
                 "text": "ƥ",
+                "nextlayer": "default",
                 "layer": "default"
               }
             ]
@@ -2058,47 +2222,62 @@
                 "id": "T_s_circumflex",
                 "text": "ŝ",
                 "pad": "70",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_s_cedilla",
                 "text": "ş",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_d_hook",
                 "text": "ɗ",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_c_circumflex",
                 "text": "ĉ",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_g_hook",
                 "text": "ɠ",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_lowercase_saltillo",
                 "text": "ꞌ",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_j_caron",
                 "text": "ǰ",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_k_hook",
                 "text": "ƙ",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_l_ring_below",
                 "text": "l̥",
-                "width": "100",
+                "width": "",
+                "nextlayer": "default",
+                "layer": "default"
+              },
+              {
+                "id": "T_null",
+                "text": "",
+                "width": "10",
                 "layer": "default"
               }
             ]
@@ -2116,41 +2295,49 @@
               {
                 "id": "T_z_circumflex",
                 "text": "ẑ",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_x_tilde",
                 "text": "x̃",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_c_cedilla",
                 "text": "ç",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_c_hook",
                 "text": "ƈ",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_b_hook",
                 "text": "ɓ",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_n_tilde",
                 "text": "ñ",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_eng",
                 "text": "ŋ",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_n_grave",
                 "text": "ǹ",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
@@ -2237,51 +2424,61 @@
               {
                 "id": "T_z_caron",
                 "text": "Ž",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "T_w_tilde",
                 "text": "W̃",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "T_t_cedilla",
                 "text": "Ţ",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "T_t_hook",
                 "text": "Ƭ",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "T_t_stroke",
                 "text": "Ŧ",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "T_y_hook",
                 "text": "Ƴ",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "T_y_tilde",
                 "text": "Ỹ",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "T_null",
                 "text": "",
+                "sp": "10",
                 "layer": "default"
               },
               {
                 "id": "T_p_stroke",
                 "text": "Ᵽ",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "T_p_hook",
                 "text": "Ƥ",
+                "nextlayer": "default",
                 "layer": "shift"
               }
             ]
@@ -2293,48 +2490,63 @@
                 "id": "T_s_circumflex",
                 "text": "Ŝ",
                 "pad": "70",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "T_s_cedilla",
                 "text": "Ş",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "T_d_hook",
                 "text": "Ɗ",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "T_c_circumflex",
                 "text": "Ĉ",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "T_g_hook",
                 "text": "Ɠ",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "T_lowercase_saltillo",
                 "text": "Ꞌ",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "T_j_caron",
                 "text": "J̌",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "T_k_hook",
                 "text": "Ƙ",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "T_l_ring_below",
                 "text": "L̥",
-                "width": "100",
+                "width": "",
+                "nextlayer": "default",
                 "layer": "shift"
+              },
+              {
+                "id": "T_null",
+                "text": "",
+                "width": "10",
+                "layer": "default"
               }
             ]
           },
@@ -2351,41 +2563,49 @@
               {
                 "id": "T_z_circumflex",
                 "text": "Ẑ",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "T_x_tilde",
                 "text": "X̃",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "T_c_cedilla",
                 "text": "Ç",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "T_c_hook",
                 "text": "Ƈ",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "T_b_hook",
                 "text": "Ɓ",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "T_n_tilde",
                 "text": "Ñ",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "T_eng",
                 "text": "Ŋ",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "T_n_grave",
                 "text": "Ǹ",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
@@ -2497,16 +2717,19 @@
               {
                 "id": "T_y_grave",
                 "text": "ỳ",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_y_acute",
                 "text": "ý",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_y_circumflex",
                 "text": "ŷ",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
@@ -2533,17 +2756,20 @@
               {
                 "id": "T_s_sharp",
                 "text": "ß",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_eth",
                 "text": "ð",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
-                "id": "K_5",
+                "id": "T_a0_percent",
                 "text": "≈%",
-                "layer": "shift"
+                "nextlayer": "default",
+                "layer": "default"
               },
               {
                 "id": "T_null",
@@ -2558,17 +2784,26 @@
               {
                 "id": "T_a0_colon",
                 "text": "≈:",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_a0_semicolon",
                 "text": "≈;",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_null",
                 "text": "",
-                "width": "100",
+                "width": "",
+                "layer": "default"
+              },
+              {
+                "id": "T_null",
+                "text": "",
+                "width": "10",
+                "sp": "10",
                 "layer": "default"
               }
             ]
@@ -2586,21 +2821,25 @@
               {
                 "id": "T_dblquote_left_a0",
                 "text": "“≈",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_snglquote_left_a0",
                 "text": "‘≈",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_a0_snglquote_right",
                 "text": "≈’",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_a0_dblquote_right",
                 "text": "≈”",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
@@ -2611,16 +2850,19 @@
               {
                 "id": "T_enya",
                 "text": "ɲ",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_a0_exclam",
                 "text": "≈!",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_a0_question",
                 "text": "≈?",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
@@ -2707,6 +2949,8 @@
               {
                 "id": "T_null",
                 "text": "",
+                "sp": "10",
+                "nextlayer": "c2",
                 "layer": "default"
               },
               {
@@ -2732,16 +2976,19 @@
               {
                 "id": "T_y_grave",
                 "text": "Ỳ",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "T_y_acute",
                 "text": "Ý",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
                 "id": "T_y_circumflex",
                 "text": "Ŷ",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
@@ -2773,6 +3020,7 @@
               {
                 "id": "T_eth",
                 "text": "Ð",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {
@@ -2803,7 +3051,13 @@
               {
                 "id": "T_null",
                 "text": "",
-                "width": "100",
+                "width": "",
+                "layer": "default"
+              },
+              {
+                "id": "T_null",
+                "text": "",
+                "width": "10",
                 "layer": "default"
               }
             ]
@@ -2821,21 +3075,25 @@
               {
                 "id": "T_guillemet_left_ao",
                 "text": "«≈",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_2039_a0",
                 "text": "‹≈",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_a0_203a",
                 "text": "≈›",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_a0_guillemet_right",
                 "text": "≈»",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
@@ -2846,6 +3104,7 @@
               {
                 "id": "T_enya",
                 "text": "Ɲ",
+                "nextlayer": "default",
                 "layer": "shift"
               },
               {

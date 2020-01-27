@@ -7,8 +7,7 @@ Version 0.1.3
 __DESCRIPTION__
 The keyboard is intended to meet the needs of all languages within the Senegal, 
 Gambia and Guinea-Bissau region For both Latin and Ajami scripts. On all platforms.
-It will default to a qwerty layout for all platforms except Windows, where will read 
-the baselayout and attempt to adapt accordingly.
+It will default to a qwerty(en-US) layout for all platforms
 All characters will be generated in NFC (Normalied Fully Composed) format.
 Links
 -----

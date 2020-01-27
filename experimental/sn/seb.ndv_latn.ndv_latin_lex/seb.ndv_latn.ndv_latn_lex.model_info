@@ -1,0 +1,7 @@
+{
+    "license": "mit",
+    "languages": [
+        "ndv-Latn"
+    ],
+	  "description": "ndv_latn_lex generated from frequecy count in Ndut New Testament."
+}
