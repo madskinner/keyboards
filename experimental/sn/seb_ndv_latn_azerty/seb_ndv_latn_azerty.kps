@@ -17,7 +17,7 @@
     <Items/>
   </StartMenu>
   <Info>
-    <Version URL="">0.3.0</Version>
+    <Version URL="">0.3.2</Version>
     <Name URL="">seb_ndv_latn_azerty</Name>
     <Copyright URL="">©2019 SIL International</Copyright>
     <Author URL="mailto:mark_skinner@sil.org">Mark Skinner</Author>
@@ -28,12 +28,6 @@
       <Description>File readme.htm</Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.htm</FileType>
-    </File>
-    <File>
-      <Name>source\seb_ndv_latn_azerty.css</Name>
-      <Description>File seb_ndv_latn_azerty.css</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.css</FileType>
     </File>
     <File>
       <Name>source\seb_ndv_latn_azerty.ico</Name>
@@ -160,7 +154,7 @@
     <Keyboard>
       <Name>seb_ndv_latn_azerty</Name>
       <ID>seb_ndv_latn_azerty</ID>
-      <Version>0.3.0</Version>
+      <Version>0.3.2</Version>
       <OSKFont>extras\AndikaAfr-R.ttf</OSKFont>
       <DisplayFont>extras\AndikaAfr-R.ttf</DisplayFont>
       <Languages>

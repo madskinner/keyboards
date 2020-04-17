@@ -16,20 +16,20 @@
       <FileType>.kmn</FileType>
       <Details>
         <Name>seb-ajami-azerty</Name>
-        <Copyright>©2019 SIL International</Copyright>
-        <Message>Un clavier azerty pour les langues sénégalaises qui utilize ajami.</Message>
+        <Copyright>Â©2019 SIL International</Copyright>
+        <Message>Un clavier azerty pour les langues sÃ©nÃ©galaises qui utilize ajami.</Message>
       </Details>
     </File>
     <File>
       <ID>id_e6a7abe068fc889ee71903370f416cb1</ID>
       <Filename>seb-ajami-azerty.kps</Filename>
       <Filepath>seb-ajami-azerty.kps</Filepath>
-      <FileVersion>0.2.6</FileVersion>
+      <FileVersion>0.2.7</FileVersion>
       <FileType>.kps</FileType>
       <Details>
         <Name>seb-ajami-azerty</Name>
         <Copyright>©2019 SIL International</Copyright>
-        <Version>0.2.6</Version>
+        <Version>0.2.7</Version>
       </Details>
     </File>
     <File>

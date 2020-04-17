@@ -1,4 +1,4 @@
-﻿store(&TARGETS) 'any'
+store(&TARGETS) 'any'
 store(&COPYRIGHT) '©2019 SIL International'
 store(&KEYBOARDVERSION) '0.2.6'
 store(&VISUALKEYBOARD) 'seb-qwerty-nfc.kvks'
@@ -329,7 +329,6 @@ c mistyped key
 	+ [T_z_circumflex] > U+1e91
 	+ [T_zwj] > U+200d
 	+ [T_zwnj] > U+200c
-
 group(hardware)
 	platform("windows") > use(SGGBUS74)
 	platform("linux")   > use(linux)

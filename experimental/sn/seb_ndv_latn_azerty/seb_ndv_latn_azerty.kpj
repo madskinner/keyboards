@@ -12,7 +12,7 @@
       <ID>id_92f0e203efca4c16a20aedbf93ee2b84</ID>
       <Filename>seb_ndv_latn_azerty.kmn</Filename>
       <Filepath>source\seb_ndv_latn_azerty.kmn</Filepath>
-      <FileVersion>0.3.0</FileVersion>
+      <FileVersion>0.3.3</FileVersion>
       <FileType>.kmn</FileType>
       <Details>
         <Name>seb_ndv_latn_azerty</Name>
@@ -24,12 +24,12 @@
       <ID>id_38dc9a12b32628eb0202b10e11b40b6f</ID>
       <Filename>seb_ndv_latn_azerty.kps</Filename>
       <Filepath>seb_ndv_latn_azerty.kps</Filepath>
-      <FileVersion>0.3.0</FileVersion>
+      <FileVersion>0.3.2</FileVersion>
       <FileType>.kps</FileType>
       <Details>
         <Name>seb_ndv_latn_azerty</Name>
         <Copyright>©2019 SIL International</Copyright>
-        <Version>0.3.0</Version>
+        <Version>0.3.2</Version>
       </Details>
     </File>
     <File>
@@ -46,14 +46,6 @@
       <Filepath>source\readme.htm</Filepath>
       <FileVersion></FileVersion>
       <FileType>.htm</FileType>
-      <ParentFileID>id_38dc9a12b32628eb0202b10e11b40b6f</ParentFileID>
-    </File>
-    <File>
-      <ID>id_6eba7360af2a662dc97aa1c870d7f186</ID>
-      <Filename>seb_ndv_latn_azerty.css</Filename>
-      <Filepath>source\seb_ndv_latn_azerty.css</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.css</FileType>
       <ParentFileID>id_38dc9a12b32628eb0202b10e11b40b6f</ParentFileID>
     </File>
     <File>

@@ -12,6 +12,7 @@
       <key vkey="K_4">&#x0027;</key>
       <key vkey="K_5">&#x0029;</key>
       <key vkey="K_6">&#x002d;</key>
+      <key vkey="K_7">&#x0627;</key>
       <key vkey="K_8">&#x0640;</key>
       <key vkey="K_HYPHEN">&#x0028;</key>
       <key vkey="K_EQUAL">&#x003d;</key>
@@ -37,7 +38,8 @@
       <key vkey="K_K">&#x06a9;</key>
       <key vkey="K_L">&#x0644;</key>
       <key vkey="K_COLON">&#x0645;</key>
-      <key vkey="K_BKQUOTE">&#x0621;</key>
+      <key vkey="K_QUOTE">&#x005c;</key>
+      <key vkey="K_BKQUOTE">&#x0674;</key>
       <key vkey="K_BKSLASH">&#x066d;</key>
       <key vkey="K_Z">&#x0648;</key>
       <key vkey="K_X">&#x062e;</key>
@@ -47,8 +49,8 @@
       <key vkey="K_N">&#x0646;</key>
       <key vkey="K_M">&#x060c;</key>
       <key vkey="K_COMMA">&#x061b;</key>
-      <key vkey="K_PERIOD">&#x003a;</key>
-      <key vkey="K_SLASH">&#x0021;</key>
+      <key vkey="K_PERIOD">&#x00a0;&#x003a;&#x200f;</key>
+      <key vkey="K_SLASH">&#x00a0;&#x0021;&#x200f;</key>
       <key vkey="K_SPACE">space</key>
       <key vkey="K_oE2">&#x003c;</key>
       <key vkey="K_NPDOT">&#x002e;</key>
@@ -76,7 +78,7 @@
       <key vkey="K_I">&#x0640;&#x08f6;</key>
       <key vkey="K_O">&#x0640;&#x0657;</key>
       <key vkey="K_P">&#x0755;</key>
-      <key vkey="K_LBRKT">&#x00ae;</key>
+      <key vkey="K_LBRKT">&#x0621;</key>
       <key vkey="K_RBRKT">&#x00a3;</key>
       <key vkey="K_A">&#x0640;&#x0652;</key>
       <key vkey="K_S">&#x0634;</key>
@@ -87,7 +89,7 @@
       <key vkey="K_J">&#x0686;</key>
       <key vkey="K_K">&#x0643;</key>
       <key vkey="K_L">&#x06b6;</key>
-      <key vkey="K_COLON">&#x0063;&#x0066;&#x0061;</key>
+      <key vkey="K_COLON">&#x0066;&#x0063;&#x0066;&#x0061;</key>
       <key vkey="K_QUOTE">&#x066a;</key>
       <key vkey="K_BKQUOTE">&#x08a1;</key>
       <key vkey="K_BKSLASH">&#x00b7;</key>
@@ -97,7 +99,7 @@
       <key vkey="K_V">&#x063a;</key>
       <key vkey="K_B">&#x08a0;</key>
       <key vkey="K_N">&#x0767;</key>
-      <key vkey="K_M">&#x061f;</key>
+      <key vkey="K_M">&#x00a0;&#x061f;</key>
       <key vkey="K_COMMA">&#x002e;</key>
       <key vkey="K_PERIOD">&#x002f;</key>
       <key vkey="K_SLASH">&#x061e;</key>
@@ -110,7 +112,6 @@
       <key vkey="K_RBRKT">gs</key>
       <key vkey="K_BKSLASH">fs</key>
       <key vkey="K_SPACE">space</key>
-      <key vkey="K_oE2">fs</key>
     </layer>
     <layer shift="SC">
       <key vkey="K_1">zwj</key>
@@ -123,16 +124,17 @@
     <layer shift="SA">
     </layer>
     <layer shift="CA">
-      <key vkey="K_2">&#x007e;</key>
-      <key vkey="K_3">&#x0600;</key>
-      <key vkey="K_4">&#xfd3e;</key>
-      <key vkey="K_5">&#x005d;</key>
-      <key vkey="K_6">&#x0627;</key>
-      <key vkey="K_8">&#x005c;</key>
-      <key vkey="K_9">&#x005e;</key>
-      <key vkey="K_0">&#x0040;</key>
-      <key vkey="K_HYPHEN">&#x005b;</key>
-      <key vkey="K_EQUAL">&#xfd3f;</key>
+      <key vkey="K_1">&#x0661;</key>
+      <key vkey="K_2">&#x0662;</key>
+      <key vkey="K_3">&#x0663;</key>
+      <key vkey="K_4">&#x0664;</key>
+      <key vkey="K_5">&#x0665;</key>
+      <key vkey="K_6">&#x0666;</key>
+      <key vkey="K_7">&#x0667;</key>
+      <key vkey="K_8">&#x0668;</key>
+      <key vkey="K_9">&#x0669;</key>
+      <key vkey="K_0">&#x0660;</key>
+      <key vkey="K_HYPHEN">&#x00b0;</key>
       <key vkey="K_Q">&#x0640;&#x064b;</key>
       <key vkey="K_W">&#x06d2;</key>
       <key vkey="K_E">&#x20ac;</key>
@@ -143,6 +145,7 @@
       <key vkey="K_I">&#x0640;&#x064d;</key>
       <key vkey="K_O">&#x0640;&#x08fd;</key>
       <key vkey="K_P">&#x067e;</key>
+      <key vkey="K_LBRKT">&#x005e;</key>
       <key vkey="K_RBRKT">&#x00a4;</key>
       <key vkey="K_A">&#x06a7;</key>
       <key vkey="K_S">&#x0638;</key>
@@ -158,16 +161,19 @@
       <key vkey="K_BKQUOTE">&#x08a8;</key>
       <key vkey="K_BKSLASH">&#x0640;&#x0670;</key>
       <key vkey="K_Z">&#x2026;</key>
+      <key vkey="K_X">&#x00ae;</key>
       <key vkey="K_C">&#x00a9;</key>
       <key vkey="K_V">&#x06a5;</key>
       <key vkey="K_B">&#x08a3;</key>
       <key vkey="K_N">&#x08a9;</key>
       <key vkey="K_COMMA">&#x203a;</key>
       <key vkey="K_PERIOD">&#x2039;</key>
+      <key vkey="K_SLASH">&#x0040;</key>
       <key vkey="K_SPACE">space</key>
     </layer>
     <layer shift="SCA">
       <key vkey="K_1">&#x0678;</key>
+      <key vkey="K_2">&#x007e;</key>
       <key vkey="K_3">&#x0601;</key>
       <key vkey="K_4">&#x0024;</key>
       <key vkey="K_5">&#x2013;</key>
@@ -177,6 +183,7 @@
       <key vkey="K_HYPHEN">&#x00d7;</key>
       <key vkey="K_EQUAL">&#x00f7;</key>
       <key vkey="K_Q">&#x0640;&#x0650;</key>
+      <key vkey="K_W">&#x0600;</key>
       <key vkey="K_E">&#x0640;&#x0655;</key>
       <key vkey="K_R">&#x0640;&#x0656;</key>
       <key vkey="K_U">&#x0640;&#x065d;</key>
@@ -187,6 +194,10 @@
       <key vkey="K_A">&#x0640;&#x08f4;</key>
       <key vkey="K_S">&#x0640;&#x06ec;</key>
       <key vkey="K_D">&#x0640;&#x06eb;</key>
+      <key vkey="K_J">&#x005d;</key>
+      <key vkey="K_K">&#x005b;</key>
+      <key vkey="K_L">&#xfd3e;</key>
+      <key vkey="K_COLON">&#xfd3f;</key>
       <key vkey="K_QUOTE">&#x003e;</key>
       <key vkey="K_BKQUOTE">&#x067f;</key>
       <key vkey="K_BKSLASH">&#x0622;</key>

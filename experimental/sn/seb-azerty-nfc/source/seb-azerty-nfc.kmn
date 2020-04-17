@@ -1,4 +1,4 @@
-﻿store(&TARGETS) 'any'
+store(&TARGETS) 'any'
 store(&COPYRIGHT) '©2019 SIL International'
 store(&KEYBOARDVERSION) '0.2.6'
 store(&VISUALKEYBOARD) 'seb-azerty-nfc.kvks'
@@ -347,8 +347,6 @@ group(android)
 
 group(SGGBFR74) using keys
 c setup deadkeys
-
-
 + [ALT CTRL K_2]	>	deadkey(dk1)
 + [ALT CTRL K_6]	>	deadkey(dk2)
 + [ALT CTRL K_7]	>	deadkey(dk3)
@@ -368,7 +366,6 @@ c setup deadkeys
 + [SHIFT K_BKSLASH]	>	deadkey(dk17)
 + [K_oE2]	>	deadkey(dk18)
 + [SHIFT K_oE2]	>	deadkey(dk19)
-
 c simple deadkeys
 deadkey(dk1) + [ALT CTRL K_2]	>	U+0303
 deadkey(dk1) + [K_Q]	>	U+00e3
@@ -598,7 +595,6 @@ deadkey(dk19) + [K_3]	>	U+201d
 deadkey(dk19) + [K_SPACE]	>	U+003e
 deadkey(dk19) + [SHIFT K_SPACE]	>	U+003e
 deadkey(dk19) + [CTRL K_SPACE]	>	U+003e
-
 c setup 'simple' keys
 
 + [K_1]	>	U+0026

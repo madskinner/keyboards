@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Package>
   <System>
-    <KeymanDeveloperVersion>12.0.64.0</KeymanDeveloperVersion>
+    <KeymanDeveloperVersion>12.0.66.0</KeymanDeveloperVersion>
     <FileVersion>7.0</FileVersion>
   </System>
   <Options>
@@ -17,7 +17,7 @@
   </StartMenu>
   <Info>
     <Name URL="">seb-ajami-azerty</Name>
-    <Version URL="">0.2.6</Version>
+    <Version URL="">0.2.7</Version>
     <Copyright URL="">©2019 SIL International</Copyright>
     <Author URL="mailto:mark_skinner@sil.org">Mark Skinner</Author>
   </Info>
@@ -201,7 +201,7 @@
     <Keyboard>
       <Name>seb-ajami-azerty</Name>
       <ID>seb_ajami_azerty</ID>
-      <Version>0.2.6</Version>
+      <Version>0.2.7</Version>
       <RTL>True</RTL>
       <OSKFont>extras\Harmattan-Regular.ttf</OSKFont>
       <DisplayFont>extras\Harmattan-Regular.ttf</DisplayFont>
