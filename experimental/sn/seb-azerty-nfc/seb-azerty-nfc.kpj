@@ -12,12 +12,12 @@
       <ID>id_2dfc2bc9c949f7529ac7e41fae157ca5</ID>
       <Filename>seb-azerty-nfc.kmn</Filename>
       <Filepath>source\seb-azerty-nfc.kmn</Filepath>
-      <FileVersion>0.2.6</FileVersion>
+      <FileVersion>0.2.7</FileVersion>
       <FileType>.kmn</FileType>
       <Details>
         <Name>seb-azerty-nfc</Name>
-        <Copyright>Â©2019 SIL International</Copyright>
-        <Message>Un clavier azerty pour les langues sÃ©nÃ©galaises.</Message>
+        <Copyright>©2019 SIL International</Copyright>
+        <Message>Un clavier azerty pour les langues sénégalaises.</Message>
       </Details>
     </File>
     <File>

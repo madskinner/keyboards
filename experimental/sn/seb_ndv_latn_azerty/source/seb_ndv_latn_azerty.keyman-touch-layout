@@ -229,11 +229,11 @@
                 ]
               },
               {
-                "id": "T_cv",
+                "id": "T_other",
                 "text": "cv",
                 "width": "120",
                 "sp": "1",
-                "nextlayer": "cv"
+                "nextlayer": "other"
               },
               {
                 "id": "K_ENTER",
@@ -406,22 +406,15 @@
                 "layer": "shift"
               },
               {
-                "id": "T_null",
-                "text": "",
-                "sp": "9",
-                "layer": "shift"
+                "id": "T_a0_question",
+                "text": "?",
+                "layer": "default"
               },
               {
-                "id": "K_PERIOD",
-                "text": ".",
-                "layer": "default",
-                "sk": [
-                  {
-                    "text": "…",
-                    "id": "T_ellipsis",
-                    "layer": "default"
-                  }
-                ]
+                "id": "T_a0_exclam",
+                "text": "!",
+                "nextlayer": "default",
+                "layer": "default"
               },
               {
                 "id": "K_BKSP",
@@ -473,11 +466,11 @@
                 ]
               },
               {
-                "id": "T_cv",
+                "id": "T_other",
                 "text": "cv",
                 "width": "120",
                 "sp": "1",
-                "nextlayer": "cvs",
+                "nextlayer": "others",
                 "layer": "shift"
               },
               {
@@ -574,9 +567,10 @@
                 "layer": "shift"
               },
               {
-                "id": "K_5",
+                "id": "T_a0_percent",
                 "text": "%",
-                "layer": "shift"
+                "nextlayer": "default",
+                "layer": "default"
               },
               {
                 "id": "K_7",
@@ -585,13 +579,7 @@
               },
               {
                 "id": "T_underscore",
-                "text": "_",
-                "sk": [
-                  {
-                    "text": "◌̱",
-                    "id": "T_combining_macron_below"
-                  }
-                ]
+                "text": "_"
               },
               {
                 "id": "K_EQUAL",
@@ -622,11 +610,12 @@
             "id": 3,
             "key": [
               {
-                "id": "K_SYMBOLS",
-                "text": "§",
+                "id": "T_null",
+                "text": "",
                 "width": "110",
                 "sp": "1",
-                "nextlayer": "symbol"
+                "nextlayer": "numeric",
+                "layer": "default"
               },
               {
                 "id": "K_LBRKT",
@@ -754,11 +743,11 @@
                 ]
               },
               {
-                "id": "T_cv",
+                "id": "T_other",
                 "text": "cv",
                 "width": "120",
                 "sp": "1",
-                "nextlayer": "cv",
+                "nextlayer": "other",
                 "layer": "default"
               },
               {
@@ -772,371 +761,20 @@
         ]
       },
       {
-        "id": "symbol",
+        "id": "other",
         "row": [
           {
             "id": 1,
             "key": [
               {
-                "id": "T_grave",
-                "text": "`",
-                "nextlayer": "default",
-                "layer": "default",
-                "sk": [
-                  {
-                    "text": "◌̀",
-                    "id": "T_combining_grave",
-                    "layer": "default"
-                  }
-                ]
+                "id": "T_null",
+                "text": "",
+                "sp": "9",
+                "layer": "default"
               },
               {
                 "id": "T_tilde",
                 "text": "~",
-                "nextlayer": "default",
-                "layer": "default",
-                "sk": [
-                  {
-                    "text": "◌̃",
-                    "id": "T_combining_tilde",
-                    "nextlayer": "default",
-                    "layer": "default"
-                  }
-                ]
-              },
-              {
-                "id": "T_circumflex",
-                "text": "^",
-                "nextlayer": "default",
-                "layer": "default",
-                "sk": [
-                  {
-                    "text": "◌̂",
-                    "id": "T_combining_circumflex",
-                    "nextlayer": "default",
-                    "layer": "default"
-                  }
-                ]
-              },
-              {
-                "id": "T_diaeresis",
-                "text": "¨",
-                "nextlayer": "default",
-                "layer": "default",
-                "sk": [
-                  {
-                    "text": "◌̈",
-                    "id": "T_combining_diaeresis",
-                    "nextlayer": "default",
-                    "layer": "default"
-                  }
-                ]
-              },
-              {
-                "id": "T_acute",
-                "text": "´",
-                "nextlayer": "default",
-                "layer": "default",
-                "sk": [
-                  {
-                    "text": "◌́",
-                    "id": "T_combining_acute",
-                    "nextlayer": "default",
-                    "layer": "default"
-                  }
-                ]
-              },
-              {
-                "id": "T_cedilla",
-                "text": "¸",
-                "nextlayer": "default",
-                "layer": "default",
-                "sk": [
-                  {
-                    "text": "◌̧",
-                    "id": "T_combining_cedilla",
-                    "nextlayer": "default",
-                    "layer": "default"
-                  }
-                ]
-              },
-              {
-                "id": "T_overline",
-                "text": "¯",
-                "nextlayer": "default",
-                "layer": "default"
-              },
-              {
-                "id": "T_inverse_question",
-                "text": "¿",
-                "nextlayer": "default",
-                "layer": "default"
-              },
-              {
-                "id": "T_inverse_exclam",
-                "text": "¡",
-                "nextlayer": "default",
-                "layer": "default"
-              },
-              {
-                "id": "T_caron",
-                "text": "ˇ",
-                "nextlayer": "default",
-                "layer": "default",
-                "sk": [
-                  {
-                    "text": "◌̌",
-                    "id": "T_combining_caron"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "id": 2,
-            "key": [
-              {
-                "id": "T_feminine",
-                "text": "ª",
-                "pad": 70,
-                "nextlayer": "default",
-                "layer": "default"
-              },
-              {
-                "id": "T_masculine",
-                "text": "º",
-                "nextlayer": "default",
-                "layer": "default",
-                "sk": [
-                  {
-                    "text": "◌",
-                    "id": "T_dotted_circle",
-                    "nextlayer": "default",
-                    "layer": "default"
-                  }
-                ]
-              },
-              {
-                "id": "T_para",
-                "text": "¶",
-                "nextlayer": "default",
-                "layer": "default"
-              },
-              {
-                "id": "T_section",
-                "text": "§",
-                "nextlayer": "default",
-                "layer": "default"
-              },
-              {
-                "id": "T_plusminus",
-                "text": "±",
-                "nextlayer": "default",
-                "layer": "default"
-              },
-              {
-                "id": "T_multiply",
-                "text": "×",
-                "nextlayer": "default",
-                "layer": "default"
-              },
-              {
-                "id": "T_divide",
-                "text": "÷",
-                "nextlayer": "default",
-                "layer": "default"
-              },
-              {
-                "id": "T_brokenline",
-                "text": "¦",
-                "nextlayer": "default",
-                "layer": "default"
-              },
-              {
-                "id": "T_degree",
-                "text": "°",
-                "width": "100",
-                "nextlayer": "default",
-                "layer": "default",
-                "sk": [
-                  {
-                    "text": "◌̥",
-                    "id": "T_combining_ring_below",
-                    "nextlayer": "default",
-                    "layer": "default"
-                  },
-                  {
-                    "text": "◌̊",
-                    "id": "T_combining_ring_above"
-                  }
-                ]
-              },
-              {
-                "id": "T_null",
-                "text": "",
-                "width": "10",
-                "sp": "10",
-                "layer": "default"
-              }
-            ]
-          },
-          {
-            "id": 3,
-            "key": [
-              {
-                "id": "K_NUMLOCK",
-                "text": "*123*",
-                "width": "110",
-                "sp": "1",
-                "nextlayer": "numeric"
-              },
-              {
-                "id": "T_mu",
-                "text": "µ",
-                "nextlayer": "default",
-                "layer": "default"
-              },
-              {
-                "id": "T_copyright",
-                "text": "©",
-                "nextlayer": "default",
-                "layer": "default",
-                "sk": [
-                  {
-                    "text": "℗",
-                    "id": "T_Sound_Recording_Copyright",
-                    "nextlayer": "default",
-                    "layer": "default"
-                  }
-                ]
-              },
-              {
-                "id": "T_registered",
-                "text": "®",
-                "nextlayer": "default",
-                "layer": "default"
-              },
-              {
-                "id": "T_GBP",
-                "text": "£",
-                "nextlayer": "default",
-                "layer": "default"
-              },
-              {
-                "id": "T_a0_euro",
-                "text": "≈€",
-                "nextlayer": "default",
-                "layer": "default",
-                "sk": [
-                  {
-                    "text": "€",
-                    "id": "T_Euro",
-                    "nextlayer": "default",
-                    "layer": "default"
-                  }
-                ]
-              },
-              {
-                "id": "T_Yen",
-                "text": "¥",
-                "nextlayer": "default",
-                "layer": "default"
-              },
-              {
-                "id": "T_bullet",
-                "text": "•",
-                "nextlayer": "default",
-                "layer": "default"
-              },
-              {
-                "id": "T_middot",
-                "text": "·",
-                "nextlayer": "default",
-                "layer": "default"
-              },
-              {
-                "id": "K_BKSP",
-                "text": "*BkSp*",
-                "width": "90",
-                "sp": "1"
-              }
-            ]
-          },
-          {
-            "id": 4,
-            "key": [
-              {
-                "id": "K_LOWER",
-                "text": "*abc*",
-                "width": "140",
-                "sp": "1",
-                "nextlayer": "default"
-              },
-              {
-                "id": "K_LOPT",
-                "text": "*Menu*",
-                "width": "120",
-                "sp": "1"
-              },
-              {
-                "id": "K_SPACE",
-                "text": " ",
-                "width": "510",
-                "sp": "0",
-                "layer": "default",
-                "sk": [
-                  {
-                    "text": "≈",
-                    "id": "T_nbsp"
-                  },
-                  {
-                    "text": "nnbsp",
-                    "id": "T_nnbsp"
-                  },
-                  {
-                    "text": "zwj",
-                    "id": "T_zwj"
-                  },
-                  {
-                    "text": "zwnj",
-                    "id": "T_zwnj"
-                  }
-                ]
-              },
-              {
-                "id": "T_cv",
-                "text": "cv",
-                "width": "120",
-                "sp": "1",
-                "nextlayer": "cv",
-                "layer": "default"
-              },
-              {
-                "id": "K_ENTER",
-                "text": "*Enter*",
-                "width": "170",
-                "sp": "1"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "cv",
-        "row": [
-          {
-            "id": 1,
-            "key": [
-              {
-                "id": "T_null",
-                "text": "",
-                "sp": "9",
-                "layer": "default"
-              },
-              {
-                "id": "T_null",
-                "text": "",
-                "sp": "9",
                 "layer": "default"
               },
               {
@@ -1213,8 +851,8 @@
                 "layer": "default"
               },
               {
-                "id": "T_a0_percent",
-                "text": "%",
+                "id": "K_V",
+                "text": "v",
                 "nextlayer": "default",
                 "layer": "default"
               },
@@ -1225,26 +863,26 @@
                 "layer": "default"
               },
               {
-                "id": "T_null",
-                "text": "",
-                "sp": "9",
+                "id": "T_GBP",
+                "text": "£",
+                "nextlayer": "numeric",
                 "layer": "default"
               },
               {
-                "id": "T_a0_semicolon",
-                "text": ";",
+                "id": "T_a0_euro",
+                "text": "€",
                 "nextlayer": "default",
                 "layer": "default"
               },
               {
-                "id": "T_a0_colon",
-                "text": ":",
+                "id": "T_Yen",
+                "text": "¥",
                 "nextlayer": "default",
                 "layer": "default"
               },
               {
-                "id": "T_a0_exclam",
-                "text": "!",
+                "id": "T_mu",
+                "text": "µ",
                 "nextlayer": "default",
                 "layer": "default"
               },
@@ -1265,7 +903,8 @@
                 "text": "*Shift*",
                 "width": "110",
                 "sp": "1",
-                "nextlayer": "cvs"
+                "nextlayer": "others",
+                "layer": "default"
               },
               {
                 "id": "T_guillemet_left_ao",
@@ -1304,14 +943,14 @@
                 "layer": "default"
               },
               {
-                "id": "T_null",
-                "text": "",
-                "sp": "9",
+                "id": "T_a0_semicolon",
+                "text": ";",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
-                "id": "T_a0_question",
-                "text": "?",
+                "id": "T_a0_colon",
+                "text": ":",
                 "nextlayer": "default",
                 "layer": "default"
               },
@@ -1392,7 +1031,7 @@
         ]
       },
       {
-        "id": "cvs",
+        "id": "others",
         "row": [
           {
             "id": 1,
@@ -1416,10 +1055,10 @@
                 "layer": "shift"
               },
               {
-                "id": "T_null",
-                "text": "",
-                "sp": "9",
-                "layer": "shift"
+                "id": "T_registered",
+                "text": "®",
+                "nextlayer": "default",
+                "layer": "default"
               },
               {
                 "id": "T_null",
@@ -1477,47 +1116,46 @@
                 "layer": "default"
               },
               {
-                "id": "T_null",
-                "text": "",
-                "sp": "9",
-                "layer": "default"
-              },
-              {
-                "id": "T_null",
-                "text": "",
-                "sp": "9",
+                "id": "T_para",
+                "text": "¶",
                 "nextlayer": "default",
-                "layer": "shift"
-              },
-              {
-                "id": "T_null",
-                "text": "",
-                "sp": "9",
                 "layer": "default"
               },
               {
-                "id": "T_null",
-                "text": "",
-                "sp": "9",
+                "id": "T_section",
+                "text": "§",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
-                "id": "T_null",
-                "text": "",
-                "sp": "9",
+                "id": "T_plusminus",
+                "text": "±",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
-                "id": "T_null",
-                "text": "",
-                "sp": "9",
+                "id": "T_multiply",
+                "text": "×",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
-                "id": "T_null",
-                "text": "",
+                "id": "T_divide",
+                "text": "÷",
+                "nextlayer": "default",
+                "layer": "default"
+              },
+              {
+                "id": "T_brokenline",
+                "text": "¦",
+                "nextlayer": "default",
+                "layer": "default"
+              },
+              {
+                "id": "T_degree",
+                "text": "°",
                 "width": "100",
-                "sp": "9",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
@@ -1537,7 +1175,8 @@
                 "text": "*Shift*",
                 "width": "110",
                 "sp": "2",
-                "nextlayer": "cv"
+                "nextlayer": "other",
+                "layer": "default"
               },
               {
                 "id": "T_dblquote_left_a0",
@@ -1546,15 +1185,15 @@
                 "layer": "default"
               },
               {
-                "id": "T_null",
-                "text": "",
-                "sp": "9",
+                "id": "T_copyright",
+                "text": "©",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
-                "id": "T_null",
-                "text": "",
-                "sp": "9",
+                "id": "T_Sound_Recording_Copyright",
+                "text": "℗",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {
@@ -1576,15 +1215,15 @@
                 "layer": "shift"
               },
               {
-                "id": "T_null",
-                "text": "",
-                "sp": "9",
-                "layer": "shift"
+                "id": "T_bullet",
+                "text": "•",
+                "nextlayer": "default",
+                "layer": "default"
               },
               {
-                "id": "T_null",
-                "text": "",
-                "sp": "9",
+                "id": "T_middot",
+                "text": "·",
+                "nextlayer": "default",
                 "layer": "default"
               },
               {

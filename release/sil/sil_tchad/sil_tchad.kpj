@@ -4,13 +4,15 @@
     <BuildPath>$PROJECTPATH\build</BuildPath>
     <CompilerWarningsAsErrors>True</CompilerWarningsAsErrors>
     <WarnDeprecatedCode>True</WarnDeprecatedCode>
+    <CheckFilenameConventions>False</CheckFilenameConventions>
+    <ProjectType>keyboard</ProjectType>
   </Options>
   <Files>
     <File>
       <ID>id_d44904c3d338ccfb3d7a57eae1f4df96</ID>
       <Filename>sil_tchad.kmn</Filename>
       <Filepath>source\sil_tchad.kmn</Filepath>
-      <FileVersion></FileVersion>
+      <FileVersion>3.3.2</FileVersion>
       <FileType>.kmn</FileType>
       <Details>
         <Name>Tchad</Name>
@@ -26,7 +28,6 @@
       <Details>
         <Name>Tchad</Name>
         <Copyright>© 2017-2018 SIL International</Copyright>
-        <Version></Version>
       </Details>
     </File>
     <File>

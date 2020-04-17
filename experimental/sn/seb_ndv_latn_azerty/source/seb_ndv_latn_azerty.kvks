@@ -153,6 +153,7 @@
       <key vkey="K_M">¿</key>
       <key vkey="K_SLASH">¡</key>
       <key vkey="K_SPACE">nbsp</key>
+      <key vkey="K_V">℗</key>
     </layer>
     <layer shift="SCA">
       <key vkey="K_7">(´)</key>

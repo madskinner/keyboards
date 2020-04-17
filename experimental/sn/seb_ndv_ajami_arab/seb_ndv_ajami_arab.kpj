@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeymanDeveloperProject>
+  <Options>
+    <BuildPath></BuildPath>
+    <CompilerWarningsAsErrors>False</CompilerWarningsAsErrors>
+    <WarnDeprecatedCode>True</WarnDeprecatedCode>
+    <CheckFilenameConventions>True</CheckFilenameConventions>
+    <ProjectType>keyboard</ProjectType>
+  </Options>
+  <Files>
+    <File>
+      <ID>id_2ea74324a306c3af196c7265452a1776</ID>
+      <Filename>seb_ndv_ajami_arab.kmn</Filename>
+      <Filepath>source\seb_ndv_ajami_arab.kmn</Filepath>
+      <FileVersion>0.3.3</FileVersion>
+      <FileType>.kmn</FileType>
+      <Details>
+        <Name>seb_ndv_ajami_arab</Name>
+        <Copyright>©2020 SIL International</Copyright>
+        <Message>Un clavier pour la langue «ndv-arab:Ndut-Ajami-SN».</Message>
+      </Details>
+    </File>
+    <File>
+      <ID>id_6d3cc705a7ce0e1d9df2b2ff8d22b879</ID>
+      <Filename>seb_ndv_ajami_arab.kps</Filename>
+      <Filepath>source\seb_ndv_ajami_arab.kps</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.kps</FileType>
+      <Details/>
+    </File>
+    <File>
+      <ID>id_2278df32acdf92a1dff650ca7e42fcfe</ID>
+      <Filename>seb_ndv_ajami_arab3.ico</Filename>
+      <Filepath>source\seb_ndv_ajami_arab3.ico</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.ico</FileType>
+      <ParentFileID>id_2ea74324a306c3af196c7265452a1776</ParentFileID>
+    </File>
+    <File>
+      <ID>id_84b28261b3197b0285fd7d961e0c5d27</ID>
+      <Filename>Harmattan-Regular.ttf</Filename>
+      <Filepath>source\..\..\seb_srr_ajami_arab\extras\Harmattan-Regular.ttf</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.ttf</FileType>
+      <ParentFileID>id_6d3cc705a7ce0e1d9df2b2ff8d22b879</ParentFileID>
+    </File>
+    <File>
+      <ID>id_63588b4ba6b3116452415aef52aa2808</ID>
+      <Filename>Scheherazade-Regular.ttf</Filename>
+      <Filepath>source\..\..\seb_srr_ajami_arab\extras\Scheherazade-Regular.ttf</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.ttf</FileType>
+      <ParentFileID>id_6d3cc705a7ce0e1d9df2b2ff8d22b879</ParentFileID>
+    </File>
+  </Files>
+</KeymanDeveloperProject>

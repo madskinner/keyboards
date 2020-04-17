@@ -1,6 +1,6 @@
 ﻿store(&TARGETS) 'any'
 store(&COPYRIGHT) '©2019 SIL International'
-store(&KEYBOARDVERSION) '0.3.1'
+store(&KEYBOARDVERSION) '0.3.2'
 store(&VISUALKEYBOARD) 'seb_srr_latn_azerty.kvks'
 store(&LAYOUTFILE) 'seb_srr_latn_azerty.keyman-touch-layout'
 store(&KMW_HELPFILE) 'seb_srr_latn_azerty-help.htm'
@@ -118,14 +118,14 @@ c simple keys
 	+ [SHIFT T_c_hook] > U+0187
 	+ [SHIFT T_d_hook] > U+018a
 	+ [SHIFT T_eng] > U+014a
-	+ [SHIFT T_g_hook] > U+0193
+c	+ [SHIFT T_g_hook] > U+0193
 	+ [SHIFT T_lowercase_saltillo] > U+a78b
 	+ [SHIFT T_n_tilde] > U+00d1
 	+ [SHIFT T_p_hook] > U+01a4
 	+ [SHIFT T_t_hook] > U+01ac
 	+ [SHIFT T_y_hook] > U+01b3
-	+ [SHIFT T_zwj] > U+200d
-	+ [SHIFT T_zwnj] > U+200c
+c	+ [SHIFT T_zwj] > U+200d
+c	+ [SHIFT T_zwnj] > U+200c
 	+ [T_2039] > U+2039
 	+ [T_203a] > U+203a
 	+ [T_Euro] > U+20ac
@@ -152,19 +152,19 @@ c simple keys
 	+ [T_degree] > U+00b0
 	+ [T_diaeresis] > U+00a8
 	+ [T_divide] > U+00f7
-	+ [T_dotted_circle] > U+25cc
-	+ [T_e_acute] > U+00e9
-	+ [T_e_acute] > U+025b
-	+ [T_e_circumflex] > U+00ea
-	+ [T_e_diaeresis] > U+00eb
-	+ [T_e_grave] > U+00e8
-	+ [T_e_macron_below] > U+0065 U+0331
-	+ [T_e_tilde] > U+1ebd
+c	+ [T_dotted_circle] > U+25cc
+c	+ [T_e_acute] > U+00e9
+c	+ [T_e_acute] > U+025b
+c	+ [T_e_circumflex] > U+00ea
+c	+ [T_e_diaeresis] > U+00eb
+c	+ [T_e_grave] > U+00e8
+c	+ [T_e_macron_below] > U+0065 U+0331
+c	+ [T_e_tilde] > U+1ebd
 	+ [T_ellipsis] > U+2026
 	+ [T_em_dash] > U+2014
 	+ [T_en_dash] > U+2013
 	+ [T_eng] > U+014b
-	+ [T_g_hook] > U+0260
+c	+ [T_g_hook] > U+0260
 	+ [T_grave] > U+0060
 	+ [T_guillemet_left] > U+00ab
 	+ [T_guillemet_right] > U+00bb
@@ -180,14 +180,14 @@ c simple keys
 	+ [T_plusminus] > U+00b1
 	+ [T_registered] > U+00ae
 	+ [T_section] > U+00a7
-	+ [T_snglquote_left] > U+2018
-	+ [T_snglquote_right] > U+2019
+c	+ [T_snglquote_left] > U+2018
+c	+ [T_snglquote_right] > U+2019
 	+ [T_t_hook] > U+01ad
 	+ [T_tilde] > U+007e
 	+ [T_underscore] > U+005f
 	+ [T_y_hook] > U+01b4
-	+ [T_zwj] > U+200d
-	+ [T_zwnj] > U+200c
+c	+ [T_zwj] > U+200d
+c	+ [T_zwnj] > U+200c
 
 group(hardware)
 	platform("windows") > use(SGGBFR74)
@@ -207,7 +207,6 @@ group(android)
 
 group(SGGBFR74) using keys
 c setup deadkeys
-+ [K_A]	>	deadkey(dummy)
 c simple deadkeys
 c setup 'simple' keys
 
@@ -224,22 +223,22 @@ c setup 'simple' keys
 + [K_3]	>	U+0022
 + [SHIFT K_3]	>	U+0033
 + [ALT CTRL K_3]	>	U+0023
-+ [ALT CTRL SHIFT K_3]	>	 U+2018
++ [ALT CTRL SHIFT K_3]	>	 beep
 
 + [K_4]	>	U+0027
 + [SHIFT K_4]	>	U+0034
 + [ALT CTRL K_4]	>	U+007b
-+ [ALT CTRL SHIFT K_4]	>	 U+2019
++ [ALT CTRL SHIFT K_4]	>	 beep
 
 + [K_5]	>	U+0028
 + [SHIFT K_5]	>	U+0035
 + [ALT CTRL K_5]	>	U+005b
-+ [ALT CTRL SHIFT K_5]	>	 U+2039 U+00a0
++ [ALT CTRL SHIFT K_5]	>	 U+2039
 
 + [K_6]	>	U+002d
 + [SHIFT K_6]	>	U+0036
 + [ALT CTRL K_6]	>	 U+007c
-+ [ALT CTRL SHIFT  K_6]	>	 U+00a0 U+203a
++ [ALT CTRL SHIFT  K_6]	>	 U+203a
 
 + [K_7]	>	 beep
 + [SHIFT K_7]	>	U+0037
@@ -328,8 +327,8 @@ c setup 'simple' keys
 + [ALT CTRL SHIFT K_LBRKT]	>	 U+00ab
 
 + [K_RBRKT]	>	U+0024
-+ [SHIFT K_RBRKT]	>	 beep
-+ [CTRL K_RBRKT]	>	U+00a3
++ [SHIFT K_RBRKT]	>	U+00a3
++ [CTRL K_RBRKT]	>	U+001d
 + [ALT CTRL K_RBRKT]	>	U+00a4
 + [ALT CTRL SHIFT  K_RBRKT]	>	 U+00bb
 
@@ -345,8 +344,8 @@ c setup 'simple' keys
 
 + [K_D]	>	U+0064
 + [SHIFT K_D]	>	U+0044
-+ [ALT CTRL K_D]	>	U+028c
-+ [ALT CTRL SHIFT K_D]	>	U+0245
++ [ALT CTRL K_D]	>	U+0257
++ [ALT CTRL SHIFT K_D]	>	U+018a
 
 + [K_F]	>	U+0066
 + [SHIFT K_F]	>	U+0046
@@ -355,8 +354,8 @@ c setup 'simple' keys
 
 + [K_G]	>	U+0067
 + [SHIFT K_G]	>	U+0047
-+ [ALT CTRL K_G]	>	U+0260
-+ [ALT CTRL SHIFT K_G]	>	U+0193
++ [ALT CTRL K_G]	>	beep
++ [ALT CTRL SHIFT K_G]	>	beep
 
 + [K_H]	>	U+0068
 + [SHIFT K_H]	>	U+0048
@@ -390,8 +389,8 @@ c setup 'simple' keys
 
 
 + [CTRL K_BKSLASH]	>	U+001c
-+ [K_BKSLASH]	>	 beep
-+ [SHIFT K_BKSLASH]	>	 beep
++ [K_BKSLASH]	>	 U+002a
++ [SHIFT K_BKSLASH]	>	 U+00b5
 + [ALT CTRL K_BKSLASH]	>	U+00a2
 + [ALT CTRL SHIFT K_BKSLASH]	>	U+00a6
 
@@ -412,7 +411,7 @@ c setup 'simple' keys
 
 + [K_V]	>	U+00f1
 + [SHIFT K_V]	>	U+00d1
-+ [ALT CTRL K_V]	>	U+00b7
++ [ALT CTRL K_V]	>	U+0076
 + [ALT CTRL SHIFT K_V]	>	beep
 
 + [K_B]	>	U+0062
@@ -432,17 +431,17 @@ c setup 'simple' keys
 
 + [K_COMMA]	>	U+003b
 + [SHIFT K_COMMA]	>	U+002e
-+ [ALT CTRL K_COMMA]	>	 beep
++ [ALT CTRL K_COMMA]	>	 U+2022
 + [ALT CTRL SHIFT K_COMMA]	>	 beep
 
 + [K_PERIOD]	>	U+003a
 + [SHIFT K_PERIOD]	>	U+002f
-+ [ALT CTRL K_PERIOD]	>	 beep
++ [ALT CTRL K_PERIOD]	>	 U+00b7
 + [ALT CTRL SHIFT K_PERIOD]	>	 beep
 
 + [K_SLASH]	>	U+0021
 + [SHIFT K_SLASH]	>	U+00a7
-+ [ALT CTRL K_SLASH]	>	U+00a1
++ [ALT CTRL K_SLASH]	>	beep
 + [ALT CTRL SHIFT K_SLASH]	>	 beep
 
 + [K_SPACE]	>	U+0020

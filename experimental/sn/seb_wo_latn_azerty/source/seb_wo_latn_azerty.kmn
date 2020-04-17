@@ -1,6 +1,6 @@
-store(&TARGETS) 'any'
+﻿store(&TARGETS) 'any'
 store(&COPYRIGHT) '©2019 SIL International'
-store(&KEYBOARDVERSION) '0.3.0'
+store(&KEYBOARDVERSION) '0.3.1'
 store(&VISUALKEYBOARD) 'seb_wo_latn_azerty.kvks'
 store(&LAYOUTFILE) 'seb_wo_latn_azerty.keyman-touch-layout'
 store(&KMW_HELPFILE) 'seb_wo_latn_azerty-help.htm'
@@ -8,7 +8,7 @@ store(&NAME) 'seb_wo_latn_azerty'
 store(&MESSAGE) 'Un clavier pour la langue «seb-azerty-nfc:seb-azerty-nfc».'
 store(&BITMAP) 'seb_wo_latn_azerty.ico'
 store(&KMW_RTL) '0'
-
+store(&kmw_helptext) '<p><a href=welcome/welcome.htm#en rel=help target=_new>in English</a>, <a href=welcome/welcome.htm#fr rel=help target=_new>en fran&#x00E7;ais</a>, <a href=welcome/welcome.htm#pt rel=help target=_new>em portugu&#x00EA;s </a></p>'
 begin Unicode > use(main)
 
 group(main)
@@ -21,8 +21,9 @@ group(web)
 
 group(touch) using keys
 c mistyped key
-	 + [T_null] > beep
-	 + [SHIFT T_null] > beep
+	+ [T_null] > beep
+	+ [SHIFT T_null] > beep
+c simple keys
 	+ [K_0] > U+0030
 	+ [K_1] > U+0031
 	+ [K_2] > U+0032
@@ -113,88 +114,88 @@ c mistyped key
 	+ [SHIFT K_X] > U+0058
 	+ [SHIFT K_Y] > U+0059
 	+ [SHIFT K_Z] > U+005a
-	+ [SHIFT T_a_acute] > U+00c1
-	+ [SHIFT T_a_circumflex] > U+00c2
-	+ [SHIFT T_a_diaeresis] > U+00c4
+c	+ [SHIFT T_a_acute] > U+00c1
+c	+ [SHIFT T_a_circumflex] > U+00c2
+c	+ [SHIFT T_a_diaeresis] > U+00c4
 	+ [SHIFT T_a_grave] > U+00c0
-	+ [SHIFT T_a_macron_below] > U+0041 U+0331
-	+ [SHIFT T_a_ring_above] > U+00c5
+c	+ [SHIFT T_a_macron_below] > U+0041 U+0331
+c	+ [SHIFT T_a_ring_above] > U+00c5
 	+ [SHIFT T_a_tilde] > U+00c3
-	+ [SHIFT T_ae_ligature] > U+00c6
-	+ [SHIFT T_b_hook] > U+0181
-	+ [SHIFT T_c_cedilla] > U+00c7
-	+ [SHIFT T_c_circumflex] > U+0108
-	+ [SHIFT T_c_hook] > U+0187
-	+ [SHIFT T_d_hook] > U+018a
+c	+ [SHIFT T_ae_ligature] > U+00c6
+c	+ [SHIFT T_b_hook] > U+0181
+c	+ [SHIFT T_c_cedilla] > U+00c7
+c	+ [SHIFT T_c_circumflex] > U+0108
+c	+ [SHIFT T_c_hook] > U+0187
+c	+ [SHIFT T_d_hook] > U+018a
 	+ [SHIFT T_e_acute] > U+00c9
-	+ [SHIFT T_e_circumflex] > U+00ca
+c	+ [SHIFT T_e_circumflex] > U+00ca
 	+ [SHIFT T_e_diaeresis] > U+00cb
-	+ [SHIFT T_e_grave] > U+00c8
-	+ [SHIFT T_e_macron_below] > U+0045 U+0331
-	+ [SHIFT T_e_open] > U+0190
-	+ [SHIFT T_e_tilde] > U+1ebc
+c	+ [SHIFT T_e_grave] > U+00c8
+c	+ [SHIFT T_e_macron_below] > U+0045 U+0331
+c	+ [SHIFT T_e_open] > U+0190
+c	+ [SHIFT T_e_tilde] > U+1ebc
 	+ [SHIFT T_eng] > U+014a
-	+ [SHIFT T_enya] > U+019d
-	+ [SHIFT T_eth] > U+00d0
-	+ [SHIFT T_g_hook] > U+0193
-	+ [SHIFT T_i_acute] > U+00cd
-	+ [SHIFT T_i_circumflex] > U+00ce
-	+ [SHIFT T_i_diaeresis] > U+00cf
-	+ [SHIFT T_i_grave] > U+00cc
-	+ [SHIFT T_i_macron_below] > U+0049 U+0331
-	+ [SHIFT T_i_tilde] > U+0128
-	+ [SHIFT T_j_caron] > U+004a U+030c
-	+ [SHIFT T_k_hook] > U+0198
-	+ [SHIFT T_l_ring_below] > U+004c U+0325
-	+ [SHIFT T_lowercase_saltillo] > U+a78b
-	+ [SHIFT T_n_grave] > U+01f8
+c	+ [SHIFT T_enya] > U+019d
+c	+ [SHIFT T_eth] > U+00d0
+c	+ [SHIFT T_g_hook] > U+0193
+c	+ [SHIFT T_i_acute] > U+00cd
+c	+ [SHIFT T_i_circumflex] > U+00ce
+c	+ [SHIFT T_i_diaeresis] > U+00cf
+c	+ [SHIFT T_i_grave] > U+00cc
+c	+ [SHIFT T_i_macron_below] > U+0049 U+0331
+c	+ [SHIFT T_i_tilde] > U+0128
+c	+ [SHIFT T_j_caron] > U+004a U+030c
+c	+ [SHIFT T_k_hook] > U+0198
+c	+ [SHIFT T_l_ring_below] > U+004c U+0325
+c	+ [SHIFT T_lowercase_saltillo] > U+a78b
+c	+ [SHIFT T_n_grave] > U+01f8
 	+ [SHIFT T_n_tilde] > U+00d1
 	+ [SHIFT T_nbsp] > U+00a0
 	+ [SHIFT T_nnbsp] > U+202f
 	+ [SHIFT T_o_acute] > U+00d3
-	+ [SHIFT T_o_circumflex] > U+00d4
-	+ [SHIFT T_o_diaeresis] > U+00d6
-	+ [SHIFT T_o_grave] > U+00d2
-	+ [SHIFT T_o_macron_below] > U+004f U+0331
-	+ [SHIFT T_o_open] > U+0186
-	+ [SHIFT T_o_stroke] > U+00d8
-	+ [SHIFT T_o_tilde] > U+00d5
-	+ [SHIFT T_oe_ligature] > U+0152
-	+ [SHIFT T_p_hook] > U+01a4
-	+ [SHIFT T_p_stroke] > U+2c63
-	+ [SHIFT T_s_cedilla] > U+015e
-	+ [SHIFT T_s_circumflex] > U+015c
-	+ [SHIFT T_schwa] > U+018f
-	+ [SHIFT T_t_cedilla] > U+0162
-	+ [SHIFT T_t_hook] > U+01ac
-	+ [SHIFT T_t_stroke] > U+0166
-	+ [SHIFT T_turned_e] > U+018e
-	+ [SHIFT T_turned_v] > U+0245
-	+ [SHIFT T_u_acute] > U+00da
-	+ [SHIFT T_u_circumflex] > U+00db
-	+ [SHIFT T_u_diaeresis] > U+00dc
-	+ [SHIFT T_u_grave] > U+00d9
-	+ [SHIFT T_u_macron_below] > U+0055 U+0331
-	+ [SHIFT T_u_tilde] > U+0168
-	+ [SHIFT T_w_tilde] > U+0057 U+0303
-	+ [SHIFT T_x_tilde] > U+0058 U+0303
-	+ [SHIFT T_y_acute] > U+00dd
-	+ [SHIFT T_y_circumflex] > U+0176
-	+ [SHIFT T_y_grave] > U+1ef2
-	+ [SHIFT T_y_hook] > U+01b3
-	+ [SHIFT T_y_tilde] > U+1ef8
-	+ [SHIFT T_z_caron] > U+017d
-	+ [SHIFT T_z_circumflex] > U+1e90
-	+ [SHIFT T_zwj] > U+200d
-	+ [SHIFT T_zwnj] > U+200c
-	+ [T_2039] > U+00a0 U+2039
-	+ [T_2039_a0] > U+2039 U+00a0
-	+ [T_203a] > U+203a
+c	+ [SHIFT T_o_circumflex] > U+00d4
+c	+ [SHIFT T_o_diaeresis] > U+00d6
+c	+ [SHIFT T_o_grave] > U+00d2
+c	+ [SHIFT T_o_macron_below] > U+004f U+0331
+c	+ [SHIFT T_o_open] > U+0186
+c	+ [SHIFT T_o_stroke] > U+00d8
+c	+ [SHIFT T_o_tilde] > U+00d5
+c	+ [SHIFT T_oe_ligature] > U+0152
+c	+ [SHIFT T_p_hook] > U+01a4
+c	+ [SHIFT T_p_stroke] > U+2c63
+c	+ [SHIFT T_s_cedilla] > U+015e
+c	+ [SHIFT T_s_circumflex] > U+015c
+c	+ [SHIFT T_schwa] > U+018f
+c	+ [SHIFT T_t_cedilla] > U+0162
+c	+ [SHIFT T_t_hook] > U+01ac
+c	+ [SHIFT T_t_stroke] > U+0166
+c	+ [SHIFT T_turned_e] > U+018e
+c	+ [SHIFT T_turned_v] > U+0245
+c	+ [SHIFT T_u_acute] > U+00da
+c	+ [SHIFT T_u_circumflex] > U+00db
+c	+ [SHIFT T_u_diaeresis] > U+00dc
+c	+ [SHIFT T_u_grave] > U+00d9
+c	+ [SHIFT T_u_macron_below] > U+0055 U+0331
+c	+ [SHIFT T_u_tilde] > U+0168
+c	+ [SHIFT T_w_tilde] > U+0057 U+0303
+c	+ [SHIFT T_x_tilde] > U+0058 U+0303
+c	+ [SHIFT T_y_acute] > U+00dd
+c	+ [SHIFT T_y_circumflex] > U+0176
+c	+ [SHIFT T_y_grave] > U+1ef2
+c	+ [SHIFT T_y_hook] > U+01b3
+c	+ [SHIFT T_y_tilde] > U+1ef8
+c	+ [SHIFT T_z_caron] > U+017d
+c	+ [SHIFT T_z_circumflex] > U+1e90
+c	+ [SHIFT T_zwj] > U+200d
+c	+ [SHIFT T_zwnj] > U+200c
+c	+ [T_2039] > U+00a0 U+2039
+c	+ [T_2039_a0] > U+2039 U+00a0
+c	+ [T_203a] > U+203a
 	+ [T_Euro] > U+20ac
 	+ [T_GBP] > U+00a3
 	+ [T_Sound_Recording_Copyright] > U+2117
 	+ [T_Yen] > U+00a5
-	+ [T_a0_203a] > U+00a0 U+203a
+c	+ [T_a0_203a] > U+00a0 U+203a
 	+ [T_a0_colon] > U+00a0 U+003a
 	+ [T_a0_dblquote_right] > U+00a0 U+201d
 	+ [T_a0_euro] > U+00a0 U+20ac
@@ -204,77 +205,76 @@ c mistyped key
 	+ [T_a0_question] > U+00a0 U+003f
 	+ [T_a0_semicolon] > U+00a0 U+003b
 	+ [T_a0_snglquote_right] > U+00a0 U+2019
-	+ [T_a_acute] > U+00e1
-	+ [T_a_circumflex] > U+00e2
-	+ [T_a_diaeresis] > U+00e4
+c	+ [T_a_acute] > U+00e1
+c	+ [T_a_circumflex] > U+00e2
+c	+ [T_a_diaeresis] > U+00e4
 	+ [T_a_grave] > U+00e0
-	+ [T_a_macron_below] > U+0061 U+0331
-	+ [T_a_ring_above] > U+00e5
+c	+ [T_a_macron_below] > U+0061 U+0331
+c	+ [T_a_ring_above] > U+00e5
 	+ [T_a_tilde] > U+00e3
 	+ [T_acute] > U+00b4
-	+ [T_ae_ligature] > U+00e6
-	+ [T_b_hook] > U+0253
+c	+ [T_ae_ligature] > U+00e6
+c	+ [T_b_hook] > U+0253
 	+ [T_brokenline] > U+00a6
 	+ [T_bullet] > U+2022
-	+ [T_c_cedilla] > U+00e7
-	+ [T_c_circumflex] > U+0109
-	+ [T_c_hook] > U+0188
-	+ [T_caron] > U+02c7
-	+ [T_cedilla] > U+00b8
+c	+ [T_c_cedilla] > U+00e7
+c	+ [T_c_circumflex] > U+0109
+c	+ [T_c_hook] > U+0188
+c	+ [T_caron] > U+02c7
+c	+ [T_cedilla] > U+00b8
 	+ [T_cent] > U+00a2
 	+ [T_circumflex] > U+005e
-	+ [T_combining_acute] > U+0301
-	+ [T_combining_caron] > U+030c
-	+ [T_combining_cedilla] > U+0327
-	+ [T_combining_circumflex] > U+0302
-	+ [T_combining_diaeresis] > U+0308
-	+ [T_combining_grave] > U+0300
-	+ [T_combining_macron_below] > U+0331
-	+ [T_combining_ring_above] > U+030a
-	+ [T_combining_ring_below] > U+0325
-	+ [T_combining_tilde] > U+0303
+c	+ [T_combining_acute] > U+0301
+c	+ [T_combining_caron] > U+030c
+c	+ [T_combining_cedilla] > U+0327
+c	+ [T_combining_circumflex] > U+0302
+c	+ [T_combining_diaeresis] > U+0308
+c	+ [T_combining_grave] > U+0300
+c	+ [T_combining_macron_below] > U+0331
+c	+ [T_combining_ring_above] > U+030a
+c	+ [T_combining_ring_below] > U+0325
+c	+ [T_combining_tilde] > U+0303
 	+ [T_comma] > U+002c
 	+ [T_copyright] > U+00a9
-	+ [T_d_hook] > U+0257
-	+ [T_dblquote_left] > U+201c
+c	+ [T_d_hook] > U+0257
+c	+ [T_dblquote_left] > U+201c
 	+ [T_dblquote_left_a0] > U+201c U+00a0
-	+ [T_dblquote_right] > U+201d
+c	+ [T_dblquote_right] > U+201d
 	+ [T_degree] > U+00b0
-	+ [T_diaeresis] > U+00a8
+c	+ [T_diaeresis] > U+00a8
 	+ [T_divide] > U+00f7
-	+ [T_dotted_circle] > U+25cc
+c	+ [T_dotted_circle] > U+25cc
 	+ [T_e_acute] > U+00e9
-	+ [T_e_acute] > U+025b
-	+ [T_e_circumflex] > U+00ea
+c	+ [T_e_circumflex] > U+00ea
 	+ [T_e_diaeresis] > U+00eb
-	+ [T_e_grave] > U+00e8
-	+ [T_e_macron_below] > U+0065 U+0331
+c	+ [T_e_grave] > U+00e8
+c	+ [T_e_macron_below] > U+0065 U+0331
 	+ [T_e_tilde] > U+1ebd
 	+ [T_ellipsis] > U+2026
 	+ [T_em_dash] > U+2014
 	+ [T_en_dash] > U+2013
 	+ [T_eng] > U+014b
-	+ [T_enya] > U+0272
-	+ [T_eth] > U+00f0
-	+ [T_feminine] > U+00aa
-	+ [T_g_hook] > U+0260
+c	+ [T_enya] > U+0272
+c	+ [T_eth] > U+00f0
+c	+ [T_feminine] > U+00aa
+c	+ [T_g_hook] > U+0260
 	+ [T_grave] > U+0060
-	+ [T_guillemet_left] > U+00ab
+c	+ [T_guillemet_left] > U+00ab
 	+ [T_guillemet_left_ao] > U+00ab U+00a0
-	+ [T_guillemet_right] > U+00bb
-	+ [T_i_acute] > U+00ed
-	+ [T_i_circumflex] > U+00ee
-	+ [T_i_diaeresis] > U+00ef
-	+ [T_i_grave] > U+00ec
-	+ [T_i_macron_below] > U+0069 U+0331
-	+ [T_i_tilde] > U+0129
-	+ [T_inverse_exclam] > U+00a1
-	+ [T_inverse_question] > U+00bf
-	+ [T_j_caron] > U+01f0
-	+ [T_k_hook] > U+0199
-	+ [T_l_ring_below] > U+006c U+0325
-	+ [T_lowercase_saltillo] > U+a78c
-	+ [T_masculine] > U+00ba
+c	+ [T_guillemet_right] > U+00bb
+c	+ [T_i_acute] > U+00ed
+c	+ [T_i_circumflex] > U+00ee
+c	+ [T_i_diaeresis] > U+00ef
+c	+ [T_i_grave] > U+00ec
+c	+ [T_i_macron_below] > U+0069 U+0331
+c	+ [T_i_tilde] > U+0129
+c	+ [T_inverse_exclam] > U+00a1
+c	+ [T_inverse_question] > U+00bf
+c	+ [T_j_caron] > U+01f0
+c	+ [T_k_hook] > U+0199
+c	+ [T_l_ring_below] > U+006c U+0325
+c	+ [T_lowercase_saltillo] > U+a78c
+c	+ [T_masculine] > U+00ba
 	+ [T_middot] > U+00b7
 	+ [T_mu] > U+00b5
 	+ [T_multiply] > U+00d7
@@ -283,57 +283,59 @@ c mistyped key
 	+ [T_nbsp] > U+00a0
 	+ [T_nnbsp] > U+202f
 	+ [T_o_acute] > U+00f3
-	+ [T_o_circumflex] > U+00f4
-	+ [T_o_diaeresis] > U+00f6
-	+ [T_o_grave] > U+00f2
-	+ [T_o_macron_below] > U+006f U+0331
-	+ [T_o_open] > U+0254
-	+ [T_o_stroke] > U+00f8
-	+ [T_o_tilde] > U+00f5
-	+ [T_oe_ligature] > U+0153
-	+ [T_overline] > U+00af
-	+ [T_p_hook] > U+01a5
-	+ [T_p_stroke] > U+1d7d
+c	+ [T_o_circumflex] > U+00f4
+c	+ [T_o_diaeresis] > U+00f6
+c	+ [T_o_grave] > U+00f2
+c	+ [T_o_macron_below] > U+006f U+0331
+c	+ [T_o_open] > U+0254
+c	+ [T_o_stroke] > U+00f8
+c	+ [T_o_tilde] > U+00f5
+c	+ [T_oe_ligature] > U+0153
+c	+ [T_overline] > U+00af
+c	+ [T_p_hook] > U+01a5
+c	+ [T_p_stroke] > U+1d7d
 	+ [T_para] > U+00b6
 	+ [T_plusminus] > U+00b1
 	+ [T_registered] > U+00ae
-	+ [T_s_cedilla] > U+015f
-	+ [T_s_circumflex] > U+015d
-	+ [T_s_sharp] > U+00df
-	+ [T_schwa] > U+0259
+c	+ [T_s_cedilla] > U+015f
+c	+ [T_s_circumflex] > U+015d
+c	+ [T_s_sharp] > U+00df
+c	+ [T_schwa] > U+0259
 	+ [T_section] > U+00a7
-	+ [T_snglquote_left] > U+2018
+c	+ [T_snglquote_left] > U+2018
 	+ [T_snglquote_left_a0] > U+2018 U+00a0
-	+ [T_snglquote_right] > U+2019
-	+ [T_t_cedilla] > U+0163
-	+ [T_t_hook] > U+01ad
-	+ [T_t_stroke] > U+0167
-	+ [T_tilde] > U+007e
-	+ [T_turned_e] > U+01dd
-	+ [T_turned_v] > U+028c
-	+ [T_u_acute] > U+00fa
-	+ [T_u_circumflex] > U+00fb
-	+ [T_u_diaeresis] > U+00fc
-	+ [T_u_grave] > U+00f9
-	+ [T_u_macron_below] > U+0075 U+0331
-	+ [T_u_tilde] > U+0169
+c	+ [T_snglquote_right] > U+2019
+c	+ [T_t_cedilla] > U+0163
+c	+ [T_t_hook] > U+01ad
+c	+ [T_t_stroke] > U+0167
+c	+ [T_tilde] > U+007e
+c	+ [T_turned_e] > U+01dd
+c	+ [T_turned_v] > U+028c
+c	+ [T_u_acute] > U+00fa
+c	+ [T_u_circumflex] > U+00fb
+c	+ [T_u_diaeresis] > U+00fc
+c	+ [T_u_grave] > U+00f9
+c	+ [T_u_macron_below] > U+0075 U+0331
+c	+ [T_u_tilde] > U+0169
 	+ [T_underscore] > U+005f
-	+ [T_w_tilde] > U+0077 U+0303
-	+ [T_x_tilde] > U+0078 U+0303
-	+ [T_y_acute] > U+00fd
-	+ [T_y_circumflex] > U+0177
-	+ [T_y_grave] > U+1ef3
-	+ [T_y_hook] > U+01b4
-	+ [T_y_tilde] > U+1ef9
-	+ [T_z_caron] > U+017e
-	+ [T_z_circumflex] > U+1e91
-	+ [T_zwj] > U+200d
-	+ [T_zwnj] > U+200c
+c	+ [T_w_tilde] > U+0077 U+0303
+c	+ [T_x_tilde] > U+0078 U+0303
+c	+ [T_y_acute] > U+00fd
+c	+ [T_y_circumflex] > U+0177
+c	+ [T_y_grave] > U+1ef3
+c	+ [T_y_hook] > U+01b4
+c	+ [T_y_tilde] > U+1ef9
+c	+ [T_z_caron] > U+017e
+c	+ [T_z_circumflex] > U+1e91
+c	+ [T_zwj] > U+200d
+c	+ [T_zwnj] > U+200c
+
 group(hardware)
 	platform("windows") > use(SGGBFR74)
 	platform("linux")   > use(linux)
 	platform("macos")   > use(macos)
 	platform("android")   > use(android)
+	nomatch() > use(SGGBFR74)
 
 group(linux)
 c keep level of indirection incase need to optimize for linux
@@ -595,6 +597,7 @@ deadkey(dk19) + [K_3]	>	U+201d
 deadkey(dk19) + [K_SPACE]	>	U+003e
 deadkey(dk19) + [SHIFT K_SPACE]	>	U+003e
 deadkey(dk19) + [CTRL K_SPACE]	>	U+003e
+
 c setup 'simple' keys
 
 + [K_1]	>	U+0026

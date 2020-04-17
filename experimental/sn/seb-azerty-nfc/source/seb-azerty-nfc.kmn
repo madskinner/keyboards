@@ -1,6 +1,6 @@
-store(&TARGETS) 'any'
+﻿store(&TARGETS) 'any'
 store(&COPYRIGHT) '©2019 SIL International'
-store(&KEYBOARDVERSION) '0.2.6'
+store(&KEYBOARDVERSION) '0.2.7'
 store(&VISUALKEYBOARD) 'seb-azerty-nfc.kvks'
 store(&LAYOUTFILE) 'seb-azerty-nfc.keyman-touch-layout'
 store(&KMW_HELPFILE) 'seb-azerty-nfc-help.htm'
@@ -21,8 +21,9 @@ group(web)
 
 group(touch) using keys
 c mistyped key
-	 + [T_null] > beep
-	 + [SHIFT T_null] > beep
+	+ [T_null] > beep
+	+ [SHIFT T_null] > beep
+c simple keys
 	+ [K_0] > U+0030
 	+ [K_1] > U+0031
 	+ [K_2] > U+0032
@@ -329,11 +330,13 @@ c mistyped key
 	+ [T_z_circumflex] > U+1e91
 	+ [T_zwj] > U+200d
 	+ [T_zwnj] > U+200c
+
 group(hardware)
 	platform("windows") > use(SGGBFR74)
 	platform("linux")   > use(linux)
 	platform("macos")   > use(macos)
 	platform("android")   > use(android)
+	nomatch() > use(SGGBFR74)
 
 group(linux)
 c keep level of indirection incase need to optimize for linux
@@ -595,6 +598,7 @@ deadkey(dk19) + [K_3]	>	U+201d
 deadkey(dk19) + [K_SPACE]	>	U+003e
 deadkey(dk19) + [SHIFT K_SPACE]	>	U+003e
 deadkey(dk19) + [CTRL K_SPACE]	>	U+003e
+
 c setup 'simple' keys
 
 + [K_1]	>	U+0026

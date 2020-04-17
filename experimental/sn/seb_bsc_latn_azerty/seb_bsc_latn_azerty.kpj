@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeymanDeveloperProject>
+  <Options>
+    <BuildPath></BuildPath>
+    <CompilerWarningsAsErrors>False</CompilerWarningsAsErrors>
+    <WarnDeprecatedCode>True</WarnDeprecatedCode>
+    <CheckFilenameConventions>True</CheckFilenameConventions>
+    <ProjectType>keyboard</ProjectType>
+  </Options>
+  <Files>
+    <File>
+      <ID>id_7b5a7cd99e0c997331d68a24eb85d301</ID>
+      <Filename>seb_bsc_latn_azerty.kmn</Filename>
+      <Filepath>source\seb_bsc_latn_azerty.kmn</Filepath>
+      <FileVersion>0.3.0</FileVersion>
+      <FileType>.kmn</FileType>
+      <Details>
+        <Name>seb_bsc_latn_azerty</Name>
+        <Copyright>©2019 SIL International</Copyright>
+        <Message>Un clavier pour la langue «seb-azerty-nfc:seb-azerty-nfc».</Message>
+      </Details>
+    </File>
+    <File>
+      <ID>id_3b71fd0f61fa94c42b585b78e77c7cf4</ID>
+      <Filename>seb_bsc_latn_azerty.ico</Filename>
+      <Filepath>source\seb_bsc_latn_azerty.ico</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.ico</FileType>
+      <ParentFileID>id_7b5a7cd99e0c997331d68a24eb85d301</ParentFileID>
+    </File>
+  </Files>
+</KeymanDeveloperProject>

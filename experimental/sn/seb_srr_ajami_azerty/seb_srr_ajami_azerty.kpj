@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeymanDeveloperProject>
+  <Options>
+    <BuildPath></BuildPath>
+    <CompilerWarningsAsErrors>False</CompilerWarningsAsErrors>
+    <WarnDeprecatedCode>True</WarnDeprecatedCode>
+    <CheckFilenameConventions>True</CheckFilenameConventions>
+    <ProjectType>keyboard</ProjectType>
+  </Options>
+  <Files>
+    <File>
+      <ID>id_40ba39b454cb51c52b08770162d99032</ID>
+      <Filename>seb_srr_ajami_azerty.kmn</Filename>
+      <Filepath>source\seb_srr_ajami_azerty.kmn</Filepath>
+      <FileVersion>0.3.0</FileVersion>
+      <FileType>.kmn</FileType>
+      <Details>
+        <Name>seb_srr_ajami_azerty</Name>
+        <Copyright>©2019 SIL International</Copyright>
+        <Message>Un clavier pour la langue «seb-ajami-azerty:seb-ajami-azerty» en utilisant ajami..</Message>
+      </Details>
+    </File>
+    <File>
+      <ID>id_923dc1654ebb46c9b8970d86b6eac6c4</ID>
+      <Filename>seb_srr_ajami_azerty.ico</Filename>
+      <Filepath>source\seb_srr_ajami_azerty.ico</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.ico</FileType>
+      <ParentFileID>id_40ba39b454cb51c52b08770162d99032</ParentFileID>
+    </File>
+  </Files>
+</KeymanDeveloperProject>

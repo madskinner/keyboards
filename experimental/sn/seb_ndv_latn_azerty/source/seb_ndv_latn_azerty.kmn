@@ -8,6 +8,7 @@ store(&NAME) 'seb_ndv_latn_azerty'
 store(&MESSAGE) 'Un clavier pour la langue «seb-azerty-nfc:seb-azerty-nfc».'
 store(&BITMAP) 'seb_ndv_latn_azerty.ico'
 store(&KMW_RTL) '0'
+c store(&kmw_helptext) '<p><a href="welcome.htm#en" rel="help" target="_new">in English</a>, <a href="welcome.htm#fr" rel="help" target="_new">en fran&#x00E7;ais</a>, <a href="welcome.htm#pt" rel="help" target="_new">em portugu&#x00EA;s</a></p>'
 
 begin Unicode > use(main)
 
@@ -21,8 +22,9 @@ group(web)
 
 group(touch) using keys
 c mistyped key
-	 + [T_null] > beep
-	 + [SHIFT T_null] > beep
+	+ [T_null] > beep
+	+ [SHIFT T_null] > beep
+c simple keys
 	+ [K_0] > U+0030
 	+ [K_1] > U+0031
 	+ [K_2] > U+0032
@@ -773,6 +775,7 @@ c setup 'simple' keys
 
 + [K_V]	>	U+0076
 + [SHIFT K_V]	>	U+0056
++ [ALT CTRL K_V]	>	U+2117
 
 + [K_B]	>	U+0062
 + [SHIFT K_B]	>	U+0042

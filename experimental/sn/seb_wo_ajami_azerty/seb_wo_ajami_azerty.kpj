@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeymanDeveloperProject>
+  <Options>
+    <BuildPath></BuildPath>
+    <CompilerWarningsAsErrors>False</CompilerWarningsAsErrors>
+    <WarnDeprecatedCode>True</WarnDeprecatedCode>
+    <CheckFilenameConventions>True</CheckFilenameConventions>
+    <ProjectType>keyboard</ProjectType>
+  </Options>
+  <Files>
+    <File>
+      <ID>id_630bcdf11b621afa85916841968aae4f</ID>
+      <Filename>seb_wo_ajami_azerty.kmn</Filename>
+      <Filepath>source\seb_wo_ajami_azerty.kmn</Filepath>
+      <FileVersion>0.3.1</FileVersion>
+      <FileType>.kmn</FileType>
+      <Details>
+        <Name>seb_wo_ajami_azerty</Name>
+        <Copyright>©2019 SIL International</Copyright>
+        <Message>Un clavier pour la langue «wo-arab:Wolof-Ajami-SN».</Message>
+      </Details>
+    </File>
+    <File>
+      <ID>id_693d3eb6172cfdf29d320803e0c16d0e</ID>
+      <Filename>seb_wo_ajami_azerty.kps</Filename>
+      <Filepath>source\seb_wo_ajami_azerty.kps</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.kps</FileType>
+      <Details/>
+    </File>
+    <File>
+      <ID>id_1d00adf83c4a5afef2b3f21e352e1bcd</ID>
+      <Filename>seb_wo_ajami_azerty.ico</Filename>
+      <Filepath>source\seb_wo_ajami_azerty.ico</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.ico</FileType>
+      <ParentFileID>id_630bcdf11b621afa85916841968aae4f</ParentFileID>
+    </File>
+  </Files>
+</KeymanDeveloperProject>
