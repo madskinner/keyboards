@@ -1,0 +1,24 @@
+sil_wo_ajami_arab Keyboard
+=====================
+
+Copyright (C) 2020 SIL International
+Version 0.4.0
+
+__DESCRIPTION__
+The keyboard is intended to meet the needs of Wolof-Ajami-SN, on all platforms.
+It will default to an Arabic(101) based layout for all platforms.
+All characters will be generated in NFC (Normalied Fully Composed) format.
+Links
+-----
+
+ * Contact:  mark_skinner@sil.org
+
+Supported Platforms
+-------------------
+ * Windows
+ * macOS
+ * Linux
+ * Web
+ * Mobile Web
+ * iOS
+ * Android

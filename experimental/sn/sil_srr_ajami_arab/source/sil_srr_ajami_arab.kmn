@@ -1,0 +1,640 @@
+﻿store(&TARGETS) 'any'
+store(&COPYRIGHT) '©2020 SIL International'
+store(&KEYBOARDVERSION) '0.4.4'
+store(&VISUALKEYBOARD) 'sil_srr_ajami_arab.kvks'
+store(&LAYOUTFILE) 'sil_srr_ajami_arab.keyman-touch-layout'
+store(&KMW_HELPFILE) 'sil_srr_ajami_arab-help.htm'
+store(&NAME) 'sil_srr_ajami_arab'
+store(&MESSAGE) 'Un clavier pour la langue «srr-arab:Serer-Ajami».'
+store(&BITMAP) 'sil_srr_ajami_arab.ico'
+store(&KMW_RTL) '1'
+
+begin Unicode > use(main)
+
+group(main)
+	platform("touch") > use(touch)
+	platform("web") > use(web)
+	nomatch() > use(hardware)
+
+c keep levels of indirection incase need to optimize for each OS/formfactor
+group(web)
+	nomatch() > use(SNARAB)
+
+group(touch)
+    nomatch() > use(SNARAB)
+
+group(hardware)
+	platform("windows") > use(SNARAB)
+	platform("linux")   > use(linux)
+	platform("macos")   > use(macos)
+	platform("android")   > use(android)
+
+group(linux)
+	nomatch() > use(SNARAB)
+
+group(macos)
+	nomatch() > use(SNARAB)
+
+group(android)
+	nomatch() > use(SNARAB)
+
+group(SNARAB) using keys
+    store(isLRE) '0'
+    store(is6DD) '0'
+
+    store(LRE) U+202a
+    store(RLE) U+202b
+    store(PDF) U+202c
+
+    store(NBSP)  U+00a0
+    store(NNBSP) U+202f
+    store(ZWNJ)  U+200c
+    store(ZWJ)   U+200d
+    store(LRM)   U+200e
+    store(RLM)   U+200f
+
+    store(arabic) '0123456789'
+    store(indic)  '٠١٢٣٤٥٦٧٨٩'
+
+c setup deadkeys
+c simple deadkeys
+c setup 'simple' keys
+c ROW A
+if(isLRE='0') + [K_BKQUOTE]	>	U+0632 set(is6DD='0')
+if(isLRE='1') + [K_BKQUOTE]	>	outs(PDF) outs(RLM) U+0632 set(isLRE='0')
+if(isLRE='0') + [SHIFT K_BKQUOTE]	>	U+0651 set(is6DD='0')
+if(isLRE='1') + [SHIFT K_BKQUOTE]	>	outs(PDF) outs(RLM) U+0651 set(isLRE='0')
+if(isLRE='0') + [ALT CTRL K_BKQUOTE]	>	U+0600 set(is6DD='1')
+if(isLRE='1') + [ALT CTRL K_BKQUOTE]	>	outs(PDF) outs(RLM) U+0600  set(isLRE='0') set(is6DD='1')
+
+if(isLRE='0') if(is6DD='0') + [K_1]	>	outs(LRE) U+0031 set(isLRE='1')
+if(isLRE='0') if(is6DD='1') + [K_1]	>	U+0031
+if(isLRE='0') U+002b + [K_1]	>	outs(LRE) U+002b U+0031 set(isLRE='1')
+if(isLRE='1') + [K_1]	>	U+0031
+if(isLRE='1') any(arabic) U+066c + [K_1] > index(arabic,2) U+002c U+0031
+if(isLRE='1') any(arabic) U+066b + [K_1] > index(arabic,2) U+002e U+0031
+if(isLRE='0') + [SHIFT K_1]	>	U+0021 set(is6DD='0')
+if(isLRE='1') + [SHIFT K_1]	>	outs(PDF) outs(RLM) U+0021 set(isLRE='0')
+if(isLRE='0') + [CTRL SHIFT K_1]	>	outs(ZWJ) set(is6DD='0')
+if(isLRE='1') + [CTRL SHIFT K_1]	>	outs(PDF) outs(RLM) outs(ZWJ) set(isLRE='0')
+if(isLRE='0') + [ALT CTRL K_1]	>	outs(LRE) U+0661 set(isLRE='1')
+if(isLRE='1') + [ALT CTRL K_1]	>	U+0661
+if(isLRE='1') any(indic) U+002c + [ALT CTRL K_1] > index(indic,2) U+066c U+0661
+if(isLRE='1') any(indic) U+002e + [ALT CTRL K_1] > index(indic,2) U+066b U+0661
+
+if(isLRE='0') if(is6DD='0') + [K_2]	>	outs(LRE) U+0032 set(isLRE='1')
+if(isLRE='0') if(is6DD='1') + [K_2]	>	U+0032
+if(isLRE='0') U+002b + [K_2]	>	outs(LRE) U+002b U+0032 set(isLRE='1')
+if(isLRE='1') + [K_2]	>	U+0032
+if(isLRE='1') any(arabic) U+066c + [K_2] > index(arabic,2) U+002c U+0032
+if(isLRE='1') any(arabic) U+066b + [K_2] > index(arabic,2) U+002e U+0032
++ [SHIFT K_2] >	U+0040 set(is6DD='0')
+if(isLRE='0') + [CTRL SHIFT K_2]	>	U+200c set(is6DD='0')
+if(isLRE='1') + [CTRL SHIFT K_2]	>	outs(PDF) outs(RLM) U+200c set(isLRE='0')
+if(isLRE='0') + [ALT CTRL K_2]	>	outs(LRE) U+0662 set(isLRE='1')
+if(isLRE='1') + [ALT CTRL K_2]	>	U+0662
+if(isLRE='1') any(indic) U+002c + [ALT CTRL K_2] > index(indic,2) U+066c U+0662
+if(isLRE='1') any(indic) U+002e + [ALT CTRL K_2] > index(indic,2) U+066b U+0662
+
+if(isLRE='0') if(is6DD='0') + [K_3]	>	outs(LRE) U+0033 set(isLRE='1')
+if(isLRE='0') if(is6DD='1') + [K_3]	>	U+0033
+if(isLRE='0') U+002b + [K_3]	>	outs(LRE) U+002b U+0033 set(isLRE='1')
+if(isLRE='1') + [K_3]	>	U+0033
+if(isLRE='1') any(arabic) U+066c + [K_3] > index(arabic,2) U+002c U+0033
+if(isLRE='1') any(arabic) U+066b + [K_3] > index(arabic,2) U+002e U+0033
+c #
++ [SHIFT K_3]	>	U+0023 set(is6DD='0')
++ [CTRL SHIFT K_3]	>	outs(LRM)
+if(isLRE='0') + [ALT CTRL K_3]	>	outs(LRE) U+0663 set(isLRE='1')
+if(isLRE='1') + [ALT CTRL K_3]	>	U+0663
+if(isLRE='1') any(indic) U+002c + [ALT CTRL K_3] > index(indic,2) U+066c U+0663
+if(isLRE='1') any(indic) U+002e + [ALT CTRL K_3] > index(indic,2) U+066b U+0663
+
+if(isLRE='0') if(is6DD='0') + [K_4]	>	outs(LRE) U+0034 set(isLRE='1')
+if(isLRE='0') if(is6DD='1') + [K_4]	>	U+0034
+if(isLRE='0') U+002b + [K_4]	>	outs(LRE) U+002b U+0034 set(isLRE='1')
+if(isLRE='1') + [K_4]	>	U+0034
+if(isLRE='1') any(arabic) U+066c + [K_4] > index(arabic,2) U+002c U+0034
+if(isLRE='1') any(arabic) U+066b + [K_4] > index(arabic,2) U+002e U+0034
+c dollar
+if(isLRE='0') + [SHIFT K_4]	>	outs(LRE) U+0024 set(isLRE='1') set(is6DD='0')
+if(isLRE='1') + [SHIFT K_4]	>	U+0024 outs(PDF) outs(RLM) set(isLRE='0')
++ [CTRL SHIFT K_4]	>	outs(RLM) set(isLRE='1')
+c indic
+if(isLRE='0') + [ALT CTRL K_4]	>	outs(LRE) U+0664 set(isLRE='1')
+if(isLRE='1') + [ALT CTRL K_4]	>	U+0664
+if(isLRE='1') any(indic) U+002c + [ALT CTRL K_4] > index(indic,2) U+066c U+0664
+if(isLRE='1') any(indic) U+002e + [ALT CTRL K_4] > index(indic,2) U+066b U+0664
+
+if(isLRE='0') if(is6DD='0') + [K_5]	>	outs(LRE) U+0035 set(isLRE='1')
+if(isLRE='0') if(is6DD='1') + [K_5]	>	U+0035
+if(isLRE='0') U+002b + [K_5]	>	outs(LRE) U+002b U+0035 set(isLRE='1')
+if(isLRE='1') + [K_5]	>	U+0035
+if(isLRE='1') any(arabic) U+066c + [K_5] > index(arabic,2) U+002c U+0035
+if(isLRE='1') any(arabic) U+066b + [K_5] > index(arabic,2) U+002e U+0035
+if(isLRE='0') + [SHIFT K_5]	>	U+066a set(is6DD='0')
+if(isLRE='1') + [SHIFT K_5]	>	U+066a outs(PDF) outs(RLM) set(isLRE='0')
+if(isLRE='0') + [ALT CTRL K_5]	>	outs(LRE) U+0665 set(isLRE='1')
+if(isLRE='1') + [ALT CTRL K_5]	>	U+0665
+if(isLRE='1') any(indic) U+002c + [ALT CTRL K_5] > index(indic,2) U+066c U+0665
+if(isLRE='1') any(indic) U+002e + [ALT CTRL K_5] > index(indic,2) U+066b U+0665
+
+if(isLRE='0') if(is6DD='0') + [K_6]	>	outs(LRE) U+0036 set(isLRE='1')
+if(isLRE='0') if(is6DD='1') + [K_6]	>	U+0036
+if(isLRE='0') U+002b + [K_6]	>	outs(LRE) U+002b U+0036 set(isLRE='1')
+if(isLRE='1') + [K_6]	>	U+0036
+if(isLRE='1') any(arabic) U+066c + [K_6] > index(arabic,2) U+002c U+0036
+if(isLRE='1') any(arabic) U+066b + [K_6] > index(arabic,2) U+002e U+0036
+c circumflex
++ [SHIFT K_6]	>	U+005e set(is6DD='0')
+if(isLRE='0') + [ALT CTRL K_6]	>	outs(LRE) U+0666 set(isLRE='1')
+if(isLRE='1') + [ALT CTRL K_6]	>	U+0666
+if(isLRE='1') any(indic) U+002c + [ALT CTRL K_6] > index(indic,2) U+066c U+0666
+if(isLRE='1') any(indic) U+002e + [ALT CTRL K_6] > index(indic,2) U+066b U+0666
++ [ALT CTRL SHIFT K_6]	>	U+2022 set(is6DD='0')
+
+if(isLRE='0') if(is6DD='0') + [K_7]	>	outs(LRE) U+0037 set(isLRE='1')
+if(isLRE='0') if(is6DD='1') + [K_7]	>	U+0037
+if(isLRE='0') U+002b + [K_7]	>	outs(LRE) U+002b U+0037 set(isLRE='1')
+if(isLRE='1') + [K_7]	>	U+0037
+if(isLRE='1') any(arabic) U+066c + [K_7] > index(arabic,2) U+002c U+0037
+if(isLRE='1') any(arabic) U+066b + [K_7] > index(arabic,2) U+002e U+0037
++ [SHIFT K_7]	>	U+0026 set(is6DD='0')
+if(isLRE='0') + [ALT CTRL K_7]	>	outs(LRE) U+0667 set(isLRE='1')
+if(isLRE='1') + [ALT CTRL K_7]	>	U+0667
+if(isLRE='1') any(indic) U+002c + [ALT CTRL K_7] > index(indic,2) U+066c U+0667
+if(isLRE='1') any(indic) U+002e + [ALT CTRL K_7] > index(indic,2) U+066b U+0667
++ [ALT CTRL SHIFT K_7]	>	U+00b7 set(is6DD='0')
+
+if(isLRE='0') if(is6DD='0') + [K_8]	>	outs(LRE) U+0038 set(isLRE='1')
+if(isLRE='0') if(is6DD='1') + [K_8]	>	U+0038
+if(isLRE='0') U+002b + [K_8]	>	outs(LRE) U+002b U+0038 set(isLRE='1')
+if(isLRE='1') + [K_8]	>	U+0038
+if(isLRE='1') any(arabic) U+066c + [K_8] > index(arabic,2) U+002c U+0038
+if(isLRE='1') any(arabic) U+066b + [K_8] > index(arabic,2) U+002e U+0038
++ [SHIFT K_8]	>	U+066d set(is6DD='0')
+if(isLRE='0') + [ALT CTRL K_8]	>	outs(LRE) U+0668 set(isLRE='1')
+if(isLRE='1') + [ALT CTRL K_8]	>	U+0668
+if(isLRE='1') any(indic) U+002c + [ALT CTRL K_8] > index(indic,2) U+066c U+0668
+if(isLRE='1') any(indic) U+002e + [ALT CTRL K_8] > index(indic,2) U+066b U+0668
++ [ALT CTRL SHIFT K_8]	>	U+00b6 set(is6DD='0')
+
+if(isLRE='0') if(is6DD='0') + [K_9]	>	outs(LRE) U+0039 set(isLRE='1')
+if(isLRE='0') if(is6DD='1') + [K_9]	>	U+0039
+if(isLRE='0') U+002b + [K_9]	>	outs(LRE) U+002b U+0039 set(isLRE='1')
+if(isLRE='1') + [K_9]	>	U+0039
+if(isLRE='1') any(arabic) U+066c + [K_9] > index(arabic,2) U+002c U+0039
+if(isLRE='1') any(arabic) U+066b + [K_9] > index(arabic,2) U+002e U+0039
+if(isLRE='0') + [SHIFT K_9]	>	U+0029 set(is6DD='0')
+if(isLRE='1') + [SHIFT K_9]	>	outs(PDF) outs(RLM) U+0029 set(isLRE='0')
+if(isLRE='0') + [ALT CTRL K_9]	>	outs(LRE) U+0669 set(isLRE='1')
+if(isLRE='1') + [ALT CTRL K_9]	>	U+0669
+if(isLRE='1') any(indic) U+002c + [ALT CTRL K_9] > index(indic,2) U+066c U+0669
+if(isLRE='1') any(indic) U+002e + [ALT CTRL K_9] > index(indic,2) U+066b U+0669
++ [ALT CTRL SHIFT K_9]	>	U+00a7
+
+if(isLRE='0') if(is6DD='0') + [K_0]	>	outs(LRE) U+0030 set(isLRE='1')
+if(isLRE='0') if(is6DD='1') + [K_0]	>	U+0030
+if(isLRE='0') U+002b + [K_0]	>	outs(LRE) U+002b U+0030 set(isLRE='1')
+if(isLRE='1') + [K_0]	>	U+0030
+if(isLRE='1') any(arabic) U+066c + [K_0] > index(arabic,2) U+002c U+0030
+if(isLRE='1') any(arabic) U+066b + [K_0] > index(arabic,2) U+002e U+0030
+c open paren
+if(isLRE='0') + [SHIFT K_0]	>	U+0028 set(is6DD='0')
+if(isLRE='1') + [SHIFT K_0]	>	outs(PDF) outs(RLM) U+0028 set(isLRE='0')
+if(isLRE='0') + [ALT CTRL K_0]	>	outs(LRE) U+0660 set(isLRE='1')
+if(isLRE='1') + [ALT CTRL K_0]	>	U+0660
+if(isLRE='1') any(indic) U+002c + [ALT CTRL K_0] > index(indic,2) U+066c U+0660
+if(isLRE='1') any(indic) U+002e + [ALT CTRL K_0] > index(indic,2) U+066b U+0660
+c degree
+if(isLRE='0') + [ALT CTRL SHIFT K_0]	>	U+00b0 outs(RLM) set(is6DD='0')
+if(isLRE='1') + [ALT CTRL SHIFT K_0]	>	U+00b0 outs(PDF) outs(RLM) set(isLRE='0')
+
++ [K_HYPHEN]	>	U+002d
++ [SHIFT K_HYPHEN]	>	U+005f
+c mu
+if(isLRE='0') + [ALT CTRL SHIFT K_HYPHEN]	>	U+00b5 outs(RLM) set(is6DD='0')
+if(isLRE='1') + [ALT CTRL SHIFT K_HYPHEN]	>	U+00b5 outs(PDF) outs(RLM) set(isLRE='0')
+
++ [K_EQUAL]	>	U+003d set(is6DD='0')
+c plus
++ [SHIFT K_EQUAL]	>	U+002b set(is6DD='0')
++ [ALT CTRL SHIFT K_EQUAL]	>	U+00b1 set(is6DD='0')
+
+c ROW B
+if(isLRE='0') + [K_Q]	>	U+0636 set(is6DD='0')
+if(isLRE='1') + [K_Q]	>	outs(PDF) outs(RLM) U+0636 set(isLRE='0')
+if(isLRE='0') + [SHIFT K_Q]	>	U+064e set(is6DD='0')
+if(isLRE='1') + [SHIFT K_Q]	>	outs(PDF) outs(RLM) U+064e set(isLRE='0')
+if(isLRE='0') + [ALT CTRL K_Q]	>	U+08f5 set(is6DD='0')
+if(isLRE='1') + [ALT CTRL K_Q]	>	outs(PDF) outs(RLM) U+08f5 set(isLRE='0')
+
+if(isLRE='0') + [K_W]	>	U+0635 set(is6DD='0')
+if(isLRE='1') + [K_W]	>	outs(PDF) outs(RLM) U+0635 set(isLRE='0')
+if(isLRE='0') + [ALT CTRL K_W]	>	U+08f4 set(is6DD='0')
+if(isLRE='1') + [ALT CTRL K_W]	>	outs(PDF) outs(RLM) U+08f4 set(isLRE='0')
+
+if(isLRE='0') + [K_E]	>	U+062b set(is6DD='0')
+if(isLRE='1') + [K_E]	>	outs(PDF) outs(RLM) U+062b set(isLRE='0')
+if(isLRE='0') + [SHIFT K_E]	>	U+64f set(is6DD='0')
+if(isLRE='1') + [SHIFT K_E]	>	outs(PDF) outs(RLM) U+64f set(isLRE='0')
+if(isLRE='0') + [ALT CTRL K_E]	>	U+08f7 set(is6DD='0')
+if(isLRE='1') + [ALT CTRL K_E]	>	outs(PDF) outs(RLM) U+08f7 set(isLRE='0')
+
+if(isLRE='0') + [K_R]	>	U+0642 set(is6DD='0')
+if(isLRE='1') + [K_R]	>	outs(PDF) outs(RLM) U+0642 set(isLRE='0')
+if(isLRE='0') + [SHIFT K_R]	>	U+064c set(is6DD='0')
+if(isLRE='1') + [SHIFT K_R]	>	outs(PDF) outs(RLM) U+064c set(isLRE='0')
+if(isLRE='0') + [ALT CTRL K_R]	>	U+0657 set(is6DD='0')
+if(isLRE='1') + [ALT CTRL K_R]	>	outs(PDF) outs(RLM) U+0657 set(isLRE='0')
++ [ALT CTRL SHIFT K_R]	>	U+00ae
+
+if(isLRE='0') + [K_T]	>	U+0641 set(is6DD='0')
+if(isLRE='1') + [K_T]	>	outs(PDF) outs(RLM) U+0641 set(isLRE='0')
+c currency
+if(isLRE='0') + [ALT CTRL SHIFT K_T]	>	outs(LRE) U+000a4 set(isLRE='1') set(is6DD='0')
+if(isLRE='1') + [ALT CTRL SHIFT K_T]	>	outs(PDF) outs(RLM) outs(LRE) U+000a4
+
+if(isLRE='0') + [K_Y]	>	U+063a set(is6DD='0')
+if(isLRE='1') + [K_Y]	>	outs(PDF) outs(RLM) U+063a set(isLRE='0')
+if(isLRE='0') + [ALT CTRL K_Y]	>	U+075d set(is6DD='0')
+if(isLRE='1') + [ALT CTRL K_Y]	>	outs(PDF) outs(RLM) U+075d set(isLRE='0')
+c fcfa
+if(isLRE='0') + [ALT CTRL SHIFT K_Y]	>	U+0066 U+0063 U+0066 U+0061 outs(RLM) set(is6DD='0')
+if(isLRE='1') + [ALT CTRL SHIFT K_Y]	>	U+0066 U+0063 U+0066 U+0061 outs(PDF) outs(RLM) set(isLRE='0')
+
+if(isLRE='0') + [K_U]	>	U+0639 set(is6DD='0')
+if(isLRE='1') + [K_U]	>	outs(PDF) outs(RLM) U+0639 set(isLRE='0')
+if(isLRE='0') + [SHIFT K_U]	>	U+2018 set(is6DD='0')
+if(isLRE='1') + [SHIFT K_U]	>	outs(PDF) outs(RLM) U+2018 set(isLRE='0')
+if(isLRE='0') + [ALT CTRL K_U]	>	U+201c set(is6DD='0')
+if(isLRE='1') + [ALT CTRL K_U]	>	outs(PDF) outs(RLM) U+201c set(isLRE='0')
+c cent
+if(isLRE='0') + [ALT CTRL SHIFT K_U]	>	outs(LRE) U+00a2 set(is6DD='0')
+if(isLRE='1') + [ALT CTRL SHIFT K_U]	>	U+00a2 outs(PDF) outs(RLM) set(isLRE='0')
+
+if(isLRE='0') + [K_I]	>	U+0647 set(is6DD='0')
+if(isLRE='1') + [K_I]	>	outs(PDF) outs(RLM) U+0647 set(isLRE='0')
++ [SHIFT K_I]	>	U+00f7
+if(isLRE='0') + [ALT CTRL SHIFT K_I]	>	outs(LRE) U+00a3 set(isLRE='1') set(is6DD='0')
+if(isLRE='1') + [ALT CTRL SHIFT K_I]	>	outs(PDF) outs(RLM) outs(LRE) U+00a3
+
+if(isLRE='0') + [K_O]	>	U+062e set(is6DD='0')
+if(isLRE='1') + [K_O]	>	outs(PDF) outs(RLM) U+062e set(isLRE='0')
++ [SHIFT K_O]	>	U+00d7 set(is6DD='0')
+if(isLRE='0') + [ALT CTRL K_O]	>	U+08a2 set(is6DD='0')
+if(isLRE='1') + [ALT CTRL K_O]	>	outs(PDF) outs(RLM) U+08a2 set(isLRE='0')
+c euro digits either follow euro sign or preceed NBSP followed by euro
+if(isLRE='0') + [ALT CTRL SHIFT K_O]	>	outs(LRE) U+20ac set(isLRE='1') set(is6DD='0')
+if(isLRE='1') + [ALT CTRL SHIFT K_O]	>	U+00a0 U+20ac outs(PDF) outs(RLM) set(isLRE='0')
+
+if(isLRE='0') + [K_P]	>	U+062d set(is6DD='0')
+if(isLRE='1') + [K_P]	>	outs(PDF) outs(RLM) U+062d set(isLRE='0')
+if(isLRE='0') + [SHIFT K_P]	>	U+061b set(is6DD='0')
+if(isLRE='1') + [SHIFT K_P]	>	outs(PDF) outs(RLM) U+061b set(isLRE='0')
+c yen - digits always follow yen sign
+if(isLRE='0') + [ALT CTRL SHIFT K_P]	>	outs(LRE) U+00a5 set(is6DD='0')
+if(isLRE='1') + [ALT CTRL SHIFT K_P]	>	outs(PDF) outs(RLM) outs(LRE) U+00a5
+
+if(isLRE='0') + [K_LBRKT]	>	U+062c set(is6DD='0')
+if(isLRE='1') + [K_LBRKT]	>	outs(PDF) outs(RLM) U+062c set(isLRE='0')
+c less than
+if(isLRE='0') + [SHIFT K_LBRKT]	>	U+003e set(is6DD='0')
+if(isLRE='1') + [SHIFT K_LBRKT]	>	U+003c
++ [CTRL K_LBRKT]	>	U+001b
+if(isLRE='0') + [ALT CTRL K_LBRKT]	>	U+0683 set(is6DD='0')
+if(isLRE='1') + [ALT CTRL K_LBRKT]	>	outs(PDF) outs(RLM) U+0683 set(isLRE='0')
+if(isLRE='0') + [ALT CTRL SHIFT K_LBRKT]	>	U+2039 set(is6DD='0')
+if(isLRE='1') + [ALT CTRL SHIFT K_LBRKT]	>	outs(PDF) outs(RLM) U+2039 set(isLRE='0')
+
+if(isLRE='0') + [K_RBRKT]	>	U+062f set(is6DD='0')
+if(isLRE='1') + [K_RBRKT]	>	outs(PDF) outs(RLM) U+062f set(isLRE='0')
+c greater than
+if(isLRE='0') + [SHIFT K_RBRKT]	>	U+003c set(is6DD='0')
+if(isLRE='1') + [SHIFT K_RBRKT]	>	U+003e
++ [CTRL K_RBRKT]	>	U+001d
+if(isLRE='0') + [ALT CTRL K_RBRKT]	>	U+0630 set(is6DD='0')
+if(isLRE='1') + [ALT CTRL K_RBRKT]	>	outs(PDF) outs(RLM) U+0630 set(isLRE='0')
+if(isLRE='0') + [ALT CTRL SHIFT K_RBRKT]	>	U+203a set(is6DD='0')
+if(isLRE='1') + [ALT CTRL SHIFT K_RBRKT]	>	outs(PDF) outs(RLM) U+203a set(isLRE='0')
+
++ [K_BKSLASH]	>	U+005c set(is6DD='0')
++ [SHIFT K_BKSLASH]	>	U+007c set(is6DD='0')
++ [CTRL K_BKSLASH]	>	U+001c set(is6DD='0')
++ [ALT CTRL K_BKSLASH]	>	U+00a6 set(is6DD='0')
+
+c ROW C
+if(isLRE='0') + [K_A]	>	U+0634 set(is6DD='0')
+if(isLRE='1') + [K_A]	>	outs(PDF) outs(RLM) U+0634 set(isLRE='0')
+if(isLRE='0') + [SHIFT K_A]	>	U+0650 set(is6DD='0')
+if(isLRE='1') + [SHIFT K_A]	>	outs(PDF) outs(RLM) U+0650 set(isLRE='0')
+if(isLRE='0') + [ALT CTRL K_A]	>	U+08f6 set(is6DD='0')
+if(isLRE='1') + [ALT CTRL K_A]	>	outs(PDF) outs(RLM) U+08f6 set(isLRE='0')
+
+if(isLRE='0') + [K_S]	>	U+0633 set(is6DD='0')
+if(isLRE='1') + [K_S]	>	outs(PDF) outs(RLM) U+0633 set(isLRE='0')
+if(isLRE='0') + [ALT CTRL K_S]	>	U+08f9 set(is6DD='0')
+if(isLRE='1') + [ALT CTRL K_S]	>	outs(PDF) outs(RLM) U+08f9 set(isLRE='0')
+
+if(isLRE='0') + [K_D]	>	U+064a set(is6DD='0')
+if(isLRE='1') + [K_D]	>	outs(PDF) outs(RLM) U+064a set(isLRE='0')
+if(isLRE='0') + [SHIFT K_D]	>	U+005d set(is6DD='0')
+if(isLRE='1') + [SHIFT K_D]	>	outs(PDF) outs(RLM) U+005d set(isLRE='0')
+if(isLRE='0') + [ALT CTRL K_D]	>	U+08fa set(is6DD='0')
+if(isLRE='1') + [ALT CTRL K_D]	>	outs(PDF) outs(RLM) U+08fa set(isLRE='0')
+if(isLRE='0') + [ALT CTRL SHIFT K_D]	>	U+0649 set(is6DD='0')
+if(isLRE='1') + [ALT CTRL SHIFT K_D]	>	outs(PDF) outs(RLM) U+0649 set(isLRE='0')
+
+if(isLRE='0') + [K_F]	>	U+0628 set(is6DD='0')
+if(isLRE='1') + [K_F]	>	outs(PDF) outs(RLM) U+0628 set(isLRE='0')
+if(isLRE='0') + [SHIFT K_F]	>	U+005b set(is6DD='0')
+if(isLRE='1') + [SHIFT K_F]	>	outs(PDF) outs(RLM) U+005b set(isLRE='0')
+
+if(isLRE='0') + [K_G]	>	U+0644 set(is6DD='0')
+if(isLRE='1') + [K_G]	>	outs(PDF) outs(RLM) U+0644 set(isLRE='0')
+if(isLRE='0') + [SHIFT K_G]	>	outs(RLM) U+06dd set(is6DD='1')
+if(isLRE='1') + [SHIFT K_G]	>	outs(PDF) outs(RLM) U+06dd  set(isLRE='0') set(is6DD='1')
+if(isLRE='0') + [ALT CTRL K_G]	>	U+076a set(isLRE='0')
+if(isLRE='1') + [ALT CTRL K_G]	>	outs(PDF) outs(RLM) U+076a
+
+if(isLRE='0') + [K_H]	>	U+0627 set(is6DD='0')
+if(isLRE='1') + [K_H]	>	outs(PDF) outs(RLM) U+0627 set(isLRE='0')
+if(isLRE='0') + [SHIFT K_H]	>	U+0670 set(is6DD='0')
+if(isLRE='1') + [SHIFT K_H]	>	outs(PDF) outs(RLM) U+0670 set(isLRE='0')
+if(isLRE='0') + [ALT CTRL K_H]	>	U+0623 set(is6DD='0')
+if(isLRE='1') + [ALT CTRL K_H]	>	outs(PDF) outs(RLM) U+0623 set(isLRE='0')
+if(isLRE='0') + [ALT CTRL SHIFT K_H]	>	U+0625 set(is6DD='0')
+if(isLRE='1') + [ALT CTRL SHIFT K_H]	>	outs(PDF) outs(RLM) U+0625 set(isLRE='0')
+
+if(isLRE='0') + [K_J]	>	U+062a set(is6DD='0')
+if(isLRE='1') + [K_J]	>	outs(PDF) outs(RLM) U+062a set(isLRE='0')
+if(isLRE='0') + [SHIFT K_J]	>	U+0640 set(is6DD='0')
+if(isLRE='1') + [SHIFT K_J]	>	outs(PDF) outs(RLM) U+0640 set(isLRE='0')
++ [ALT CTRL K_J]	>	U+2013 set(is6DD='0')
+
+if(isLRE='0') + [K_K]	>	U+0646 set(is6DD='0')
+if(isLRE='1') + [K_K]	>	outs(PDF) outs(RLM) U+0646 set(isLRE='0')
+if(isLRE='0') + [SHIFT K_K]	>	U+060c set(is6DD='0')
+if(isLRE='1') + [SHIFT K_K]	>	outs(PDF) outs(RLM) U+060c set(isLRE='0')
++ [ALT CTRL K_K]	>	U+2014 set(is6DD='0')
+
+if(isLRE='0') + [K_L]	>	U+0645 set(is6DD='0')
+if(isLRE='1') + [K_L]	>	outs(PDF) outs(RLM) U+0645 set(isLRE='0')
++ [SHIFT K_L]	>	U+002f set(is6DD='0')
+
+if(isLRE='0') + [K_COLON]	>	U+06a9 set(is6DD='0')
+if(isLRE='1') + [K_COLON]	>	outs(PDF) outs(RLM) U+06a9 set(isLRE='0')
++ [SHIFT K_COLON]	>	 U+003a set(is6DD='0')
+if(isLRE='0') + [ALT CTRL K_COLON]	>	U+0643 set(is6DD='0')
+if(isLRE='1') + [ALT CTRL K_COLON]	>	outs(PDF) outs(RLM) U+0643 set(isLRE='0')
+
+if(isLRE='0') + [K_QUOTE]	>	U+0637 set(is6DD='0')
+if(isLRE='1') + [K_QUOTE]	>	outs(PDF) outs(RLM) U+0637 set(isLRE='0')
++ [SHIFT K_QUOTE]	>	U+0022 set(is6DD='0')
+
++ [K_oE2]	>	U+005c set(is6DD='0')
++ [SHIFT K_oE2]	>	U+007c set(is6DD='0')
+
+c ROW D
+if(isLRE='0') + [K_Z]	>	U+0752 set(is6DD='0')
+if(isLRE='1') + [K_Z]	>	outs(PDF) outs(RLM) U+0752 set(isLRE='0')
++ [SHIFT K_Z]	>	U+007e set(is6DD='0')
+if(isLRE='0') + [ALT CTRL K_Z]	>	U+0755 set(is6DD='0')
+if(isLRE='1') + [ALT CTRL K_Z]	>	outs(PDF) outs(RLM) U+0755 set(isLRE='0')
+
+if(isLRE='0') + [K_X]	>	U+0674 set(is6DD='0')
+if(isLRE='1') + [K_X]	>	outs(PDF) outs(RLM) U+0674 set(isLRE='0')
+if(isLRE='0') + [SHIFT K_X]	>	U+0652 set(is6DD='0')
+if(isLRE='1') + [SHIFT K_X]	>	outs(PDF) outs(RLM) U+0652 set(isLRE='0')
+if(isLRE='0') + [ALT CTRL K_X]	>	U+0621 set(is6DD='0')
+if(isLRE='1') + [ALT CTRL K_X]	>	outs(PDF) outs(RLM) U+0621 set(isLRE='0')
++ [ALT CTRL SHIFT K_X]	>	U+2117 set(is6DD='0')
+
+if(isLRE='0') + [K_C]	>	U+0756 set(is6DD='0')
+if(isLRE='1') + [K_C]	>	outs(PDF) outs(RLM) U+0756 set(isLRE='0')
+if(isLRE='0') + [SHIFT K_C]	>	U+fd3e set(is6DD='0')
+if(isLRE='1') + [SHIFT K_C]	>	outs(PDF) outs(RLM) U+fd3e set(isLRE='0')
+if(isLRE='0') + [ALT CTRL K_C]	>	U+00bb set(is6DD='0')
+if(isLRE='1') + [ALT CTRL K_C]	>	outs(PDF) outs(RLM) U+00bb set(isLRE='0')
++ [ALT CTRL SHIFT K_C]	>	U+00a9 set(is6DD='0')
+
+if(isLRE='0') + [K_V]	>	U+0631 set(is6DD='0')
+if(isLRE='1') + [K_V]	>	outs(PDF) outs(RLM) U+0631 set(isLRE='0')
+if(isLRE='0') + [SHIFT K_V]	>	U+fd3f set(is6DD='0')
+if(isLRE='1') + [SHIFT K_V]	>	outs(PDF) outs(RLM) U+fd3f set(isLRE='0')
+if(isLRE='0') + [ALT CTRL K_V]	>	U+00ab set(is6DD='0')
+if(isLRE='1') + [ALT CTRL K_V]	>	outs(PDF) outs(RLM) U+00ab set(isLRE='0')
+
+if(isLRE='0') + [K_B]	>	U+06af set(is6DD='0')
+if(isLRE='1') + [K_B]	>	outs(PDF) outs(RLM) U+06af set(isLRE='0')
+c if(isLRE='0') + [SHIFT K_B]	>	U+0644 U+0622 set(is6DD='0')
+c if(isLRE='1') + [SHIFT K_B]	>	outs(PDF) outs(RLM) U+0644 U+0622 set(isLRE='0')
+
+if(isLRE='0') + [K_N]	>	U+0767 set(is6DD='0')
+if(isLRE='1') + [K_N]	>	outs(PDF) outs(RLM) U+0767 set(isLRE='0')
+if(isLRE='0') + [SHIFT K_N]	>	U+0622 set(is6DD='0')
+if(isLRE='1') + [SHIFT K_N]	>	outs(PDF) outs(RLM) U+0622 set(isLRE='0')
+
+if(isLRE='0') + [K_M]	>	U+08a0 set(is6DD='0')
+if(isLRE='1') + [K_M]	>	outs(PDF) outs(RLM) U+08a0 set(isLRE='0')
+if(isLRE='0') + [SHIFT K_M]	>	 U+2019 set(is6DD='0')
+if(isLRE='1') + [SHIFT K_M]	>	 outs(PDF) outs(RLM) U+2019 set(isLRE='0')
+if(isLRE='0') + [ALT CTRL K_M]	>	 U+201d set(is6DD='0')
+if(isLRE='1') + [ALT CTRL K_M]	>	 outs(PDF) outs(RLM) U+201d set(isLRE='0')
+
+if(isLRE='0') + [K_COMMA]	>	U+0648 set(is6DD='0')
+if(isLRE='1') + [K_COMMA]	>	outs(PDF) outs(RLM) U+0648 set(isLRE='0')
+if(isLRE='0') + [SHIFT K_COMMA]	>	U+002c set(is6DD='0')
+if(isLRE='1') + [SHIFT K_COMMA]	>	U+002c set(is6DD='0')
++ [ALT CTRL K_COMMA]	>	U+066c set(is6DD='0')
++ [ALT CTRL SHIFT K_COMMA]	>	U+060d set(is6DD='0')
+
+if(isLRE='0') + [K_PERIOD]	>	 U+0632 set(is6DD='0')
+if(isLRE='1') + [K_PERIOD]	>	 outs(PDF) outs(RLM) U+0632 set(isLRE='0')
++ [SHIFT K_PERIOD]	>	U+002e set(is6DD='0')
++ [ALT CTRL K_PERIOD]	>	U+066b set(is6DD='0')
+if(isLRE='0') + [ALT CTRL SHIFT K_PERIOD]	>	U+061e set(is6DD='0')
+if(isLRE='1') + [ALT CTRL SHIFT K_PERIOD]	>	outs(PDF) outs(RLM) U+061e set(isLRE='0')
+
+if(isLRE='0') + [K_SLASH]	>	 U+0638 set(is6DD='0')
+if(isLRE='1') + [K_SLASH]	>	 outs(PDF) outs(RLM) U+0638 set(isLRE='0')
+if(isLRE='0') + [SHIFT K_SLASH]	>	U+061f set(is6DD='0')
+if(isLRE='1') + [SHIFT K_SLASH]	>	outs(PDF) outs(RLM) U+061f set(isLRE='0')
+if(isLRE='0') + [ALT CTRL K_SLASH]	>	U+08a3 set(is6DD='0')
+if(isLRE='1') + [ALT CTRL K_SLASH]	>	outs(PDF) outs(RLM) U+08a3 set(isLRE='0')
+if(isLRE='0') + [ALT CTRL SHIFT K_SLASH]	>	U+2026 set(is6DD='0')
+if(isLRE='1') + [ALT CTRL SHIFT K_SLASH]	>	outs(PDF) outs(RLM) U+2026 set(isLRE='0')
+
+c ROW E
+if(isLRE='0') U+002e + [K_SPACE] > U+002e outs(RLM) U+0020 
+if(isLRE='1') U+002e + [K_SPACE] > outs(PDF) outs(RLM) U+002e U+0020 set(isLRE='0')
+
+if(isLRE='0') U+002e + [SHIFT K_SPACE]	>	U+002e outs(RLM) U+0020
+if(isLRE='1') U+002e + [SHIFT K_SPACE]	>	outs(PDF) outs(RLM) U+002e outs(RLM) U+0020 set(isLRE='0')
+
+if(isLRE='0') U+002e + [CTRL K_SPACE]	>	U+002e outs(RLM) U+0020
+if(isLRE='1') U+002e + [CTRL K_SPACE]	>	outs(PDF) outs(RLM) U+002e outs(RLM) U+0020 set(isLRE='0')
+
+if(isLRE='0') U+002e + [ALT CTRL K_SPACE]	>	U+002e outs(RLM) U+00a0
+if(isLRE='1') U+002e + [ALT CTRL K_SPACE]	>	outs(PDF) outs(RLM) U+002e outs(RLM) U+00a0
+
+if(isLRE='0') U+002e + [ALT CTRL SHIFT K_SPACE]	>	U+002e outs(RLM) U+202f 
+if(isLRE='1') U+002e + [ALT CTRL SHIFT K_SPACE]	>	outs(PDF) outs(RLM) U+002e outs(RLM) U+202f  set(isLRE='0')
+
+if(isLRE='0') + [K_SPACE]	>	U+0020 set(is6DD='0')
+if(isLRE='1') + [K_SPACE]	>	U+0020
+c if(isLRE='0') U+0020 + [K_SPACE]	>	U+0020 U+0020
+if(isLRE='0') U+0020 + [K_SPACE]	>	U+0020 U+0020 set(is6DD='0')
+if(isLRE='1') U+0020 + [K_SPACE]	>	outs(PDF) outs(RLM) U+0020 set(isLRE='0')
+
+if(isLRE='0') + [SHIFT K_SPACE] > U+0020 set(is6DD='0')
+if(isLRE='1') + [SHIFT K_SPACE] > U+0020
+if(isLRE='0') U+0020 + [SHIFT K_SPACE] > U+0020  set(is6DD='0')
+if(isLRE='1') U+0020 + [SHIFT K_SPACE] > outs(PDF) outs(RLM) U+0020 set(isLRE='0')  
+
+if(isLRE='0') + [CTRL K_SPACE]	>	U+0020 set(is6DD='0')
+if(isLRE='1') + [CTRL K_SPACE]	>	U+0020
+
+if(isLRE='0') + [CTRL SHIFT K_SPACE]	>	U+0020 set(is6DD='0')
+if(isLRE='1') + [CTRL SHIFT K_SPACE]	>	U+0020
+
+if(isLRE='0') + [ALT CTRL K_SPACE]	>	U+00a0 set(is6DD='0')
+if(isLRE='1') + [ALT CTRL K_SPACE]	>	outs(PDF) outs(RLM) U+00a0 set(isLRE='0')
+
+if(isLRE='0') + [ALT CTRL SHIFT K_SPACE]	>	U+202f  set(is6DD='0')
+if(isLRE='1') + [ALT CTRL SHIFT K_SPACE]	>	outs(PDF) outs(RLM) U+202f  set(isLRE='0')
+
+
+c numpad
+if(isLRE='0') if(is6DD='0') + [K_NP0]	>	outs(LRE) U+0030 set(isLRE='1')
+if(isLRE='0') if(is6DD='1') + [K_NP0]	>	U+0030
+if(isLRE='0') U+002b + [K_NP0]	>	outs(LRE) U+002b U+0030 set(isLRE='1')
+if(isLRE='1') + [K_NP0]	>	U+0030
+if(isLRE='1') any(arabic) U+066c + [K_NP0] > index(arabic,2) U+002c U+0030
+if(isLRE='1') any(arabic) U+066b + [K_NP0] > index(arabic,2) U+002e U+0030
+if(isLRE='0') if(is6DD='0') + [SHIFT K_NP0]	>	outs(LRE) U+0660 set(isLRE='1')
+if(isLRE='0') if(is6DD='1') + [SHIFT K_NP0]	>	U+0660
+if(isLRE='1') + [SHIFT K_NP0]	>	U+0660
+if(isLRE='1') any(indic) U+002c + [SHIFT K_NP0] > index(indic,2) U+066c U+0660
+if(isLRE='1') any(indic) U+002e + [SHIFT K_NP0] > index(indic,2) U+066b U+0660
+
+if(isLRE='0') if(is6DD='0') + [K_NP1]	>	outs(LRE) U+0031 set(isLRE='1')
+if(isLRE='0') if(is6DD='1') + [K_NP1]	>	U+0031
+if(isLRE='0') U+002b + [K_NP1]	>	outs(LRE) U+002b U+0031 set(isLRE='1')
+if(isLRE='1') + [K_NP1]	>	U+0031
+if(isLRE='1') any(arabic) U+066c + [K_NP1] > index(arabic,2) U+002c U+0031
+if(isLRE='1') any(arabic) U+066b + [K_NP1] > index(arabic,2) U+002e U+0031
+if(isLRE='0') if(is6DD='0') + [SHIFT K_NP1]	>	outs(LRE) U+0661 set(isLRE='1')
+if(isLRE='0') if(is6DD='1') + [SHIFT K_NP1]	>	U+0661
+if(isLRE='1') + [SHIFT K_NP1]	>	U+0661
+if(isLRE='1') any(indic) U+002c + [SHIFT K_NP1] > index(indic,2) U+066c U+0661
+if(isLRE='1') any(indic) U+002e + [SHIFT K_NP1] > index(indic,2) U+066b U+0661
+
+if(isLRE='0') if(is6DD='0') + [K_NP2]	>	outs(LRE) U+0032 set(isLRE='1')
+if(isLRE='0') if(is6DD='1') + [K_NP2]	>	U+0032
+if(isLRE='0') U+002b + [K_NP2]	>	outs(LRE) U+002b U+0032 set(isLRE='1')
+if(isLRE='1') + [K_NP2]	>	U+0032
+if(isLRE='1') any(arabic) U+066c + [K_NP2] > index(arabic,2) U+002c U+0032
+if(isLRE='1') any(arabic) U+066b + [K_NP2] > index(arabic,2) U+002e U+0032
+if(isLRE='0') if(is6DD='0') + [SHIFT K_NP2]	>	outs(LRE) U+0662 set(isLRE='1')
+if(isLRE='0') if(is6DD='1') + [SHIFT K_NP2]	>	U+0662
+if(isLRE='1') + [SHIFT K_NP2]	>	U+0662
+if(isLRE='1') any(indic) U+002c + [SHIFT K_NP2] > index(indic,2) U+066c U+0662
+if(isLRE='1') any(indic) U+002e + [SHIFT K_NP2] > index(indic,2) U+066b U+0662
+
+if(isLRE='0') if(is6DD='0') + [K_NP3]	>	outs(LRE) U+0033 set(isLRE='1')
+if(isLRE='0') if(is6DD='1') + [K_NP3]	>	U+0033
+if(isLRE='0') U+002b + [K_NP3]	>	outs(LRE) U+002b U+0033 set(isLRE='1')
+if(isLRE='1') + [K_NP3]	>	U+0033
+if(isLRE='1') any(arabic) U+066c + [K_NP3] > index(arabic,2) U+002c U+0030
+if(isLRE='1') any(arabic) U+066b + [K_NP3] > index(arabic,2) U+002e U+0030
+if(isLRE='0') if(is6DD='0') + [SHIFT K_NP3]	>	outs(LRE) U+0663 set(isLRE='1')
+if(isLRE='0') if(is6DD='1') + [SHIFT K_NP3]	>	U+0663
+if(isLRE='1') + [SHIFT K_NP3]	>	U+0663
+if(isLRE='1') any(indic) U+002c + [SHIFT K_NP3] > index(indic,2) U+066c U+0663
+if(isLRE='1') any(indic) U+002e + [SHIFT K_NP3] > index(indic,2) U+066b U+0663
+
+if(isLRE='0') if(is6DD='0') + [K_NP4]	>	outs(LRE) U+0034 set(isLRE='1')
+if(isLRE='0') if(is6DD='1') + [K_NP4]	>	U+0034
+if(isLRE='0') U+002b + [K_NP4]	>	outs(LRE) U+002b U+0034 set(isLRE='1')
+if(isLRE='1') + [K_NP4]	>	U+0034
+if(isLRE='1') any(arabic) U+066c + [K_NP4] > index(arabic,2) U+002c U+0034
+if(isLRE='1') any(arabic) U+066b + [K_NP4] > index(arabic,2) U+002e U+0034
+if(isLRE='0') if(is6DD='0') + [SHIFT K_NP4]	>	outs(LRE) U+0664 set(isLRE='1')
+if(isLRE='0') if(is6DD='1') + [SHIFT K_NP4]	>	U+0664
+if(isLRE='1') + [SHIFT K_NP4]	>	U+0664
+if(isLRE='1') any(indic) U+002c + [SHIFT K_NP4] > index(indic,2) U+066c U+0664
+if(isLRE='1') any(indic) U+002e + [SHIFT K_NP4] > index(indic,2) U+066b U+0664
+
+if(isLRE='0') if(is6DD='0') + [K_NP5]	>	outs(LRE) U+0035 set(isLRE='1')
+if(isLRE='0') if(is6DD='1') + [K_NP5]	>	U+0035
+if(isLRE='0') U+002b + [K_NP5]	>	outs(LRE) U+002b U+0035 set(isLRE='1')
+if(isLRE='1') + [K_NP5]	>	U+0035
+if(isLRE='1') any(arabic) U+066c + [K_NP5] > index(arabic,2) U+002c U+0035
+if(isLRE='1') any(arabic) U+066b + [K_NP5] > index(arabic,2) U+002e U+0035
+if(isLRE='0') if(is6DD='0') + [SHIFT K_NP5]	>	outs(LRE) U+0665 set(isLRE='1')
+if(isLRE='0') if(is6DD='1') + [SHIFT K_NP5]	>	U+0665
+if(isLRE='1') + [SHIFT K_NP5]	>	U+0665
+if(isLRE='1') any(indic) U+002c + [SHIFT K_NP5] > index(indic,2) U+066c U+0665
+if(isLRE='1') any(indic) U+002e + [SHIFT K_NP5] > index(indic,2) U+066b U+0665
+
+if(isLRE='0') if(is6DD='0') + [K_NP6]	>	outs(LRE) U+0036 set(isLRE='1')
+if(isLRE='0') if(is6DD='1') + [K_NP6]	>	U+0036
+if(isLRE='0') U+002b + [K_NP6]	>	outs(LRE) U+002b U+0036 set(isLRE='1')
+if(isLRE='1') + [K_NP6]	>	U+0036
+if(isLRE='1') any(arabic) U+066c + [K_NP6] > index(arabic,2) U+002c U+0036
+if(isLRE='1') any(arabic) U+066b + [K_NP6] > index(arabic,2) U+002e U+0036
+if(isLRE='0') if(is6DD='0') + [SHIFT K_NP6]	>	outs(LRE) U+0666 set(isLRE='1')
+if(isLRE='0') if(is6DD='1') + [SHIFT K_NP6]	>	U+0666
+if(isLRE='1') + [SHIFT K_NP6]	>	U+0666
+if(isLRE='1') any(indic) U+002c + [SHIFT K_NP6] > index(indic,2) U+066c U+0666
+if(isLRE='1') any(indic) U+002e + [SHIFT K_NP6] > index(indic,2) U+066b U+0666
+
+if(isLRE='0') if(is6DD='0') + [K_NP7]	>	outs(LRE) U+0037 set(isLRE='1')
+if(isLRE='0') if(is6DD='1') + [K_NP7]	>	U+0037
+if(isLRE='0') U+002b + [K_NP7]	>	outs(LRE) U+002b U+0037 set(isLRE='1')
+if(isLRE='1') + [K_NP7]	>	U+0037
+if(isLRE='1') any(arabic) U+066c + [K_NP7] > index(arabic,2) U+002c U+0037
+if(isLRE='1') any(arabic) U+066b + [K_NP7] > index(arabic,2) U+002e U+0037
+if(isLRE='0') if(is6DD='0') + [SHIFT K_NP7]	>	outs(LRE) U+0667 set(isLRE='1')
+if(isLRE='0') if(is6DD='1') + [SHIFT K_NP7]	>	U+0667
+if(isLRE='1') + [SHIFT K_NP7]	>	U+0667
+if(isLRE='1') any(indic) U+002c + [SHIFT K_NP7] > index(indic,2) U+066c U+0667
+if(isLRE='1') any(indic) U+002e + [SHIFT K_NP7] > index(indic,2) U+066b U+0667
+
+if(isLRE='0') if(is6DD='0') + [K_NP8]	>	outs(LRE) U+0038 set(isLRE='1')
+if(isLRE='0') if(is6DD='1') + [K_NP8]	>	U+0038
+if(isLRE='0') U+002b + [K_NP8]	>	outs(LRE) U+002b U+0038 set(isLRE='1')
+if(isLRE='1') + [K_NP8]	>	U+0038
+if(isLRE='1') any(arabic) U+066c + [K_NP8] > index(arabic,2) U+002c U+0038
+if(isLRE='1') any(arabic) U+066b + [K_NP8] > index(arabic,2) U+002e U+0038
+if(isLRE='0') if(is6DD='0') + [SHIFT K_NP8]	>	outs(LRE) U+0668 set(isLRE='1')
+if(isLRE='0') if(is6DD='1') + [SHIFT K_NP8]	>	U+0668
+if(isLRE='1') + [SHIFT K_NP8]	>	U+0668
+if(isLRE='1') any(indic) U+002c + [SHIFT K_NP8] > index(indic,2) U+066c U+0668
+if(isLRE='1') any(indic) U+002e + [SHIFT K_NP8] > index(indic,2) U+066b U+0668
+
+if(isLRE='0') if(is6DD='0') + [K_NP9]	>	outs(LRE) U+0039 set(isLRE='1')
+if(isLRE='0') if(is6DD='1') + [K_NP9]	>	U+0039
+if(isLRE='0') U+002b + [K_NP9]	>	outs(LRE) U+002b U+0039 set(isLRE='1')
+if(isLRE='1') + [K_NP9]	>	U+0039
+if(isLRE='1') any(arabic) U+066c + [K_NP9] > index(arabic,2) U+002c U+0039
+if(isLRE='1') any(arabic) U+066b + [K_NP9] > index(arabic,2) U+002e U+0039
+if(isLRE='0') if(is6DD='0') + [SHIFT K_NP9]	>	outs(LRE) U+0669 set(isLRE='1')
+if(isLRE='0') if(is6DD='1') + [SHIFT K_NP9]	>	U+0669
+if(isLRE='1') + [SHIFT K_NP9]	>	U+0669
+if(isLRE='1') any(indic) U+002c + [SHIFT K_NP9] > index(indic,2) U+066c U+0669
+if(isLRE='1') any(indic) U+002e + [SHIFT K_NP9] > index(indic,2) U+066b U+0669
+
++ [K_NPSTAR] > U+00d7 set(is6DD='0')
++ [K_NPPLUS] > U+002b set(is6DD='0')
++ [K_NPMINUS] > U+002d set(is6DD='0')
++ [K_NPSLASH] > U+00f7 set(is6DD='0')
+
++ [K_NPDOT]	>	U+002e set(is6DD='0')
++ [SHIFT K_NPDOT]	>	U+066b set(is6DD='0')
+
+c mistyped key
++ [T_null] > beep
++ [SHIFT T_null] > beep
+nomatch() > beep
