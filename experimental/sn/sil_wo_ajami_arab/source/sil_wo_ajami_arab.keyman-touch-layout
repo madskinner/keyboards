@@ -328,7 +328,7 @@
               },
               {
                 "id": "K_HYPHEN",
-                "text": "μ",
+                "text": "µ",
                 "width": "100",
                 "nextlayer": "default",
                 "layer": "shift-ctrl-alt"

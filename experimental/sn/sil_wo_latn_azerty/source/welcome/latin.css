@@ -10,7 +10,7 @@ html,body{
   font-size: 100%;
   line-height: 1.5;
 }
-
+.svgtext { font-family : "Andika Afr", andika, geneva, arial, helvetica, sans-serif; font-size : 120%; font-style : normal; color: #000000;}
 p { font-family : "Andika Afr", andika, geneva, arial, helvetica, sans-serif; font-size : 120%; font-style : normal; color: #000000; margin-top: 0.07in; margin-bottom: 0.07in; }
 h1 { font-family : "Andika Afr", andika, geneva, arial, helvetica, sans-serif; font-size : 12pt; font-style : normal; color: #000000; margin-top: 0.07in; margin-bottom: 0.07in; text-align: left;  }
 h1t { font-family : "Andika Afr", andika, geneva, arial, helvetica, sans-serif; font-size : 12pt; font-style : normal; color: #000000; margin-top: 0.07in; margin-bottom: 0.07in; text-align: center;  }
@@ -20,7 +20,7 @@ a:link { font-family : "Andika Afr", andika, geneva, arial, helvetica, sans-seri
 a:visited { font-family : "Andika Afr", andika, geneva, arial, helvetica, sans-serif; color: #800080 }
 table, td {
           font-family : "Andika Afr", andika, geneva, arial, helvetica, sans-serif;
-          font-size : 120%; font-style : normal;
+          font-size : 100%; font-style : normal;
           border: 1px solid LightGray;
           border-collapse: collapse;
           padding: 5px;
@@ -127,13 +127,6 @@ section li {
   transition: box-shadow 0.7s ease;
  }
 
-.bar {
-  background-image: url('./bar.png') !important;
-  background-color: white !important;
-  background-repeat: no-repeat !important;
-  background-position: right top !important;
-}
-
 .lpc{
   /*key letter borders*/
   font-family : "Andika Afr", geneva, arial, helvetica, sans-serif;
@@ -151,6 +144,13 @@ section li {
   transition: box-shadow 0.7s ease;
   border:1px solid darkgray;
  }
+
+.bar {
+  background-image: url('./bar.png') !important;
+  background-color: white !important;
+  background-repeat: no-repeat !important;
+  background-position: right top !important;
+}
 
 .small{font-size:12px; text-align: left;}
 .smallt{font-size:12px; text-align: center;}
@@ -212,27 +212,29 @@ section li {
   cursor: pointer;
   transition: box-shadow 0.7s ease;
   border:1px solid darkgray;
+}
  
-.arrow{
-  /*key letter borders*/
-  font-family : "Andika Afr", geneva, arial, helvetica, sans-serif;
-  font-size : 120%; font-style : normal;
-  width: 30px; height:40px;
-  display:block;
-/*  background-color:white;*/
-  color:black;
-  text-align: center;
-  /*padding-left: 8px;*/
-  /*line-height: 29px;*/
-  line-height:40px;
-/*  border-radius:2px;*/
-  float:left; margin-left: 2px;
-  /*margin-bottom:2px;*/
-  margin:1px;
-/*  cursor: pointer;*/
-/*  transition: box-shadow 0.7s ease;*/
-/*  border:1px solid darkgray;*/
- }
+.arrow {
+    width: 40px;
+    height: 30px;
+	margin-top: 5px;
+}
+
+.line {
+    margin-top: 10px;
+    width: 30px;
+    background: dimgray;
+    height: 10px;
+    float: left;
+}
+.point {
+    width: 0;
+	height: 0;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	border-left: 10px solid dimgray;
+    float: right;
+}
  
 .klb4{
   /*key letter borders*/

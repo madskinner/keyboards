@@ -159,6 +159,7 @@
       <key vkey="K_PERIOD">؞</key>
       <key vkey="K_SPACE">NNBSP</key>
       <key vkey="K_H">إ</key>
+      <key vkey="K_COMMA">؍</key>
     </layer>
     <layer shift="C">
       <key vkey="K_LBRKT">ESC</key>
@@ -171,6 +172,8 @@
       <key vkey="K_2">ZWNJ</key>
       <key vkey="K_3">LRM</key>
       <key vkey="K_4">RLM</key>
+      <key vkey="K_6">PDF</key>
+      <key vkey="K_5">LRE</key>
     </layer>
   </encoding>
 </visualkeyboard>

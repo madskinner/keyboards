@@ -23,7 +23,7 @@
       <ID>id_260989f37effbbf73e17862463d4eb8d</ID>
       <Filename>sil_wo_latn_azerty.kmn</Filename>
       <Filepath>source\sil_wo_latn_azerty.kmn</Filepath>
-      <FileVersion>0.4.0</FileVersion>
+      <FileVersion>0.5.0</FileVersion>
       <FileType>.kmn</FileType>
       <Details>
         <Name>sil_wo_latn_azerty</Name>
@@ -40,22 +40,6 @@
       <ParentFileID>id_260989f37effbbf73e17862463d4eb8d</ParentFileID>
     </File>
     <File>
-      <ID>id_f984ef90d90a6d1a147a74f1457b80d1</ID>
-      <Filename>123.png</Filename>
-      <Filepath>source\welcome\123.png</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.png</FileType>
-      <ParentFileID>id_ce86598109d64716531d78a330dea43a</ParentFileID>
-    </File>
-    <File>
-      <ID>id_d2016a171db3e8c03a6da3f980252e93</ID>
-      <Filename>abc.png</Filename>
-      <Filepath>source\welcome\abc.png</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.png</FileType>
-      <ParentFileID>id_ce86598109d64716531d78a330dea43a</ParentFileID>
-    </File>
-    <File>
       <ID>id_1675eb13beac5c23effbe9e1bd63612b</ID>
       <Filename>ajami.css</Filename>
       <Filepath>source\welcome\ajami.css</Filepath>
@@ -64,41 +48,9 @@
       <ParentFileID>id_ce86598109d64716531d78a330dea43a</ParentFileID>
     </File>
     <File>
-      <ID>id_00927cd971905ae0fa3f40c2dba7b96f</ID>
-      <Filename>backspace.png</Filename>
-      <Filepath>source\welcome\backspace.png</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.png</FileType>
-      <ParentFileID>id_ce86598109d64716531d78a330dea43a</ParentFileID>
-    </File>
-    <File>
       <ID>id_50d43ec1c2c5b2c7f3e81edbeb0083f5</ID>
       <Filename>bar.png</Filename>
       <Filepath>source\welcome\bar.png</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.png</FileType>
-      <ParentFileID>id_ce86598109d64716531d78a330dea43a</ParentFileID>
-    </File>
-    <File>
-      <ID>id_83958da369780e03020696e6197e07ef</ID>
-      <Filename>blue_shift.png</Filename>
-      <Filepath>source\welcome\blue_shift.png</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.png</FileType>
-      <ParentFileID>id_ce86598109d64716531d78a330dea43a</ParentFileID>
-    </File>
-    <File>
-      <ID>id_0f393a559d3cc5330fd096a1aa44dedd</ID>
-      <Filename>enter.png</Filename>
-      <Filepath>source\welcome\enter.png</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.png</FileType>
-      <ParentFileID>id_ce86598109d64716531d78a330dea43a</ParentFileID>
-    </File>
-    <File>
-      <ID>id_22991952220099cb73bf45c8d83503b8</ID>
-      <Filename>globe.png</Filename>
-      <Filepath>source\welcome\globe.png</Filepath>
       <FileVersion></FileVersion>
       <FileType>.png</FileType>
       <ParentFileID>id_ce86598109d64716531d78a330dea43a</ParentFileID>
@@ -128,25 +80,9 @@
       <ParentFileID>id_ce86598109d64716531d78a330dea43a</ParentFileID>
     </File>
     <File>
-      <ID>id_4dcf25147c41f20f184d0d69f12c9c3a</ID>
-      <Filename>shift.png</Filename>
-      <Filepath>source\welcome\shift.png</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.png</FileType>
-      <ParentFileID>id_ce86598109d64716531d78a330dea43a</ParentFileID>
-    </File>
-    <File>
       <ID>id_b8478f6acbf1831f402fde42729ecf32</ID>
       <Filename>splash.png</Filename>
       <Filepath>source\welcome\splash.png</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.png</FileType>
-      <ParentFileID>id_ce86598109d64716531d78a330dea43a</ParentFileID>
-    </File>
-    <File>
-      <ID>id_0127a7f3ca6d9c58e5e277b240ccdf48</ID>
-      <Filename>symbol123.png</Filename>
-      <Filepath>source\welcome\symbol123.png</Filepath>
       <FileVersion></FileVersion>
       <FileType>.png</FileType>
       <ParentFileID>id_ce86598109d64716531d78a330dea43a</ParentFileID>
@@ -221,6 +157,86 @@
       <Filepath>source\welcome\icon.ico</Filepath>
       <FileVersion></FileVersion>
       <FileType>.ico</FileType>
+      <ParentFileID>id_ce86598109d64716531d78a330dea43a</ParentFileID>
+    </File>
+    <File>
+      <ID>id_ecc07fa4f711e0f67af02c1315d76acb</ID>
+      <Filename>layer_default.png</Filename>
+      <Filepath>source\welcome\layer_default.png</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.png</FileType>
+      <ParentFileID>id_ce86598109d64716531d78a330dea43a</ParentFileID>
+    </File>
+    <File>
+      <ID>id_4262ddabc8d2f4353e665ae359f38ea2</ID>
+      <Filename>layer_numeric.png</Filename>
+      <Filepath>source\welcome\layer_numeric.png</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.png</FileType>
+      <ParentFileID>id_ce86598109d64716531d78a330dea43a</ParentFileID>
+    </File>
+    <File>
+      <ID>id_9a5b507b80a4da33af407390156e7fbf</ID>
+      <Filename>layer_other.png</Filename>
+      <Filepath>source\welcome\layer_other.png</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.png</FileType>
+      <ParentFileID>id_ce86598109d64716531d78a330dea43a</ParentFileID>
+    </File>
+    <File>
+      <ID>id_ed553f345994e09b5fbc6f9690aa8ef8</ID>
+      <Filename>layer_others.png</Filename>
+      <Filepath>source\welcome\layer_others.png</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.png</FileType>
+      <ParentFileID>id_ce86598109d64716531d78a330dea43a</ParentFileID>
+    </File>
+    <File>
+      <ID>id_6efe2b3c9f70abf784fadca09cb624b8</ID>
+      <Filename>layer_shift.png</Filename>
+      <Filepath>source\welcome\layer_shift.png</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.png</FileType>
+      <ParentFileID>id_ce86598109d64716531d78a330dea43a</ParentFileID>
+    </File>
+    <File>
+      <ID>id_639a2f3e847de47bbfa5397867683700</ID>
+      <Filename>state_0.png</Filename>
+      <Filepath>source\welcome\state_0.png</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.png</FileType>
+      <ParentFileID>id_ce86598109d64716531d78a330dea43a</ParentFileID>
+    </File>
+    <File>
+      <ID>id_a58c599acf3fc12ba98b7086e1d56b18</ID>
+      <Filename>state_1.png</Filename>
+      <Filepath>source\welcome\state_1.png</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.png</FileType>
+      <ParentFileID>id_ce86598109d64716531d78a330dea43a</ParentFileID>
+    </File>
+    <File>
+      <ID>id_58a36071d19beb5f889d0ea424e19d73</ID>
+      <Filename>state_2.png</Filename>
+      <Filepath>source\welcome\state_2.png</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.png</FileType>
+      <ParentFileID>id_ce86598109d64716531d78a330dea43a</ParentFileID>
+    </File>
+    <File>
+      <ID>id_fa5ed8c2fb4ae1f089bb30c387dc0330</ID>
+      <Filename>state_6.png</Filename>
+      <Filepath>source\welcome\state_6.png</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.png</FileType>
+      <ParentFileID>id_ce86598109d64716531d78a330dea43a</ParentFileID>
+    </File>
+    <File>
+      <ID>id_7003a4371ccc5cfa4e80f37f64120fbc</ID>
+      <Filename>state_7.png</Filename>
+      <Filepath>source\welcome\state_7.png</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.png</FileType>
       <ParentFileID>id_ce86598109d64716531d78a330dea43a</ParentFileID>
     </File>
   </Files>

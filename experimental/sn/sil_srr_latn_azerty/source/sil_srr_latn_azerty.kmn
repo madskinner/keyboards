@@ -1,6 +1,6 @@
 ﻿store(&TARGETS) 'any'
 store(&COPYRIGHT) '©2020 SIL International'
-store(&KEYBOARDVERSION) '0.4.0'
+store(&KEYBOARDVERSION) '0.5.0'
 store(&VISUALKEYBOARD) 'sil_srr_latn_azerty.kvks'
 store(&LAYOUTFILE) 'sil_srr_latn_azerty.keyman-touch-layout'
 store(&KMW_HELPFILE) 'sil_srr_latn_azerty-help.htm'

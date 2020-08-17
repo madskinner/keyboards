@@ -23,7 +23,7 @@
       <ID>id_a1dfaa008b63de70e6c50b455c1eaf43</ID>
       <Filename>sil_srr_latn_azerty.kmn</Filename>
       <Filepath>source\sil_srr_latn_azerty.kmn</Filepath>
-      <FileVersion>0.4.0</FileVersion>
+      <FileVersion>0.5.0</FileVersion>
       <FileType>.kmn</FileType>
       <Details>
         <Name>sil_srr_latn_azerty</Name>
@@ -96,57 +96,9 @@
       <ParentFileID>id_7a446d69811ac986bdfe1d3f83fede43</ParentFileID>
     </File>
     <File>
-      <ID>id_f984ef90d90a6d1a147a74f1457b80d1</ID>
-      <Filename>123.png</Filename>
-      <Filepath>source\welcome\123.png</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.png</FileType>
-      <ParentFileID>id_7a446d69811ac986bdfe1d3f83fede43</ParentFileID>
-    </File>
-    <File>
-      <ID>id_d2016a171db3e8c03a6da3f980252e93</ID>
-      <Filename>abc.png</Filename>
-      <Filepath>source\welcome\abc.png</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.png</FileType>
-      <ParentFileID>id_7a446d69811ac986bdfe1d3f83fede43</ParentFileID>
-    </File>
-    <File>
-      <ID>id_00927cd971905ae0fa3f40c2dba7b96f</ID>
-      <Filename>backspace.png</Filename>
-      <Filepath>source\welcome\backspace.png</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.png</FileType>
-      <ParentFileID>id_7a446d69811ac986bdfe1d3f83fede43</ParentFileID>
-    </File>
-    <File>
       <ID>id_50d43ec1c2c5b2c7f3e81edbeb0083f5</ID>
       <Filename>bar.png</Filename>
       <Filepath>source\welcome\bar.png</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.png</FileType>
-      <ParentFileID>id_7a446d69811ac986bdfe1d3f83fede43</ParentFileID>
-    </File>
-    <File>
-      <ID>id_83958da369780e03020696e6197e07ef</ID>
-      <Filename>blue_shift.png</Filename>
-      <Filepath>source\welcome\blue_shift.png</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.png</FileType>
-      <ParentFileID>id_7a446d69811ac986bdfe1d3f83fede43</ParentFileID>
-    </File>
-    <File>
-      <ID>id_0f393a559d3cc5330fd096a1aa44dedd</ID>
-      <Filename>enter.png</Filename>
-      <Filepath>source\welcome\enter.png</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.png</FileType>
-      <ParentFileID>id_7a446d69811ac986bdfe1d3f83fede43</ParentFileID>
-    </File>
-    <File>
-      <ID>id_22991952220099cb73bf45c8d83503b8</ID>
-      <Filename>globe.png</Filename>
-      <Filepath>source\welcome\globe.png</Filepath>
       <FileVersion></FileVersion>
       <FileType>.png</FileType>
       <ParentFileID>id_7a446d69811ac986bdfe1d3f83fede43</ParentFileID>
@@ -176,25 +128,9 @@
       <ParentFileID>id_7a446d69811ac986bdfe1d3f83fede43</ParentFileID>
     </File>
     <File>
-      <ID>id_4dcf25147c41f20f184d0d69f12c9c3a</ID>
-      <Filename>shift.png</Filename>
-      <Filepath>source\welcome\shift.png</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.png</FileType>
-      <ParentFileID>id_7a446d69811ac986bdfe1d3f83fede43</ParentFileID>
-    </File>
-    <File>
       <ID>id_b8478f6acbf1831f402fde42729ecf32</ID>
       <Filename>splash.png</Filename>
       <Filepath>source\welcome\splash.png</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.png</FileType>
-      <ParentFileID>id_7a446d69811ac986bdfe1d3f83fede43</ParentFileID>
-    </File>
-    <File>
-      <ID>id_0127a7f3ca6d9c58e5e277b240ccdf48</ID>
-      <Filename>symbol123.png</Filename>
-      <Filepath>source\welcome\symbol123.png</Filepath>
       <FileVersion></FileVersion>
       <FileType>.png</FileType>
       <ParentFileID>id_7a446d69811ac986bdfe1d3f83fede43</ParentFileID>
@@ -205,6 +141,86 @@
       <Filepath>source\welcome\welcome.htm</Filepath>
       <FileVersion></FileVersion>
       <FileType>.htm</FileType>
+      <ParentFileID>id_7a446d69811ac986bdfe1d3f83fede43</ParentFileID>
+    </File>
+    <File>
+      <ID>id_cceea210fa1cc01cec1e4b8851a6dc4d</ID>
+      <Filename>layer_default.png</Filename>
+      <Filepath>..\sil_wo_latn_azerty\source\welcome\layer_default.png</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.png</FileType>
+      <ParentFileID>id_7a446d69811ac986bdfe1d3f83fede43</ParentFileID>
+    </File>
+    <File>
+      <ID>id_fb1fafe9c3534074c7e3400955d20205</ID>
+      <Filename>layer_numeric.png</Filename>
+      <Filepath>..\sil_wo_latn_azerty\source\welcome\layer_numeric.png</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.png</FileType>
+      <ParentFileID>id_7a446d69811ac986bdfe1d3f83fede43</ParentFileID>
+    </File>
+    <File>
+      <ID>id_eecfab48d9216ae78fcb80d354cd03f5</ID>
+      <Filename>layer_other.png</Filename>
+      <Filepath>..\sil_wo_latn_azerty\source\welcome\layer_other.png</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.png</FileType>
+      <ParentFileID>id_7a446d69811ac986bdfe1d3f83fede43</ParentFileID>
+    </File>
+    <File>
+      <ID>id_161611ba51ad5df547c7d4c8dc1a216a</ID>
+      <Filename>layer_others.png</Filename>
+      <Filepath>..\sil_wo_latn_azerty\source\welcome\layer_others.png</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.png</FileType>
+      <ParentFileID>id_7a446d69811ac986bdfe1d3f83fede43</ParentFileID>
+    </File>
+    <File>
+      <ID>id_2236c7fdad31b8e3b00cf0879817ee1c</ID>
+      <Filename>layer_shift.png</Filename>
+      <Filepath>..\sil_wo_latn_azerty\source\welcome\layer_shift.png</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.png</FileType>
+      <ParentFileID>id_7a446d69811ac986bdfe1d3f83fede43</ParentFileID>
+    </File>
+    <File>
+      <ID>id_568e1dda8492eaad977c00e9d4d24c35</ID>
+      <Filename>state_0.png</Filename>
+      <Filepath>..\sil_wo_latn_azerty\source\welcome\state_0.png</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.png</FileType>
+      <ParentFileID>id_7a446d69811ac986bdfe1d3f83fede43</ParentFileID>
+    </File>
+    <File>
+      <ID>id_08586a155b4e72fdc15a18439d70f31b</ID>
+      <Filename>state_1.png</Filename>
+      <Filepath>..\sil_wo_latn_azerty\source\welcome\state_1.png</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.png</FileType>
+      <ParentFileID>id_7a446d69811ac986bdfe1d3f83fede43</ParentFileID>
+    </File>
+    <File>
+      <ID>id_828ba15aea6fba33c2913ff6dcb570f8</ID>
+      <Filename>state_2.png</Filename>
+      <Filepath>..\sil_wo_latn_azerty\source\welcome\state_2.png</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.png</FileType>
+      <ParentFileID>id_7a446d69811ac986bdfe1d3f83fede43</ParentFileID>
+    </File>
+    <File>
+      <ID>id_4922e76c9f8d9631c070140213737396</ID>
+      <Filename>state_6.png</Filename>
+      <Filepath>..\sil_wo_latn_azerty\source\welcome\state_6.png</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.png</FileType>
+      <ParentFileID>id_7a446d69811ac986bdfe1d3f83fede43</ParentFileID>
+    </File>
+    <File>
+      <ID>id_406703c7de71e01d35f2d40f3c81faf2</ID>
+      <Filename>state_7.png</Filename>
+      <Filepath>..\sil_wo_latn_azerty\source\welcome\state_7.png</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.png</FileType>
       <ParentFileID>id_7a446d69811ac986bdfe1d3f83fede43</ParentFileID>
     </File>
   </Files>

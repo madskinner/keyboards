@@ -143,13 +143,13 @@ section li {
 }
 .small       {font-size:12px; text-align: left;}
 .smallt      {font-size:12px; text-align: center;}
-.smalltt     {font-family : "Andika Afr", geneva, arial, helvetica, sans-serif; width: 30px; font-size:90%; text-align: center; line-height: 40px; background:white; color:black; }
+.smalltt     {font-family : "Andika Afr", geneva, arial, helvetica, sans-serif; width: 30px; font-size:0.8em; text-align: center; line-height: 40px; background:white; color:black; }
 .space1      {margin-right: 43px !important;}
 .space2      {margin-right: 17px !important;}
 .backspacet  {width: 30px;text-align:center;line-height: 40px; color:#FFFFFF}
 .backspace   {width: 84px;text-align:center;line-height: 40px;}
 .tab         {width: 50px; line-height: 40px; font-size:13px;}
-.lettert     {font-family : "Scheherazade"; font-size : 150%; width: 30px; text-align:center; line-height: 40px; background:white; color:black; direction:rtl;}}
+.lettert     {font-family : "Scheherazade"; font-size : 1.8em; width: 30px; text-align:center; line-height: 40px; background:white; color:black; direction:rtl;}}
 .ltr         {direction:ltr !important;}
 .letter      {font-family : "Scheherazade"; width: 30px; text-align:center; line-height: 40px; direction:rtl;}
 .slash       {width: 64px; text-align:center;line-height: 40px;}
@@ -223,3 +223,26 @@ font-size : 109%; font-style : normal;}
   transition: box-shadow 0.7s ease;
   border:1px solid darkgray;
  }
+
+.arrow {
+    width: 40px;
+    height: 30px;
+	margin-top: 5px;
+}
+
+.line {
+    margin-top: 10px;
+    width: 30px;
+    background: dimgray;
+    height: 10px;
+    float: left;
+}
+.point {
+    width: 0;
+	height: 0;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	border-left: 10px solid dimgray;
+    float: right;
+}
+ 

@@ -36,6 +36,7 @@ th{
          padding: 5px;
          text-align: center;
          }
+.compact {border: 0px; padding: 0px;}
 header{
   color:black;
   font-size: 30px;
