@@ -1,0 +1,263 @@
+﻿store(&TARGETS) 'any'
+store(&COPYRIGHT) '©2020 SIL International'
+store(&KEYBOARDVERSION) '0.5.2'
+store(&VISUALKEYBOARD) 'sil_krx_latn_azerty.kvks'
+store(&LAYOUTFILE) 'sil_krx_latn_azerty.keyman-touch-layout'
+store(&KMW_HELPFILE) 'sil_krx_latn_azerty-help.htm'
+store(&NAME) 'sil_krx_latn_azerty'
+store(&MESSAGE) 'Un clavier pour la langue «krx-Latn:Karon (Latin)».'
+store(&BITMAP) 'sil_krx_latn_azerty.ico'
+store(&KMW_RTL) '0'
+store(&kmw_helptext) '<p><a href=welcome/welcome.htm#en rel=help target=_new>in English</a>, <a href=welcome/welcome.htm#fr rel=help target=_new>en fran&#x00E7;ais</a>, <a href=welcome/welcome.htm#pt rel=help target=_new>em portugu&#x00EA;s </a></p>'
+begin Unicode > use(SGGBFR74)
+
+c group(main)
+c 	platform("touch")   >   use(SGGBFR74)
+c 	platform("web") >   use(SGGBFR74)
+c c is hardware
+c 	platform("windows") >   use(SGGBFR74)
+c 	platform("linux")   >   use(SGGBFR74)
+c 	platform("macos")   >   use(SGGBFR74)
+c 	platform("android") >   use(SGGBFR74)
+c c catch all just in case
+c 	nomatch()   >   use(SGGBFR74)
+
+group(SGGBFR74) using keys
+c setup deadkeys
+c simple deadkeys
+c setup 'simple' keys
+
++ [K_1]	>	U+0026
++ [SHIFT K_1]	>	U+0031
+
++ [K_2]	>	U+00e9
++ [SHIFT K_2]	>	U+0032
++ [CTRL ALT K_2] > '~'
+
++ [K_3]	>	U+0022
++ [SHIFT K_3]	>	U+0033
++ [CTRL ALT K_3] > '#'
++ [SHIFT CTRL ALT K_3] > '‘'
+
++ [K_4]	>	U+0027
++ [SHIFT K_4]	>	U+0034
++ [CTRL ALT K_4] > U+007b
++ [SHIFT CTRL ALT K_4] > '’'
+
++ [K_5]	>	U+0028
++ [SHIFT K_5]	>	U+0035
++ [CTRL ALT K_5] > '['
+
++ [K_6]	>	U+002d
++ [SHIFT K_6]	>	U+0036
++ [CTRL ALT K_6] > '|'
++ [SHIFT CTRL ALT K_6] > '–'
+
++ [K_7]	>	U+00e8
++ [SHIFT K_7]	>	U+0037
++ [SHIFT CTRL ALT K_7] > '—'
+
++ [K_8]	>	U+005f
++ [SHIFT K_8]	>	U+0038
++ [CTRL ALT K_8] > '\'
+
++ [SHIFT K_9]	>	U+0039
++ [CTRL ALT K_9] > '^'
++ [SHIFT CTRL ALT K_9] > '“'
+
++ [K_0]	>	U+00e0
++ [SHIFT K_0]	>	U+0030
++ [CTRL ALT K_0] > '@'
++ [SHIFT CTRL ALT K_0] > '”'
+
++ [K_HYPHEN]	>	U+0029
++ [SHIFT K_HYPHEN]	>	U+00b0
++ [CTRL ALT K_HYPHEN] > ']'
++ [SHIFT CTRL ALT K_HYPHEN] > '×'
+
++ [K_EQUAL]	>	U+003d
++ [SHIFT K_EQUAL]	>	U+002b
++ [CTRL ALT K_EQUAL] > U+007d
++ [SHIFT CTRL ALT K_EQUAL] > '÷'
+
++ [K_Q]	>	U+0061
++ [SHIFT K_Q]	>	U+0041
++ [CTRL ALT K_Q] > 'á'
++ [SHIFT CTRL ALT K_Q] > 'Á'
+
++ [K_W]	>	U+007A
++ [SHIFT K_W]	>	U+005A
++ [CTRL ALT K_W] > 'é'
++ [SHIFT CTRL ALT K_W] > '€'
+
++ [K_E]	>	U+0065
++ [SHIFT K_E]	>	U+0045
++ [CTRL ALT K_E] > 'é'
++ [SHIFT CTRL ALT K_E] > '€'
+
++ [K_R]	>	U+0072
++ [SHIFT K_R]	>	U+0052
++ [CTRL ALT K_R] > '®'
+
++ [K_T]	>	U+0074
++ [SHIFT K_T]	>	U+0054
+
++ [K_Y]	>	U+0079
++ [SHIFT K_Y]	>	U+0059
+
++ [K_U]	>	U+0075
++ [SHIFT K_U]	>	U+0055
++ [CTRL ALT K_U] > u+00fa
+
++ [K_I]	>	U+0069
++ [SHIFT K_I]	>	U+0049
++ [CTRL ALT K_I] > 'í'
+c + [ALT CTRL SHIFT K_I]	>	U+00cd
+
++ [K_O]	>	U+006f
++ [SHIFT K_O]	>	U+004f
++ [CTRL ALT K_O] > 'ó'
+c + [ALT CTRL SHIFT K_O]	>	U+00d3
+
++ [K_P]	>	U+0070
++ [SHIFT K_P]	>	U+0050
+
++ [K_LBRKT]	>	U+005e
++ [SHIFT K_LBRKT]	>	U+00a8
++ [CTRL K_LBRKT]	>	U+001b
++ [CTRL ALT K_LBRKT] > '¥'
++ [SHIFT CTRL ALT K_LBRKT] > '«'
+
++ [K_RBRKT]	>	U+0024
++ [SHIFT K_RBRKT]	>	U+00a3
++ [CTRL K_RBRKT]	>	U+001d
++ [CTRL ALT K_RBRKT] > '¤'
++ [SHIFT CTRL ALT K_RBRKT] > '»'
+
++ [K_BKSLASH]	>	U+002a
++ [SHIFT K_BKSLASH]	>	U+00b5
++ [CTRL K_BKSLASH]	>	U+001c
++ [SHIFT CTRL ALT K_BKSLASH] > '¦'
+
++ [K_A]	>	U+0071
++ [SHIFT K_A]	>	U+0051
+
++ [K_S]	>	U+0073
++ [SHIFT K_S]	>	U+0053
+
++ [K_D]	>	U+0064
++ [SHIFT K_D]	>	U+0044
+
++ [K_F]	>	U+0066
++ [SHIFT K_F]	>	U+0046
+
++ [K_G]	>	U+0067
++ [SHIFT K_G]	>	U+0047
+
++ [K_H]	>	U+0068
++ [SHIFT K_H]	>	U+0048
+
++ [K_J]	>	U+006a
++ [SHIFT K_J]	>	U+004a
++ [CTRL ALT K_J] > 'ŋ'
++ [SHIFT CTRL ALT K_J] > 'Ŋ'
+
++ [K_K]	>	U+006b
++ [SHIFT K_K]	>	U+004b
++ [CTRL ALT K_K] > '±'
+
++ [K_L]	>	U+006c
++ [SHIFT K_L]	>	U+004c
+
++ [K_COLON]	>	U+006d
++ [SHIFT K_COLON]	>	U+004d
++ [CTRL ALT K_COLON] > '¶'
+
++ [K_QUOTE]	>	U+00f9
++ [SHIFT K_QUOTE]	>	U+0025
++ [CTRL ALT K_QUOTE] > '<'
++ [SHIFT CTRL ALT K_QUOTE] > '>'
+
++ [K_oE2]	>	U+003c
++ [SHIFT K_oE2]	>	U+003e
++ [CTRL K_oE2]	>	U+001c
+
++ [K_Z]	>	U+0077
++ [SHIFT K_Z]	>	U+0057
+
++ [K_X]	>	U+0078
++ [SHIFT K_X]	>	U+0058
++ [CTRL ALT K_X] > '℗'
+
++ [K_C]	>	U+0063
++ [SHIFT K_C]	>	U+0043
++ [CTRL ALT K_C] > '©'
++ [SHIFT CTRL ALT K_C] > '¢'
+
++ [K_V]	>	U+0076
++ [SHIFT K_V]	>	U+0056
+
++ [K_B]	>	U+0062
++ [SHIFT K_B]	>	U+0042
+
++ [K_N]	>	U+006e
++ [SHIFT K_N]	>	U+004e
++ [CTRL ALT K_N] > 'ñ'
++ [SHIFT CTRL ALT K_N] > 'Ñ'
+
++ [K_M]	> U+002c
++ [SHIFT K_M]	> U+003f
++ [CTRL ALT K_M] > 'ŋ'
++ [SHIFT CTRL ALT K_M] > 'Ŋ'
+
++ [K_COMMA]	>	U+003b
++ [SHIFT K_COMMA]	>	U+002e
++ [CTRL ALT K_COMMA] > '…'
++ [SHIFT CTRL ALT K_COMMA] > '•'
+
++ [K_PERIOD]	>	U+003a
++ [SHIFT K_PERIOD]	>	U+002f
++ [SHIFT CTRL ALT K_PERIOD] > '·'
+
++ [K_SLASH]	>	U+0021
++ [SHIFT K_SLASH]	>	U+00a7
+
++ [K_SPACE]	>	U+0020
++ [SHIFT K_SPACE]	>	U+0020
++ [CTRL K_SPACE] > ' '
++ [CTRL ALT K_SPACE] > ' '
++ [SHIFT CTRL ALT K_SPACE] > ' '
+
+c numpad
++ [K_NP0]	>	U+0030
+
++ [K_NP1]	>	U+0031
+
++ [K_NP2]	>	U+0032
+
++ [K_NP3]	>	U+0033
+
++ [K_NP4]	>	U+0034
+
++ [K_NP5]	>	U+0035
+
++ [K_NP6]	>	U+0036
+
++ [K_NP7]	>	U+0037
+
++ [K_NP8]	>	U+0038
+
++ [K_NP9]	>	U+0039
+
++ [K_NPSTAR] > U+00d7
++ [K_NPPLUS] > U+002b
++ [K_NPMINUS] > U+002d
++ [K_NPSLASH] > U+00f7
+
++ [K_NPDOT]	>	U+002e
+
+c mis-typed key
+c mistyped key
++ [T_null]  >   beep
++ [SHIFT T_null]    >   beep
+nomatch()   >   beep

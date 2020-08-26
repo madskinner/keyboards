@@ -1,0 +1,7 @@
+{
+    "description": "A keyboard for Karon (Latin) generating fully composed characters and based on an azerty layout.",
+    "languages": [
+        "krx-Latn"
+    ],
+    "license": "mit"
+}
