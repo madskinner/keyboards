@@ -7,7 +7,7 @@
       <displayunderlying/>
     </flags>
   </header>
-  <encoding name="unicode" fontname="Harmattan" fontsize="18">
+  <encoding name="unicode" fontname="Harmattan" fontsize="22">
     <layer shift="">
       <key vkey="K_BKQUOTE">ز</key>
       <key vkey="K_1">1</key>

@@ -168,48 +168,12 @@
       <CopyLocation>0</CopyLocation>
       <FileType>.kmx</FileType>
     </File>
-    <File>
-      <Name>welcome\lp_default_0x2e.png</Name>
-      <Description>File lp_default_0x2e.png</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.png</FileType>
-    </File>
-    <File>
-      <Name>welcome\lp_K_SPACE.png</Name>
-      <Description>File lp_K_SPACE.png</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.png</FileType>
-    </File>
-    <File>
-      <Name>welcome\lp_numeric_0x2d.png</Name>
-      <Description>File lp_numeric_0x2d.png</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.png</FileType>
-    </File>
-    <File>
-      <Name>welcome\lp_numeric_0x5b.png</Name>
-      <Description>File lp_numeric_0x5b.png</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.png</FileType>
-    </File>
-    <File>
-      <Name>welcome\lp_numeric_0x5d.png</Name>
-      <Description>File lp_numeric_0x5d.png</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.png</FileType>
-    </File>
-    <File>
-      <Name>welcome\lp_numeric_0x24.png</Name>
-      <Description>File lp_numeric_0x24.png</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.png</FileType>
-    </File>
   </Files>
   <Keyboards>
     <Keyboard>
       <Name>sil_krx_latn_azerty</Name>
       <ID>sil_krx_latn_azerty</ID>
-      <Version>0.5.0</Version>
+      <Version>0.5.6</Version>
       <OSKFont>..\extras\AndikaAfr-R.ttf</OSKFont>
       <DisplayFont>..\extras\AndikaAfr-R.ttf</DisplayFont>
       <Languages>

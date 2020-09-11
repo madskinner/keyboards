@@ -1,0 +1,7 @@
+{
+    "description": "A keyboard for Serer (Ajami) generating Ajami script.",
+    "languages": [
+        "srr-Arab"
+    ],
+    "license": "mit"
+}

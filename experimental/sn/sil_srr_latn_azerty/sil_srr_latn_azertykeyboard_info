@@ -1,0 +1,7 @@
+{
+    "description": "A keyboard for Seereer (Latin) generating fully composed characters and based on an azerty layout.",
+    "languages": [
+        "srr-Latn"
+    ],
+    "license": "mit"
+}

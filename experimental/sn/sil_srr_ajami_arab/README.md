@@ -2,7 +2,7 @@ seb_srr_ajami_arab Keyboard
 =====================
 
 Copyright (C) 2020 SIL International
-Version 0.4.0
+Version 0.5.0
 
 __DESCRIPTION__
 The keyboard is intended to meet the needs of Serer-Ajami, on all platforms.

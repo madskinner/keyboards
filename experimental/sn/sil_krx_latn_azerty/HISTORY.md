@@ -1,6 +1,18 @@
 sil_krx_latn_azerty Keyboard Change History
 ==========================================
 
+0.5.6 (7 September 2020)
+------------------------
+On touch layout, all longpress keys assigned to simple keys on layers. 
+This side steps bug in Keyman for Android which prevents Android from outputing 
+correct characters for ctrl-alt and shift-ctrl-alt key combinations on longpress keys.
+
+0.5.3 (7 September 2020)
+------------------------
+On touch layout, longpress ctrl-alt and shift-ctrl-alt keys assigned to 'T_<name>'. 
+In layout relevant ctrl-alt and shift-ctrl-alt keys behaviour copied to 'T_<name>'. 
+This side steps bug in Keyman for Android which prevents Android from outputing correct characters for these key combinations.
+
 0.5.2 (7 August 2020)
 ------------------------
 On touch layout '{' and '}' assigned to keys on 'other' layer

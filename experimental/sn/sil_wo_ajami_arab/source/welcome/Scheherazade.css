@@ -11,10 +11,11 @@ html,body{
   line-height: 1.5;
 }
 
-p { font-family : "Andika Afr", andika, geneva, arial, helvetica, sans-serif; font-size : 13pt; font-style : normal; color: #000000; margin-top: 0.07in; margin-bottom: 0.07in }
-h1 { font-family : "Andika Afr", andika, geneva, arial, helvetica, sans-serif; font-size : 16pt; font-style : normal; color: #000000; margin-top: 0.07in; margin-bottom: 0.07in  }
-h1t { font-family : "Andika Afr", andika, geneva, arial, helvetica, sans-serif; font-size : 16pt; font-style : normal; color: #000000; margin-top: 0.07in; margin-bottom: 0.07in; text-align: center;  }
-h1p { font-family : "Andika Afr", andika, geneva, arial, helvetica, sans-serif; font-size : 120%; font-style : normal; color: #000000; margin-top: 0.07in; margin-bottom: 0.07in; text-align: center;  }
+p { font-family : "Andika Afr", andika, geneva, arial, helvetica, sans-serif; font-size : 12pt; font-style : normal; color: #000000; margin-top: 0.07in; margin-bottom: 0.07in }
+p0 { font-family : "Andika Afr", andika, geneva, arial, helvetica, sans-serif; font-size : 10pt; font-style : normal; color: #000000; margin-top: 0.07in; margin-bottom: 0.07in }
+h1 { font-family : "Andika Afr", andika, geneva, arial, helvetica, sans-serif; font-size : 12pt; font-style : normal; color: #000000; margin-top: 0.07in; margin-bottom: 0.07in  }
+h1t { font-family : "Andika Afr", andika, geneva, arial, helvetica, sans-serif; font-size : 12pt; font-style : normal; color: #000000; margin-top: 0.07in; margin-bottom: 0.07in; text-align: center;  }
+h1p { font-family : "Andika Afr", andika, geneva, arial, helvetica, sans-serif; font-size : 12pt; font-style : normal; color: #000000; margin-top: 0.07in; margin-bottom: 0.07in; text-align: center;  }
 h2 { font-family : "Andika Afr", andika, geneva, arial, helvetica, sans-serif; font-size : 12pt; font-style : normal; color: #000000; margin-top: 0.07in; margin-bottom: 0.07in  }
 a:link { font-family : "Andika Afr", andika, geneva, arial, helvetica, sans-serif; color: #0000ff }
 a:visited { font-family : "Andika Afr", andika, geneva, arial, helvetica, sans-serif; color: #800080 }

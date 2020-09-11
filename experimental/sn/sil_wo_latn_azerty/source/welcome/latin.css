@@ -12,6 +12,7 @@ html,body{
 }
 .svgtext { font-family : "Andika Afr", andika, geneva, arial, helvetica, sans-serif; font-size : 120%; font-style : normal; color: #000000;}
 p { font-family : "Andika Afr", andika, geneva, arial, helvetica, sans-serif; font-size : 120%; font-style : normal; color: #000000; margin-top: 0.07in; margin-bottom: 0.07in; }
+li { font-family : "Andika Afr", andika, geneva, arial, helvetica, sans-serif; font-size : 120%; font-style : normal; color: #000000; margin-top: 0.07in; margin-bottom: 0.07in; }
 h1 { font-family : "Andika Afr", andika, geneva, arial, helvetica, sans-serif; font-size : 12pt; font-style : normal; color: #000000; margin-top: 0.07in; margin-bottom: 0.07in; text-align: left;  }
 h1t { font-family : "Andika Afr", andika, geneva, arial, helvetica, sans-serif; font-size : 12pt; font-style : normal; color: #000000; margin-top: 0.07in; margin-bottom: 0.07in; text-align: center;  }
 h1p { font-family : "Andika Afr", andika, geneva, arial, helvetica, sans-serif; font-size : 120%; font-style : normal; color: #000000; margin-top: 0.07in; margin-bottom: 0.07in; text-align: center;  }
@@ -36,6 +37,7 @@ th{
          padding: 5px;
          text-align: center;
          }
+.compact {border: 0px; padding: 0px;}
 header{
   color:black;
   font-size: 1.125em;

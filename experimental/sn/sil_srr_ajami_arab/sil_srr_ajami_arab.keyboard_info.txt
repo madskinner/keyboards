@@ -1,0 +1,7 @@
+{
+    "description": "The keyboard is intended to meet the needs of Serer-Ajami, on all platforms. It will default to an Arabic(101) based layout for all platforms. All characters will be generated in NFC (Normalied Fully Composed) format.",
+    "languages": [
+        "srr-Arab"
+    ],
+    "license": "mit"
+}

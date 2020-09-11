@@ -6,21 +6,22 @@ html,body{
   /*color: #4d4e53;*/
   color: black;
   background-color: #ffffff;
-  font-family: "Andika Afr", Andika, Arial,sans-serif;
+  font-family: "Andika Afr", Andika, Arial, sans-serif;
   font-size: 100%;
   line-height: 1.5;
 }
-.svgtext { font-family : "Andika Afr", andika, geneva, arial, helvetica, sans-serif; font-size : 120%; font-style : normal; color: #000000;}
-p { font-family : "Andika Afr", andika, geneva, arial, helvetica, sans-serif; font-size : 120%; font-style : normal; color: #000000; margin-top: 0.07in; margin-bottom: 0.07in; }
+p { font-family : "Andika Afr", andika, geneva, arial, helvetica, sans-serif; font-size : 12pt; font-style : normal; color: #000000; margin-top: 0.07in; margin-bottom: 0.07in; }
+p0 { font-family : "Andika Afr", andika, geneva, arial, helvetica, sans-serif; font-size : 10pt; font-style : normal; color: #000000; margin-top: 0.07in; margin-bottom: 0.07in; }
+li { font-family : "Andika Afr", andika, geneva, arial, helvetica, sans-serif; font-size : 12pt; font-style : normal; color: #000000; margin-top: 0.07in; margin-bottom: 0.07in; }
 h1 { font-family : "Andika Afr", andika, geneva, arial, helvetica, sans-serif; font-size : 12pt; font-style : normal; color: #000000; margin-top: 0.07in; margin-bottom: 0.07in; text-align: left;  }
 h1t { font-family : "Andika Afr", andika, geneva, arial, helvetica, sans-serif; font-size : 12pt; font-style : normal; color: #000000; margin-top: 0.07in; margin-bottom: 0.07in; text-align: center;  }
-h1p { font-family : "Andika Afr", andika, geneva, arial, helvetica, sans-serif; font-size : 120%; font-style : normal; color: #000000; margin-top: 0.07in; margin-bottom: 0.07in; text-align: center;  }
+h1p { font-family : "Andika Afr", andika, geneva, arial, helvetica, sans-serif; font-size : 12pt; font-style : normal; color: #000000; margin-top: 0.07in; margin-bottom: 0.07in; text-align: center;  }
 h2 { font-family : "Andika Afr", andika, geneva, arial, helvetica, sans-serif; font-size : 12pt; font-style : normal; color: #000000; margin-top: 0.07in; margin-bottom: 0.07in; text-align: left;  }
 a:link { font-family : "Andika Afr", andika, geneva, arial, helvetica, sans-serif; color: #0000ff }
 a:visited { font-family : "Andika Afr", andika, geneva, arial, helvetica, sans-serif; color: #800080 }
 table, td {
           font-family : "Andika Afr", andika, geneva, arial, helvetica, sans-serif;
-          font-size : 120%; font-style : normal;
+          font-size : 100%; font-style : normal;
           border: 1px solid LightGray;
           border-collapse: collapse;
           padding: 5px;
@@ -36,6 +37,7 @@ th{
          padding: 5px;
          text-align: center;
          }
+.compact {border: 0px; padding: 0px;}
 header{
   color:black;
   font-size: 1.125em;

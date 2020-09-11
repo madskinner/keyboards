@@ -1,6 +1,6 @@
 ﻿store(&TARGETS) 'any'
 store(&COPYRIGHT) '©2020 SIL International'
-store(&KEYBOARDVERSION) '0.5.2'
+store(&KEYBOARDVERSION) '0.5.6'
 store(&VISUALKEYBOARD) 'sil_krx_latn_azerty.kvks'
 store(&LAYOUTFILE) 'sil_krx_latn_azerty.keyman-touch-layout'
 store(&KMW_HELPFILE) 'sil_krx_latn_azerty-help.htm'
@@ -225,8 +225,8 @@ c + [ALT CTRL SHIFT K_O]	>	U+00d3
 + [K_SPACE]	>	U+0020
 + [SHIFT K_SPACE]	>	U+0020
 + [CTRL K_SPACE] > ' '
-+ [CTRL ALT K_SPACE] > ' '
-+ [SHIFT CTRL ALT K_SPACE] > ' '
++ [CTRL ALT K_SPACE] >  U+00a0
++ [SHIFT CTRL ALT K_SPACE] >    U+202f
 
 c numpad
 + [K_NP0]	>	U+0030

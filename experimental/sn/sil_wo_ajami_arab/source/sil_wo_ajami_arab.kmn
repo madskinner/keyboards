@@ -1,6 +1,6 @@
 ﻿store(&TARGETS) 'any'
 store(&COPYRIGHT) '©2020 SIL International'
-store(&KEYBOARDVERSION) '0.4.3'
+store(&KEYBOARDVERSION) '0.5.0'
 store(&VISUALKEYBOARD) 'sil_wo_ajami_arab.kvks'
 store(&LAYOUTFILE) 'sil_wo_ajami_arab.keyman-touch-layout'
 store(&KMW_HELPFILE) 'sil_wo_ajami_arab-help.htm'

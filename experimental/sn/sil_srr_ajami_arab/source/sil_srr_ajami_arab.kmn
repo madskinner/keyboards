@@ -1,6 +1,6 @@
 ﻿store(&TARGETS) 'any'
 store(&COPYRIGHT) '©2020 SIL International'
-store(&KEYBOARDVERSION) '0.4.4'
+store(&KEYBOARDVERSION) '0.5.1'
 store(&VISUALKEYBOARD) 'sil_srr_ajami_arab.kvks'
 store(&LAYOUTFILE) 'sil_srr_ajami_arab.keyman-touch-layout'
 store(&KMW_HELPFILE) 'sil_srr_ajami_arab-help.htm'
@@ -338,8 +338,10 @@ if(isLRE='1') + [ALT CTRL K_S]	>	outs(PDF) outs(RLM) U+08f9 set(isLRE='0')
 
 if(isLRE='0') + [K_D]	>	U+064a set(is6DD='0')
 if(isLRE='1') + [K_D]	>	outs(PDF) outs(RLM) U+064a set(isLRE='0')
-if(isLRE='0') + [SHIFT K_D]	>	U+005d set(is6DD='0')
-if(isLRE='1') + [SHIFT K_D]	>	outs(PDF) outs(RLM) U+005d set(isLRE='0')
+if(isLRE='0') + [SHIFT K_D]	>	U+005b set(is6DD='0')
+if(isLRE='1') + [SHIFT K_D]	>	outs(PDF) outs(RLM) U+005b set(isLRE='0')
+c if(isLRE='0') + [SHIFT K_D]	>	U+005b set(is6DD='0')
+c if(isLRE='1') + [SHIFT K_D]	>	outs(PDF) outs(RLM) U+005b set(isLRE='0')
 if(isLRE='0') + [ALT CTRL K_D]	>	U+08fa set(is6DD='0')
 if(isLRE='1') + [ALT CTRL K_D]	>	outs(PDF) outs(RLM) U+08fa set(isLRE='0')
 if(isLRE='0') + [ALT CTRL SHIFT K_D]	>	U+0649 set(is6DD='0')
@@ -347,8 +349,10 @@ if(isLRE='1') + [ALT CTRL SHIFT K_D]	>	outs(PDF) outs(RLM) U+0649 set(isLRE='0')
 
 if(isLRE='0') + [K_F]	>	U+0628 set(is6DD='0')
 if(isLRE='1') + [K_F]	>	outs(PDF) outs(RLM) U+0628 set(isLRE='0')
-if(isLRE='0') + [SHIFT K_F]	>	U+005b set(is6DD='0')
-if(isLRE='1') + [SHIFT K_F]	>	outs(PDF) outs(RLM) U+005b set(isLRE='0')
+if(isLRE='0') + [SHIFT K_F]	>	U+005d set(is6DD='0')
+if(isLRE='1') + [SHIFT K_F]	>	outs(PDF) outs(RLM) U+005d set(isLRE='0')
+c if(isLRE='0') + [SHIFT K_F]	>	U+005d set(is6DD='0')
+c if(isLRE='1') + [SHIFT K_F]	>	outs(PDF) outs(RLM) U+005d set(isLRE='0')
 
 if(isLRE='0') + [K_G]	>	U+0644 set(is6DD='0')
 if(isLRE='1') + [K_G]	>	outs(PDF) outs(RLM) U+0644 set(isLRE='0')

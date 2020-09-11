@@ -35,6 +35,7 @@ require_once('header.php');
 					<div class="collapsible-content">
 						<div class="content-inner">
 							<div class="container col">
+								<p>'NBSP' is a non-breaking space, 'NNBSP' is a narrow non-breaking space.</p>
 								<div class='container col'>
 									<header style='font-family: "Andika Afr", andika, geneva, arial, helvetica, sans-serif;'>Default layer 'abc'</header>
 									<div class="container col" id="default">
@@ -64,22 +65,6 @@ require_once('header.php');
 									<div class="container col" id="others">
 										<img src="layer_others.png" alt="image for layer others" width="510" height="204">
 									</div>
-								</div>
-								<p>A short tap on a key with a gray dot will produce it's character. But a long press will open a context menu, allowing you to drag your finger to the desired character and release.</p>
-								<div class='container col'>
-									<p><strong>On every layer:</strong> A long press on the space bar will yield the following context menu. ('NBSP' is a non-breaking space, 'NNBSP' is a narrow non-breaking space.)</p>
-									<img src='lp_K_SPACE.png' alt='space longpress' />
-								</div>
-								<div class='container col'>
-									<header style='font-family: "Andika Afr", andika, geneva, arial, helvetica, sans-serif;'><br><strong>On the default 'abc' layer:</strong></header>
-									<img src='lp_default_0x2e.png' alt='lp_default_0x2e.png' />
-								</div>
-								<div class='container col'>
-									<header style='font-family: "Andika Afr", andika, geneva, arial, helvetica, sans-serif;'><br><strong>On the '123' numeric layer:</strong></header>
-									<img src='lp_numeric_0x24.png' alt='lp_numeric_0x24.png' />
-									<img src='lp_numeric_0x2d.png' alt='lp_numeric_0x2d.png' />
-									<img src='lp_numeric_0x5b.png' alt='lp_numeric_0x5b.png' />
-									<img src='lp_numeric_0x5d.png' alt='lp_numeric_0x5d.png' />
 								</div>
 							</div>
 						</div>
@@ -1240,6 +1225,7 @@ require_once('header.php');
 					<div class="collapsible-content">
 						<div class="content-inner">
 							<div class="container col">
+								<p>'NBSP' é um espaço sem quebra, 'NNBSP' é um espaço sem quebra estreito.</p>
 								<div class='container col'>
 									<header style='font-family: "Andika Afr", andika, geneva, arial, helvetica, sans-serif;'>Camada padr&#x00E3;o 'abc'</header>
 									<div class="container col" id="default">
@@ -1269,22 +1255,6 @@ require_once('header.php');
 									<div class="container col" id="others">
 										<img src="layer_others.png" alt="image for layer others" width="510" height="204">
 									</div>
-								</div>
-								<p>Um toque curto em uma tecla com um ponto cinza produzir&#x00E1; seu car&#x00E1;ter. Mas uma press&#x00E3;o longa abrir&#x00E1; um menu de contexto, permitindo que voc&#x00EA; arraste o dedo para o personagem desejado e solte.</p>
-								<div class='container col'>
-									<p><strong>Em cada camada:</strong> Uma pressão longa na barra de espaço produzirá o seguinte menu de contexto. ('NBSP' é um espaço sem quebra, 'NNBSP' é um espaço sem quebra estreito.)</p>
-									<img src='lp_K_SPACE.png' alt='space longpress' />
-								</div>
-								<div class='container col'>
-									<header style='font-family: "Andika Afr", andika, geneva, arial, helvetica, sans-serif;'><br><strong>Na camada padr&#x00E3;o &#x00AB; abc &#x00BB;:</strong></header>
-									<img src='lp_default_0x2e.png' alt='lp_default_0x2e.png' />
-								</div>
-								<div class='container col'>
-									<header style='font-family: "Andika Afr", andika, geneva, arial, helvetica, sans-serif;'><br><strong>Na camada num&#x00E9;rica &#x00AB; 123 &#x00BB;:</strong></header>
-									<img src='lp_numeric_0x24.png' alt='lp_numeric_0x24.png' />
-									<img src='lp_numeric_0x2d.png' alt='lp_numeric_0x2d.png' />
-									<img src='lp_numeric_0x5b.png' alt='lp_numeric_0x5b.png' />
-									<img src='lp_numeric_0x5d.png' alt='lp_numeric_0x5d.png' />
 								</div>
 							</div>
 						</div>
@@ -2445,6 +2415,7 @@ require_once('header.php');
 					<div class="collapsible-content">
 						<div class="content-inner">
 							<div class="container col">
+								<p>'NBSP' est un espace insécable, 'NNBSP' est un espace insécable étroit.</p>
 								<div class='container col'>
 									<header style='font-family: "Andika Afr", andika, geneva, arial, helvetica, sans-serif;'>Couche par d&#x00E9;faut 'abc'</header>
 									<div class="container col" id="default">
@@ -2474,22 +2445,6 @@ require_once('header.php');
 									<div class="container col" id="others">
 										<img src="layer_others.png" alt="image for layer others" width="510" height="204">
 									</div>
-								</div>
-								<p>Un appui bref sur une touche avec un point gris produira son caract&#x00E8;re. Mais un appui long ouvrira un menu contextuel, vous permettant de faire glisser votre doigt sur le caract&#x00E8;re souhait&#x00E9; et de le rel&#x00E2;cher.</p>
-								<div class='container col'>
-									<p><strong>Sur chaque couche:</strong> Un appui long sur la barre d'espace donnera le menu contextuel suivant. ('NBSP' est un espace insécable, 'NNBSP' est un espace insécable étroit.)</p>
-									<img src='lp_K_SPACE.png' alt='space longpress' />
-								</div>
-								<div class='container col'>
-									<header style='font-family: "Andika Afr", andika, geneva, arial, helvetica, sans-serif;'><br><strong>Sur la couche 'abc' par d&#x00E9;faut:</strong></header>
-									<img src='lp_default_0x2e.png' alt='lp_default_0x2e.png' />
-								</div>
-								<div class='container col'>
-									<header style='font-family: "Andika Afr", andika, geneva, arial, helvetica, sans-serif;'><br><strong>Sur la couche num&#x00E9;rique &#x00AB; 123 &#x00BB;:</strong></header>
-									<img src='lp_numeric_0x24.png' alt='lp_numeric_0x24.png' />
-									<img src='lp_numeric_0x2d.png' alt='lp_numeric_0x2d.png' />
-									<img src='lp_numeric_0x5b.png' alt='lp_numeric_0x5b.png' />
-									<img src='lp_numeric_0x5d.png' alt='lp_numeric_0x5d.png' />
 								</div>
 							</div>
 						</div>

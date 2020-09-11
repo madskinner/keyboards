@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <KeymanDeveloperProject>
   <Options>
-    <BuildPath></BuildPath>
-    <CompilerWarningsAsErrors>False</CompilerWarningsAsErrors>
+    <BuildPath>$PROJECTPATH\build</BuildPath>
+    <CompilerWarningsAsErrors>True</CompilerWarningsAsErrors>
     <WarnDeprecatedCode>True</WarnDeprecatedCode>
     <CheckFilenameConventions>True</CheckFilenameConventions>
     <ProjectType>keyboard</ProjectType>
@@ -12,7 +12,7 @@
       <ID>id_43e370ec864de00864f43e9feaf7f9af</ID>
       <Filename>sil_srr_ajami_arab.kmn</Filename>
       <Filepath>source\sil_srr_ajami_arab.kmn</Filepath>
-      <FileVersion>0.4.4</FileVersion>
+      <FileVersion>0.5.1</FileVersion>
       <FileType>.kmn</FileType>
       <Details>
         <Name>sil_srr_ajami_arab</Name>
@@ -40,43 +40,11 @@
       <ParentFileID>id_43e370ec864de00864f43e9feaf7f9af</ParentFileID>
     </File>
     <File>
-      <ID>id_1a25d50367d9cdac7e901d7ff651c9b3</ID>
-      <Filename>Harmattan-Regular.ttf</Filename>
-      <Filepath>source\..\extras\Harmattan-Regular.ttf</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.ttf</FileType>
-      <ParentFileID>id_e0cffc255f2723a1e96c497a8b31f968</ParentFileID>
-    </File>
-    <File>
       <ID>id_8da344c4cea6f467013357fe099006f5</ID>
       <Filename>readme.htm</Filename>
       <Filepath>source\readme.htm</Filepath>
       <FileVersion></FileVersion>
       <FileType>.htm</FileType>
-      <ParentFileID>id_e0cffc255f2723a1e96c497a8b31f968</ParentFileID>
-    </File>
-    <File>
-      <ID>id_8106aad752cc482357666c8c9f6bd63a</ID>
-      <Filename>sil_srr_ajami_arab.js</Filename>
-      <Filepath>source\sil_srr_ajami_arab.js</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.js</FileType>
-      <ParentFileID>id_e0cffc255f2723a1e96c497a8b31f968</ParentFileID>
-    </File>
-    <File>
-      <ID>id_bf1680d36ff41188177ac76c4f071d01</ID>
-      <Filename>sil_srr_ajami_arab.kvk</Filename>
-      <Filepath>source\sil_srr_ajami_arab.kvk</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.kvk</FileType>
-      <ParentFileID>id_e0cffc255f2723a1e96c497a8b31f968</ParentFileID>
-    </File>
-    <File>
-      <ID>id_14ddfc3cf82c471e8b75cf529b412267</ID>
-      <Filename>sil_srr_ajami_arab.kmx</Filename>
-      <Filepath>source\sil_srr_ajami_arab.kmx</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.kmx</FileType>
       <ParentFileID>id_e0cffc255f2723a1e96c497a8b31f968</ParentFileID>
     </File>
     <File>
@@ -88,65 +56,9 @@
       <ParentFileID>id_e0cffc255f2723a1e96c497a8b31f968</ParentFileID>
     </File>
     <File>
-      <ID>id_f984ef90d90a6d1a147a74f1457b80d1</ID>
-      <Filename>123.png</Filename>
-      <Filepath>source\welcome\123.png</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.png</FileType>
-      <ParentFileID>id_e0cffc255f2723a1e96c497a8b31f968</ParentFileID>
-    </File>
-    <File>
-      <ID>id_d2016a171db3e8c03a6da3f980252e93</ID>
-      <Filename>abc.png</Filename>
-      <Filepath>source\welcome\abc.png</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.png</FileType>
-      <ParentFileID>id_e0cffc255f2723a1e96c497a8b31f968</ParentFileID>
-    </File>
-    <File>
-      <ID>id_1675eb13beac5c23effbe9e1bd63612b</ID>
-      <Filename>ajami.css</Filename>
-      <Filepath>source\welcome\ajami.css</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.css</FileType>
-      <ParentFileID>id_e0cffc255f2723a1e96c497a8b31f968</ParentFileID>
-    </File>
-    <File>
-      <ID>id_00927cd971905ae0fa3f40c2dba7b96f</ID>
-      <Filename>backspace.png</Filename>
-      <Filepath>source\welcome\backspace.png</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.png</FileType>
-      <ParentFileID>id_e0cffc255f2723a1e96c497a8b31f968</ParentFileID>
-    </File>
-    <File>
       <ID>id_50d43ec1c2c5b2c7f3e81edbeb0083f5</ID>
       <Filename>bar.png</Filename>
       <Filepath>source\welcome\bar.png</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.png</FileType>
-      <ParentFileID>id_e0cffc255f2723a1e96c497a8b31f968</ParentFileID>
-    </File>
-    <File>
-      <ID>id_83958da369780e03020696e6197e07ef</ID>
-      <Filename>blue_shift.png</Filename>
-      <Filepath>source\welcome\blue_shift.png</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.png</FileType>
-      <ParentFileID>id_e0cffc255f2723a1e96c497a8b31f968</ParentFileID>
-    </File>
-    <File>
-      <ID>id_0f393a559d3cc5330fd096a1aa44dedd</ID>
-      <Filename>enter.png</Filename>
-      <Filepath>source\welcome\enter.png</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.png</FileType>
-      <ParentFileID>id_e0cffc255f2723a1e96c497a8b31f968</ParentFileID>
-    </File>
-    <File>
-      <ID>id_22991952220099cb73bf45c8d83503b8</ID>
-      <Filename>globe.png</Filename>
-      <Filepath>source\welcome\globe.png</Filepath>
       <FileVersion></FileVersion>
       <FileType>.png</FileType>
       <ParentFileID>id_e0cffc255f2723a1e96c497a8b31f968</ParentFileID>
@@ -168,25 +80,9 @@
       <ParentFileID>id_e0cffc255f2723a1e96c497a8b31f968</ParentFileID>
     </File>
     <File>
-      <ID>id_4dcf25147c41f20f184d0d69f12c9c3a</ID>
-      <Filename>shift.png</Filename>
-      <Filepath>source\welcome\shift.png</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.png</FileType>
-      <ParentFileID>id_e0cffc255f2723a1e96c497a8b31f968</ParentFileID>
-    </File>
-    <File>
       <ID>id_b8478f6acbf1831f402fde42729ecf32</ID>
       <Filename>splash.png</Filename>
       <Filepath>source\welcome\splash.png</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.png</FileType>
-      <ParentFileID>id_e0cffc255f2723a1e96c497a8b31f968</ParentFileID>
-    </File>
-    <File>
-      <ID>id_0127a7f3ca6d9c58e5e277b240ccdf48</ID>
-      <Filename>symbol123.png</Filename>
-      <Filepath>source\welcome\symbol123.png</Filepath>
       <FileVersion></FileVersion>
       <FileType>.png</FileType>
       <ParentFileID>id_e0cffc255f2723a1e96c497a8b31f968</ParentFileID>
@@ -200,11 +96,155 @@
       <ParentFileID>id_e0cffc255f2723a1e96c497a8b31f968</ParentFileID>
     </File>
     <File>
-      <ID>id_f70f69532a1e750ba3dd57506d7d6ebf</ID>
-      <Filename>Harmattan.css</Filename>
-      <Filepath>source\welcome\Harmattan.css</Filepath>
+      <ID>id_4ca0f1526ebbb73c2a81690093f5feab</ID>
+      <Filename>lp_default_0x633.png</Filename>
+      <Filepath>source\welcome\lp_default_0x633.png</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.png</FileType>
+      <ParentFileID>id_e0cffc255f2723a1e96c497a8b31f968</ParentFileID>
+    </File>
+    <File>
+      <ID>id_720993c5db3c4b2558605279ba874aa4</ID>
+      <Filename>sil_srr_ajami_arab.js</Filename>
+      <Filepath>source\..\build\sil_srr_ajami_arab.js</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.js</FileType>
+      <ParentFileID>id_e0cffc255f2723a1e96c497a8b31f968</ParentFileID>
+    </File>
+    <File>
+      <ID>id_b762cf699a8502e6e32c4e74080e1963</ID>
+      <Filename>sil_srr_ajami_arab.kvk</Filename>
+      <Filepath>source\..\build\sil_srr_ajami_arab.kvk</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.kvk</FileType>
+      <ParentFileID>id_e0cffc255f2723a1e96c497a8b31f968</ParentFileID>
+    </File>
+    <File>
+      <ID>id_a395dcec479d81abe78e59da69b211c2</ID>
+      <Filename>sil_srr_ajami_arab.kmx</Filename>
+      <Filepath>source\..\build\sil_srr_ajami_arab.kmx</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.kmx</FileType>
+      <ParentFileID>id_e0cffc255f2723a1e96c497a8b31f968</ParentFileID>
+    </File>
+    <File>
+      <ID>id_ecc07fa4f711e0f67af02c1315d76acb</ID>
+      <Filename>layer_default.png</Filename>
+      <Filepath>source\welcome\layer_default.png</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.png</FileType>
+      <ParentFileID>id_e0cffc255f2723a1e96c497a8b31f968</ParentFileID>
+    </File>
+    <File>
+      <ID>id_e3b654d428360e0536544820fe7b6024</ID>
+      <Filename>layer_indic.png</Filename>
+      <Filepath>source\welcome\layer_indic.png</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.png</FileType>
+      <ParentFileID>id_e0cffc255f2723a1e96c497a8b31f968</ParentFileID>
+    </File>
+    <File>
+      <ID>id_4262ddabc8d2f4353e665ae359f38ea2</ID>
+      <Filename>layer_numeric.png</Filename>
+      <Filepath>source\welcome\layer_numeric.png</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.png</FileType>
+      <ParentFileID>id_e0cffc255f2723a1e96c497a8b31f968</ParentFileID>
+    </File>
+    <File>
+      <ID>id_6efe2b3c9f70abf784fadca09cb624b8</ID>
+      <Filename>layer_shift.png</Filename>
+      <Filepath>source\welcome\layer_shift.png</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.png</FileType>
+      <ParentFileID>id_e0cffc255f2723a1e96c497a8b31f968</ParentFileID>
+    </File>
+    <File>
+      <ID>id_4f511527815bd28cc80e1cf2b679e76f</ID>
+      <Filename>layer_symbol.png</Filename>
+      <Filepath>source\welcome\layer_symbol.png</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.png</FileType>
+      <ParentFileID>id_e0cffc255f2723a1e96c497a8b31f968</ParentFileID>
+    </File>
+    <File>
+      <ID>id_a2ab438d8f60d6e7c053c0a9d8ed6815</ID>
+      <Filename>layer_symbols.png</Filename>
+      <Filepath>source\welcome\layer_symbols.png</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.png</FileType>
+      <ParentFileID>id_e0cffc255f2723a1e96c497a8b31f968</ParentFileID>
+    </File>
+    <File>
+      <ID>id_639a2f3e847de47bbfa5397867683700</ID>
+      <Filename>state_0.png</Filename>
+      <Filepath>source\welcome\state_0.png</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.png</FileType>
+      <ParentFileID>id_e0cffc255f2723a1e96c497a8b31f968</ParentFileID>
+    </File>
+    <File>
+      <ID>id_a58c599acf3fc12ba98b7086e1d56b18</ID>
+      <Filename>state_1.png</Filename>
+      <Filepath>source\welcome\state_1.png</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.png</FileType>
+      <ParentFileID>id_e0cffc255f2723a1e96c497a8b31f968</ParentFileID>
+    </File>
+    <File>
+      <ID>id_58a36071d19beb5f889d0ea424e19d73</ID>
+      <Filename>state_2.png</Filename>
+      <Filepath>source\welcome\state_2.png</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.png</FileType>
+      <ParentFileID>id_e0cffc255f2723a1e96c497a8b31f968</ParentFileID>
+    </File>
+    <File>
+      <ID>id_4522d1435ec9e15dd68a0d01f738e07d</ID>
+      <Filename>state_3.png</Filename>
+      <Filepath>source\welcome\state_3.png</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.png</FileType>
+      <ParentFileID>id_e0cffc255f2723a1e96c497a8b31f968</ParentFileID>
+    </File>
+    <File>
+      <ID>id_fa5ed8c2fb4ae1f089bb30c387dc0330</ID>
+      <Filename>state_6.png</Filename>
+      <Filepath>source\welcome\state_6.png</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.png</FileType>
+      <ParentFileID>id_e0cffc255f2723a1e96c497a8b31f968</ParentFileID>
+    </File>
+    <File>
+      <ID>id_7003a4371ccc5cfa4e80f37f64120fbc</ID>
+      <Filename>state_7.png</Filename>
+      <Filepath>source\welcome\state_7.png</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.png</FileType>
+      <ParentFileID>id_e0cffc255f2723a1e96c497a8b31f968</ParentFileID>
+    </File>
+    <File>
+      <ID>id_8b30e5bebecefd40daf4979b5aa844f9</ID>
+      <Filename>latin.css</Filename>
+      <Filepath>source\welcome\latin.css</Filepath>
       <FileVersion></FileVersion>
       <FileType>.css</FileType>
+      <ParentFileID>id_e0cffc255f2723a1e96c497a8b31f968</ParentFileID>
+    </File>
+    <File>
+      <ID>id_2eb8cebb6bc5c970d9d7fbbfb8bd9212</ID>
+      <Filename>Scheherazade.css</Filename>
+      <Filepath>source\welcome\Scheherazade.css</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.css</FileType>
+      <ParentFileID>id_e0cffc255f2723a1e96c497a8b31f968</ParentFileID>
+    </File>
+    <File>
+      <ID>id_1a3eca7e46de77bc007d0a590569aa7d</ID>
+      <Filename>Scheherazade-Regular.ttf</Filename>
+      <Filepath>source\..\extras\Scheherazade-Regular.ttf</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.ttf</FileType>
       <ParentFileID>id_e0cffc255f2723a1e96c497a8b31f968</ParentFileID>
     </File>
   </Files>

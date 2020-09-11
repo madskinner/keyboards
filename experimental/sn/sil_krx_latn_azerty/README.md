@@ -2,7 +2,7 @@ sil_krx_latn_azerty Keyboard
 =====================
 
 Copyright (C) 2020 SIL International
-Version 0.5.0
+Version 0.5.6
 
 __DESCRIPTION__
 The keyboard is intended to meet the needs of Karon-(Latin script), on all platforms.

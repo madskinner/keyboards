@@ -1,0 +1,7 @@
+{
+    "description": "A keyboard for Wolof (Latin) generating fully composed characters and based on an azerty layout.",
+    "languages": [
+        "wo-Latn"
+    ],
+    "license": "mit"
+}

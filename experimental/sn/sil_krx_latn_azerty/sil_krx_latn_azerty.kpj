@@ -23,7 +23,7 @@
       <ID>id_cf010c824d5f0ec72a783318cbaba1d6</ID>
       <Filename>sil_krx_latn_azerty.kmn</Filename>
       <Filepath>source\sil_krx_latn_azerty.kmn</Filepath>
-      <FileVersion>0.5.2</FileVersion>
+      <FileVersion>0.5.6</FileVersion>
       <FileType>.kmn</FileType>
       <Details>
         <Name>sil_krx_latn_azerty</Name>
@@ -229,54 +229,6 @@
       <Filepath>source\..\build\sil_krx_latn_azerty.kmx</Filepath>
       <FileVersion></FileVersion>
       <FileType>.kmx</FileType>
-      <ParentFileID>id_27fe622617e7104a8c873023e53c6706</ParentFileID>
-    </File>
-    <File>
-      <ID>id_46e530e7104a4166e0762d961bb56e72</ID>
-      <Filename>lp_default_0x2e.png</Filename>
-      <Filepath>source\welcome\lp_default_0x2e.png</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.png</FileType>
-      <ParentFileID>id_27fe622617e7104a8c873023e53c6706</ParentFileID>
-    </File>
-    <File>
-      <ID>id_3ec5684f4d776aefa0c96c7096565994</ID>
-      <Filename>lp_K_SPACE.png</Filename>
-      <Filepath>source\welcome\lp_K_SPACE.png</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.png</FileType>
-      <ParentFileID>id_27fe622617e7104a8c873023e53c6706</ParentFileID>
-    </File>
-    <File>
-      <ID>id_a8519d9b54e3c651d871c894fec3f01a</ID>
-      <Filename>lp_numeric_0x2d.png</Filename>
-      <Filepath>source\welcome\lp_numeric_0x2d.png</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.png</FileType>
-      <ParentFileID>id_27fe622617e7104a8c873023e53c6706</ParentFileID>
-    </File>
-    <File>
-      <ID>id_5e7bb542bef0656832379bbfea1e1fe7</ID>
-      <Filename>lp_numeric_0x5b.png</Filename>
-      <Filepath>source\welcome\lp_numeric_0x5b.png</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.png</FileType>
-      <ParentFileID>id_27fe622617e7104a8c873023e53c6706</ParentFileID>
-    </File>
-    <File>
-      <ID>id_b122501d8ec1a0346acf638cbf3e19ac</ID>
-      <Filename>lp_numeric_0x5d.png</Filename>
-      <Filepath>source\welcome\lp_numeric_0x5d.png</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.png</FileType>
-      <ParentFileID>id_27fe622617e7104a8c873023e53c6706</ParentFileID>
-    </File>
-    <File>
-      <ID>id_95df57ba723e6ece58b42cb475521ff4</ID>
-      <Filename>lp_numeric_0x24.png</Filename>
-      <Filepath>source\welcome\lp_numeric_0x24.png</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.png</FileType>
       <ParentFileID>id_27fe622617e7104a8c873023e53c6706</ParentFileID>
     </File>
   </Files>

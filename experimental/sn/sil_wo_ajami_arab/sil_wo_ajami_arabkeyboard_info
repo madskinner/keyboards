@@ -1,0 +1,7 @@
+{
+    "description": "A keyboard for Wolof (Ajami) generating Ajami script.",
+    "languages": [
+        "wo-Arab"
+    ],
+    "license": "mit"
+}
